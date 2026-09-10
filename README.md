@@ -1,2 +1,4 @@
-# BunBun Guide 
-This is the ultimate care guide for taking care of a rabbit.
+# Sia's Programming Projects 
+ Welcome to my website! This is where I'll be sharing all my projects for CART 253.**bold text**
+![hamster](./CART253/images/Hamster.jpg)
+
