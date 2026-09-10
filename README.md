@@ -1,2 +1,2 @@
-# CART253
-This is Pippin Barr’s coursework repository for CART253
+# BunBun Guide 
+This is the ultimate care guide for taking care of a rabbit.
