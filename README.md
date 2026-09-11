@@ -1,6 +1,7 @@
-# Sia's Programming Projects 
- Welcome to my website! This is where I'll be sharing all my projects for CART 253.
+# Sia's Prototype Projects 
+![banner](./images/banner.png)
 
 
-![hamster](/images/Hamster.jpg)
+
+
 
