@@ -1,4 +1,4 @@
-# Sia's Prototype Projects 
+# Sia's Prototyping Projects 
 ![banner](./images/banner.png)
 
 # Description
