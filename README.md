@@ -8,6 +8,6 @@
 # Journal and Resources
 
 [Reflective Journal](journal.md)
-# Prototype Projects 
+# Prototyping Projects 
 
 
