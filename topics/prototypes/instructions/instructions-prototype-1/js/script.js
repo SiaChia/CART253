@@ -60,7 +60,7 @@ function draw() {
 
     //Nose
     push();
-    fill("#E6A9A9");
+    fill("#000000");
     stroke("black");
     triangle(250, 335, 235, 320, 265, 320);
     pop();
@@ -72,6 +72,15 @@ function draw() {
     strokeWeight(3);
     arc(230, 340,38, 20, 0, PI);
     arc(270, 340, 38, 20, 0, -PI);
+    pop();
+
+    
+    //cheeks
+    push();
+    fill("#E6A9A9");
+    noStroke();
+    ellipse(190, 320,30, 10);
+    ellipse(310, 320, 30, 10);
     pop();
     
 
