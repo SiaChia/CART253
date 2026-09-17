@@ -37,15 +37,22 @@ pop();
 
 //third circle
 push ();
-fill("#ad2569");
+fill("#c52c78");
 noStroke();
 ellipse(320, 320, 300, 300);
+pop();
+
+//fourth circle
+push ();
+fill("#af246a");
+noStroke();
+ellipse(320, 320, 200, 200);
 pop();
 
 //triangle
 push ();
 fill("#ff86c3");
-stroke("#9b004d");
+stroke("#f7f0f3");
 triangle(320, 200, 400, 440, 400);
 pop();
 
