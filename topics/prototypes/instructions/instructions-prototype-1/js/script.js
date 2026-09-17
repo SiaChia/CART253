@@ -61,10 +61,16 @@ function draw() {
     //Nose
     push();
     fill("#E6A9A9");
-    noStroke();
-    triangle(250, 320, 240, 340, 260, 340);
-    pop()
+    stroke("black");
+    triangle(250, 335, 235, 320, 265, 320);
+    pop();
     
+
+
+    
+
+   
+
 
     
 }
