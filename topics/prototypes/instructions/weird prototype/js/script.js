@@ -20,5 +20,13 @@ background("#000000");
  * Creepy face that is drawn on the canvas
 */
 function draw() {
+//head
+push();
+fill("#575454");
+stroke("#313030");
+strokeWeight(5);
+ellipse(225, 250, 300, 350);
+pop();
+
 
 }
