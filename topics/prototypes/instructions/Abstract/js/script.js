@@ -18,7 +18,7 @@ background("#000000");
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * This drawing will contain different shapes in shades of pink. The shapes will be drawn in random positions and sizes.
 */
 function draw() {
 
