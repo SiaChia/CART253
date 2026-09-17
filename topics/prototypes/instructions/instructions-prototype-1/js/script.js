@@ -13,7 +13,7 @@
 */
 function setup() {
 // Once at the beginning of the program
-    createCanvas(640, 480);
+    createCanvas(500, 500);
 }
 
 
@@ -23,4 +23,11 @@ function setup() {
 function draw() {
     //Every Frame 
     background("#B5DAFE");
+
+    // Head
+    fill("#3C280D");
+    noStroke();
+    ellipse(250, 280, 270, 230);
+
+    
 }
