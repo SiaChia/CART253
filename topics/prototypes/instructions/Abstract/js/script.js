@@ -82,6 +82,18 @@ vertex(300, 180);
 endShape(CLOSE);
 pop();
 
+//weird object
+push ();
+fill("#e70074");
+stroke("#f7f0f3");
+beginShape();
+vertex(0,0);
+vertex(200, 150);
+vertex(150, 250);
+vertex(50, 200);
+endShape(CLOSE);
+pop();
+
 
 
 
