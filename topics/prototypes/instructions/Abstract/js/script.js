@@ -56,12 +56,34 @@ noStroke();
 ellipse(320, 320, 100, 100);
 pop();
 
-//triangle
+
+//triangle object 
 push ();
 fill("#ff86c3");
 stroke("#f7f0f3");
 triangle(320, 200, 400, 440, 400);
 pop();
+
+//star object
+push ();
+fill("#df46b1");
+stroke("#f7f0f3");
+beginShape();
+vertex(400, 100);
+vertex(4200);
+vertex(420, 180);
+vertex(350, 220);
+vertex(370, 300);
+vertex(320, 250);
+vertex(270, 300);
+vertex(290, 220);
+vertex(220, 180);
+vertex(300, 180);
+endShape(CLOSE);
+pop();
+
+
+
 
 
 
