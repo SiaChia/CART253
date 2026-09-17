@@ -28,6 +28,13 @@ stroke("#9b004d");
 ellipse(320,320, 460, 460);
 pop();
 
+//second circle
+push ();
+fill("#be2a749d");
+noStroke();
+ellipse(320, 320, 400, 400);
+pop();
+
 
 
 
