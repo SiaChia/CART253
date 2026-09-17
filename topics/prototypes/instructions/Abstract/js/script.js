@@ -1,5 +1,5 @@
 /**
- * Pink Noise 
+ * Pink Space Portal
  * Athanasia (Sia) Iliopoulos 
  * 
  * This is an abstract art piece where I play around with creating shapes in different shades of pink. 
