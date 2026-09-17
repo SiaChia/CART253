@@ -8,10 +8,11 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Canvas for creepy face 
 */
 function setup() {
-
+createCanvas(450, 500);
+background("#000000");
 }
 
 
