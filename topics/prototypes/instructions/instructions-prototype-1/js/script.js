@@ -8,16 +8,19 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Blue canvas for Peanut the bunny.
+ * 
 */
 function setup() {
-
+// Once at the beginning of the program
+    createCanvas(640, 480);
 }
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
+ * This function draws the scene for Peanut the bunny.
+ */
 function draw() {
-
+    //Every Frame 
+    background("#B5DAFE");
 }
