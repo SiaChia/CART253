@@ -49,6 +49,13 @@ noStroke();
 ellipse(320, 320, 200, 200);
 pop();
 
+//fifth circle
+push ();
+fill("#9b1f5e");
+noStroke();
+ellipse(320, 320, 100, 100);
+pop();
+
 //triangle
 push ();
 fill("#ff86c3");
