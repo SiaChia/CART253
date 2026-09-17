@@ -1,4 +1,4 @@
-# Abstract Shapes
+# Pink Noise 
 
 Athanasia (Sia) Iliopoulos 
 
@@ -6,7 +6,7 @@ Athanasia (Sia) Iliopoulos
 
 ## Description
 
-This will be an abstract piece of different shapes in the coliur pink.
+This will be an abstract piece of different shapes in the colour pink.
 
 ## Attribution
 

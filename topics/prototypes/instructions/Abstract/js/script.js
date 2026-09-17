@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Pink Noise 
+ * Athanasia (Sia) Iliopoulos 
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This is an abstract art piece where I play around with creating shapes in different shades of pink. 
  */
 
 "use strict";
