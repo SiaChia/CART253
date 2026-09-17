@@ -17,7 +17,7 @@ background("#000000");
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Creepy face that is drawn on the canvas
 */
 function draw() {
 
