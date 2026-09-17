@@ -8,9 +8,11 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Canvas for absract piece. 
 */
 function setup() {
+createCanvas(640, 480);
+background("#000000");
 
 }
 
