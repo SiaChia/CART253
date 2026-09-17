@@ -26,5 +26,11 @@ fill("#ff379b");
 stroke("#c50063");
 ellipse(random(width), random(height), random(10, 100), random(10, 100));
 pop();
+
+push ();
+fill("#ff93bc");
+stroke("#ff61b0");
+rect(random(width), random(height), random(10, 100), random(10, 100));
+pop();
     
 }
