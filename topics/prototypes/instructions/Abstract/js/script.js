@@ -21,10 +21,14 @@ background("#000000");
  * This drawing will contain different shapes in shades of pink. The shapes will be drawn in random positions and sizes.
 */
 function draw() {
-//draw circles
+//larger circle
 push ();
 fill("#ff379b");
-stroke("#c50063");
+stroke("#9b004d");
+ellipse(320,320, 460, 460);
+pop();
+
+
 
 
     
