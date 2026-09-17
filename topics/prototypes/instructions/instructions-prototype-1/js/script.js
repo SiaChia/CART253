@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Peanut the Bunny
+ * Athanasia (Sia) Iliopoulos 
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This is a drawing of my pet rabbit Peanut. I will be drawing him by programming different shapes and colours. 
  */
 
 "use strict";
