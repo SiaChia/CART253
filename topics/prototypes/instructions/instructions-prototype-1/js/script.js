@@ -90,6 +90,13 @@ function draw() {
     ellipse(250, 500,300, 250);
     pop();
     
+    //front paws
+    push();
+    fill("#201507");
+    noStroke();
+    ellipse(180, 470,50, 100);
+    ellipse(320, 470, 50, 100);
+    pop();
 
    
 
