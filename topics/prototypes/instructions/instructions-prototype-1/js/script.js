@@ -64,9 +64,15 @@ function draw() {
     stroke("black");
     triangle(250, 335, 235, 320, 265, 320);
     pop();
-    
 
-
+    //Mouth
+    push();
+    noFill();
+    stroke("black");
+    strokeWeight(3);
+    arc(230, 340,38, 20, 0, PI);
+    arc(270, 340, 38, 20, 0, -PI);
+    pop();
     
 
    
