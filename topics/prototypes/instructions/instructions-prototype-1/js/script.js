@@ -82,6 +82,13 @@ function draw() {
     ellipse(190, 320,30, 10);
     ellipse(310, 320, 30, 10);
     pop();
+
+    //body
+    push();
+    fill("#3C280D");
+    noStroke();
+    ellipse(250, 500,300, 250);
+    pop();
     
 
    
