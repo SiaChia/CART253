@@ -35,6 +35,16 @@ noStroke();
 ellipse(320, 320, 400, 400);
 pop();
 
+//triangle
+push ();
+fill("#ff86c3");
+stroke("#9b004d");
+triangle(320, 200, 400, 440, 400);
+pop();
+
+
+
+
 
 
 
