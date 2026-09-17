@@ -40,5 +40,31 @@ function draw() {
     ellipse(370, 290, 65, 220);
     pop();
 
+    //Eyes
+    push();
+    fill("#000000");
+    noStroke();
+    ellipse(200, 290, 40, 50);
+    ellipse(300, 290, 40, 50);
+    pop();
+
+    // Pupils
+    push();
+    fill("#ffffff");
+    noStroke();
+    ellipse(210, 280, 15, 20);
+    ellipse(310, 280, 15, 20);
+    ellipse(190, 300, 10, 15);
+    ellipse(290, 300, 10, 15);
+    pop();
+
+    //Nose
+    push();
+    fill("#E6A9A9");
+    noStroke();
+    triangle(250, 320, 240, 340, 260, 340);
+    pop()
+    
+
     
 }
