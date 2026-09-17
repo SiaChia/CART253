@@ -25,9 +25,20 @@ function draw() {
     background("#B5DAFE");
 
     // Head
+    push();
     fill("#3C280D");
     noStroke();
-    ellipse(250, 280, 270, 230);
+    ellipse(250, 280, 250, 230);
+    pop();
+
+
+    // Ears
+    push();
+    fill("#1A1005");
+    noStroke();
+    ellipse(130, 290, 65, 220);
+    ellipse(370, 290, 65, 220);
+    pop();
 
     
 }
