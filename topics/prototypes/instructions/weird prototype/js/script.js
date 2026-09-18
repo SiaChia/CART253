@@ -12,7 +12,7 @@
 */
 function setup() {
 createCanvas(450, 500);
-background("#000000");
+background("#030335");
 }
 
 
@@ -75,7 +75,14 @@ rect(230, 335, 30, 30);
 rect(270, 335, 30, 30); 
 pop();  
 
-
+//three hairs on head
+push();
+stroke("#000000");
+strokeWeight(5);
+line(225, 100, 225, 50);
+line(200, 100, 200, 50);
+line(250, 100, 250, 50);
+pop();
 
 
 }
