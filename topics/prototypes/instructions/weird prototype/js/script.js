@@ -46,5 +46,13 @@ ellipse(150, 200, 30, 30);
 ellipse(300, 200, 30, 30);
 pop();
 
+//mouth
+push();
+fill("rgb(109, 0, 0)");
+stroke("#2b0202");
+strokeWeight(5);
+arc(225, 330, 200, 150, 0, PI); 
+pop();
+
 
 }
