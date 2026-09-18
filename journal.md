@@ -9,3 +9,7 @@
 <p>Although the process smooth, I found myself feeling frustrated at times. Most of these frustrations were caused by my own error. I spent hours trying to figure out how to add an image and then figured out how to add a path to the banner. Furthermore, I moved some files around “to make things easier”, which was a bad idea because it broke my website. Even though I made stupid mistakes, I am proud that I figured them all out on my own. These mistakes made me careful and attentive.</p>
 
 <p>I hope that everybody looking at my website enjoys all my future prototypes and finds them interesting. I aspire to be a game designer or character designer and leave the same kind of impact on people that the games I love had on me.</p>
+
+## Tuesday, September 22nd, 2026 
+
+<p> 
