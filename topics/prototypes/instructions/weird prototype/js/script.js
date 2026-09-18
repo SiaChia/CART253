@@ -54,5 +54,16 @@ strokeWeight(5);
 arc(225, 330, 200, 150, 0, PI); 
 pop();
 
+//teeth
+push();
+fill("#fae6a5");
+stroke("#fff7f7");
+strokeWeight(5);
+rect(150, 335, 30, 30);
+rect(190, 335, 30, 30);
+rect(230, 335, 30, 30);
+rect(270, 335, 30, 30); 
+pop();
+
 
 }
