@@ -15,4 +15,12 @@
 
 ## Tuesday, September 22nd, 2026 
 
-<p> 
+<p> When creating three different distinct prototypes, I found myself having a lot of fun. It was overall easy and there weren’t any times that I felt frustrated. The only thing that was tricky for me, was placing the shapes the way I wanted them to be. </p>
+
+<p>Before this assignment, I never knew you could have the freedom of coding any weird shape you wanted.  By coding drawings in JavaScript, I learned how to create different shapes and using coordinates to place them. I loved experimenting and creating weird shapes especially with my abstract prototype “Pink Space Portal”. I really liked that I could use hex colours to choose which colour I wanted to use for my shapes or canvas.</p>
+
+<p>The only struggles I had at times were placing my shapes in the correct spot I wanted them to be in, creating arcs, triangles and lines. It would take long, and it was difficult to make the triangles and arcs not look crazy. The piece that took me the longest was “Peanut the Bunny” because I had to make perfect shapes to make the overall figure look like a rabbit.</p>
+
+<p>Overall, I enjoyed drawing in JavaScript as it wasn’t complicated to understand. I am proud of myself as I was able to code different drawings without struggling much. I hope that with these prototypes I created, I could maybe use them for a future big project or maybe a video game. I hope that everyone looking at this enjoys these prototypes!</p>
+
+![PeanuttheBunny](./images/Peanut%20The%20Bunny.png)
