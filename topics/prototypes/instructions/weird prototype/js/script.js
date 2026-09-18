@@ -37,5 +37,14 @@ ellipse(150, 200, 90, 90);
 ellipse(300, 200, 90, 90);
 pop();
 
+//pupils
+push();
+fill("#000000");
+stroke("#000000");
+strokeWeight(5);
+ellipse(150, 200, 30, 30);
+ellipse(300, 200, 30, 30);
+pop();
+
 
 }
