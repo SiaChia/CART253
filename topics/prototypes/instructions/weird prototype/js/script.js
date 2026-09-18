@@ -28,5 +28,14 @@ strokeWeight(5);
 ellipse(225, 250, 300, 350);
 pop();
 
+//eyes
+push();
+fill("#ffeacc");
+stroke("#fffafa");
+strokeWeight(5);
+ellipse(150, 200, 90, 90);
+ellipse(300, 200, 90, 90);
+pop();
+
 
 }
