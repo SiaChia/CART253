@@ -20,6 +20,15 @@ background("#000000");
  * Creepy face that is drawn on the canvas
 */
 function draw() {
+
+//body
+push();
+fill("#575454");
+stroke("#313030");
+strokeWeight(5);
+rect(150, 400, 150, 100);
+pop();
+    
 //head
 push();
 fill("#575454");
@@ -36,6 +45,7 @@ strokeWeight(5);
 ellipse(150, 200, 90, 90);
 ellipse(300, 200, 90, 90);
 pop();
+
 
 //pupils
 push();
@@ -63,7 +73,9 @@ rect(150, 335, 30, 30);
 rect(190, 335, 30, 30);
 rect(230, 335, 30, 30);
 rect(270, 335, 30, 30); 
-pop();
+pop();  
+
+
 
 
 }
