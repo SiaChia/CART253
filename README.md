@@ -13,5 +13,5 @@
 
 ### Prototyping Instructions 
 
-
+![PeanuttheBunny](./images/Peanut%20The%20Bunny.png)
 
