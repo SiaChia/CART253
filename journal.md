@@ -10,7 +10,7 @@
 
 <p>I hope that everybody looking at my website enjoys all my future prototypes and finds them interesting. I aspire to be a game designer or character designer and leave the same kind of impact on people that the games I love had on me.</p>
 
-![websitescreenshot](/images/website%20screenshot.png)
+![websitescreenshot](./images/website%20screenshot.png)
 
 
 ## Tuesday, September 22nd, 2026 
