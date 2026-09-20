@@ -2,7 +2,7 @@
 
 ## Tuesday, September 15th, 2026
 
-### Protototpe: Website Assignment 
+### Prototype: Website Assignment 
 <p>As a person who has never done programming before, making a website was fun. However, at times, things got complicated. After practicing with Markdown and GitHub, I have a much better understanding of how things work.</p>
 
 <p>Creating a website was a cool process and something I had never done before. There was a learning curve that I had to get through when figuring out how everything worked, but it was a smooth process overall. The markdown cheat sheet was my best friend throughout this whole process. I was surprised by how much markdown was able to help me answer all my questions. I also enjoyed making my own goofy banner and adding it to my website.</p>
