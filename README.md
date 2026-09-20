@@ -30,4 +30,8 @@
 #### Unsettling Weird Face
 ![Weird Unsettling face](./images/Weird%20Unsettling%20Face.png) 
 
+[Weird Unsettling Face website link](https://siachia.github.io/CART253/topics/prototypes/instructions/Weird%20Unsettling%20Face/)
+
+[Weird Unsettling Face code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/instructions/Weird%20Unsettling%20Face) 
+
 
