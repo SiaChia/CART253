@@ -17,5 +17,6 @@
 ![PeanuttheBunny](./images/Peanut%20The%20Bunny.png)
 
 [Peanut the Bunny website link](https://siachia.github.io/CART253/topics/prototypes/instructions/Peanut%20the%20bunny/)
+
 [Peanut the Bunny code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/instructions/Peanut%20the%20bunny)
 
