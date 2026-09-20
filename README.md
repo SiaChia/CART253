@@ -7,7 +7,7 @@
 
 ## Journal and Resources
 
-[Reflective Journal](journal.md)
+[Reflective Journals](journal.md) 
 
 ## Prototyping Projects 
 
