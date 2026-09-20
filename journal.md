@@ -2,6 +2,7 @@
 
 ## Tuesday, September 15th, 2026
 
+### Protototpe Website Assignment 
 <p>As a person who has never done programming before, making a website was fun. However, at times, things got complicated. After practicing with Markdown and GitHub, I have a much better understanding of how things work.</p>
 
 <p>Creating a website was a cool process and something I had never done before. There was a learning curve that I had to get through when figuring out how everything worked, but it was a smooth process overall. The markdown cheat sheet was my best friend throughout this whole process. I was surprised by how much markdown was able to help me answer all my questions. I also enjoyed making my own goofy banner and adding it to my website.</p>
@@ -15,6 +16,7 @@
 
 ## Tuesday, September 22nd, 2026 
 
+### Prototype: Instructions Assignment  
 <p> When creating three different distinct prototypes, I found myself having a lot of fun. It was overall easy and there weren’t any times that I felt frustrated. The only thing that was tricky for me, was placing the shapes the way I wanted them to be. </p>
 
 <p>Before this assignment, I never knew you could have the freedom of coding any weird shape you wanted. By coding drawings in JavaScript, I learned how to create different shapes and used coordinates to place them. I loved experimenting and creating weird shapes especially with my abstract prototype “Pink Space Portal”. I really liked that I could use hex colours to choose which colour I wanted to use for my shapes or canvas.</p>
