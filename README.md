@@ -15,3 +15,6 @@
 
 ![PeanuttheBunny](./images/Peanut%20The%20Bunny.png)
 
+[Peanut the Bunny website link](https://siachia.github.io/CART253/topics/prototypes/instructions/Peanut%20the%20bunny/)
+
+
