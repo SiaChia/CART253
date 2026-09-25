@@ -98,16 +98,31 @@ function draw() {
 
 
   //Bubble effect 
+  
+  //Bubble 1 
   push();
   noStroke();
-
   fill(random(100, 255), random(50, 200), random(150, 255));
   ellipse(bubble.x, bubble.y, bubble.size);
   pop();
 
+  //Bubble 2
+  push();
+  noStroke();
+  fill(random(100, 255), random(50, 200), random(150, 255));
+  ellipse(bubble2.x, bubble2.y, bubble2.size);
+  pop(); 
+  
+  
   // Bubble movement
+  
+  //bubble 1
   bubble.x += random(-2, 2);
   bubble.y += random(-1, -0.2);
+
+  //bubble 2
+  bubble2.x += random(-2, 2);
+  bubble2.y += random(-1, -0.2); 
 
 
 
