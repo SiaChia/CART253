@@ -37,11 +37,19 @@ function draw() {
     pop(); 
 
     //Tree 2
-     push();
+    push();
     noStroke()
     fill("#05131f")
     rect(300, 320, 25, 80); 
     ellipse(312, 280, 100, 100,); 
+    pop(); 
+
+    //Tree 3
+    push();
+    noStroke()
+    fill("#05131f")
+    rect(520, 320, 25, 80); 
+    ellipse(532, 280, 100, 100,); 
     pop(); 
     
     //Ghost Body 
