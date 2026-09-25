@@ -119,6 +119,13 @@ function draw() {
   fill(random(100, 255), random(50, 200), random(150, 255));
   ellipse(bubble3.x, bubble3.y, bubble3.size);
   pop(); 
+
+  //Bubble 4 
+  push(); 
+  noStroke(); 
+  fill(random(100, 255), random(50, 200), random(150, 255)); 
+  ellipse(bubble4.x, bubble4.y, bubble4.size); 
+  pop(); 
   
   
   // Bubble movement
@@ -134,6 +141,11 @@ function draw() {
   //bubble 3 
   bubble3.x += random(-2, 2); 
   bubble3.y += random(-1, -0.2); 
+
+  //bubble 4
+
+  bubble4.x += random(-2, 2); 
+  bubble4.y += random(-1, -0.2); 
 
 
 
