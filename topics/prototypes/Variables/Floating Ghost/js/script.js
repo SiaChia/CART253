@@ -7,12 +7,15 @@
 
 "use strict" 
 
+let ghostX = 320;
+let ghostY = 240;
+
 /**
  * Canvas for Floating Ghost 
 */
 function setup() {
  createCanvas(640, 480);
- background("#002147")
+ 
 }
 
 
@@ -20,7 +23,12 @@ function setup() {
  * Ghost drawing
 */
 function draw() {
+ background("#002147")
 
+    // Ghost movement 
+    ghostX = mouseX;
+    ghostY = mouseY;
+    
     //land
     push();
     noStroke()
@@ -67,7 +75,7 @@ function draw() {
     push();
     fill("#FFFFFF");
     noStroke(); 
-    ellipse(320, 240, 150, 150); 
+    ellipse(ghostX, ghostY, 150, 150); 
     rect(245, 255, 150, 60); 
     pop();
 
