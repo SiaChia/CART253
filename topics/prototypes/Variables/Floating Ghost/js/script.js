@@ -89,7 +89,7 @@ function draw() {
     //Mouth
     push();
     fill("#000000");
-    ellipse(320, 270, 12, 18)
+    ellipse(ghostX, ghostY + 30, 12, 18)
     pop(); 
 
     //blush
