@@ -21,6 +21,29 @@ function setup() {
 */
 function draw() {
 
+    //land
+    push();
+    noStroke()
+    fill("#05131f");
+    rect(0, 400, 640, 80); 
+    pop();
+
+    //Tree 1 
+    push();
+    noStroke()
+    fill("#05131f")
+    rect(80, 320, 25, 80); 
+    ellipse(92, 280, 100, 100,); 
+    pop(); 
+
+    //Tree 2
+     push();
+    noStroke()
+    fill("#05131f")
+    rect(300, 320, 25, 80); 
+    ellipse(312, 280, 100, 100,); 
+    pop(); 
+    
     //Ghost Body 
     push();
     fill("#FFFFFF");
@@ -50,19 +73,8 @@ function draw() {
     ellipse(365, 245, 20, 10); 
     pop();
 
-    //land
-    push();
-    noStroke()
-    fill("#05131f");
-    rect(0, 400, 640, 80); 
-    pop();
 
-    //Tree 1 
-    push();
-    noStroke()
-    fill("#05131f")
-    rect(80, 320, 25, 80); 
-    ellipse(92, 280, 100, 100,); 
+
 
 
 
