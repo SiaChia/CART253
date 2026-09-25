@@ -82,8 +82,8 @@ function draw() {
     //Eyes 
     push();
     fill("#000000")
-    ellipse(290, 230, 22, 30); 
-    ellipse(350, 230, 22, 30);
+    ellipse(ghostX -30, ghostY -10, 22, 30); 
+    ellipse(ghostX + 30, ghostY - 10, 22, 30);
     pop();
 
     //Mouth
