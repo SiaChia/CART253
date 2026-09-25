@@ -8,10 +8,11 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Canvas for Floating Ghost 
 */
 function setup() {
-
+ createCanvas(640, 480);
+ background("#002147")
 }
 
 
