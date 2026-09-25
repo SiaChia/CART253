@@ -5,7 +5,11 @@
  * This prototype will be me exploring variables. It will be a canvas and the object will be a ghost floating in the sky. 
  */
 
-"use strict";
+"use strict" 
+
+// Action to make ghost move 
+let velocityX = 2;
+let velocityY = 1;
 
 /**
  * Canvas for Floating Ghost 
@@ -20,6 +24,11 @@ function setup() {
  * Ghost drawing
 */
 function draw() {
+
+ // Ghost movement
+ x = x + velocityX;
+ y = y + velocityY;
+
 
     //land
     push();
@@ -67,7 +76,7 @@ function draw() {
     push();
     fill("#FFFFFF");
     noStroke(); 
-    ellipse(320, 240, 150, 150); 
+    ellipse( X, Y, 240, 150, 150); 
     rect(245, 255, 150, 60); 
     pop();
 
