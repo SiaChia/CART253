@@ -26,11 +26,7 @@ function setup() {
 function draw() {
  background("#002147")
 
-    // Ghost movement 
-    ghostX = mouseX;
-    ghostY = mouseY;
-
-    //stars
+     //stars
     push();
     noStroke()
     fill("#fcefb7")
@@ -39,7 +35,7 @@ function draw() {
     ellipse(350, 70, 5, 5);
     ellipse(450, 160, 5, 5);
     ellipse(580, 60, 5, 5);
-    ellipse(50, 210, 5, 5);
+    ellipse(50, 210, 5, 5);  
     ellipse(150, 280, 5, 5);
     ellipse(270, 190, 5, 5);
     ellipse(400, 250, 5, 5);
@@ -89,6 +85,9 @@ function draw() {
     fill("#002147"); 
     ellipse(505, 90, 70, 80);
 
+    // Ghost movement 
+    ghostX = mouseX;
+    ghostY = mouseY;
 
 
    //Ghost Body 
