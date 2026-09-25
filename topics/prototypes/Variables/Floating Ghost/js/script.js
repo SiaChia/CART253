@@ -25,9 +25,14 @@ function draw() {
     push();
     fill("#FFFFFF");
     noStroke(); 
-    
     ellipse(320, 240, 150, 150); 
     rect(245, 255, 150, 60); 
+    pop();
+
+    //Eyes 
+    fill("#000000")
+    ellipse(290, 230, 22, 30); 
+    ellipse(350, 230, 22, 30);
 
    
     
