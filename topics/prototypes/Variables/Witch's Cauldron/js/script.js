@@ -8,6 +8,22 @@
 
 "use strict";
 
+// Bubble smoke effect action
+
+ let bubble = {
+  x: 280,
+  y: 280,
+  size: 15,
+};
+
+let bubble2 + {
+  x: 320,
+  y: 270,
+  size: 25,
+};
+
+
+
 /**
  * Canvas for the Cauldron 
 */
