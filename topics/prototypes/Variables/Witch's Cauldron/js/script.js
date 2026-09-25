@@ -44,7 +44,7 @@ function draw() {
   push();
   stroke("#2f2944");
   strokeWeight(10); 
-  fill("#120e1f");
+  fill("#0b0913");
   ellipse(320, 340, 270, 70);
   pop()
 
