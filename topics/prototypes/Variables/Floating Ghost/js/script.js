@@ -89,8 +89,7 @@ function draw() {
     ghostX = mouseX;
     ghostY = mouseY;
 
-
-   //Ghost Body 
+    //Ghost Body 
     push();
     fill("#FFFFFF");
     noStroke(); 
