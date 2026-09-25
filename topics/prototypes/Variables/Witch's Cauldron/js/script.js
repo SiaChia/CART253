@@ -40,6 +40,9 @@ let bubble5 = {
   size: 12,
 };
 
+//Potion color
+let potionColor;
+
 
 /**
  * Canvas for the Cauldron 
@@ -79,7 +82,20 @@ function draw() {
   strokeWeight(10); 
   fill("#0b0913");
   ellipse(320, 340, 270, 70);
-  pop()
+  pop();
+
+  // Potion inside cauldron
+    potionColor =color(
+    random(100, 255),
+    random(50, 150),
+    random(150, 255),
+    );
+    push();
+    noStroke();
+    fill(potionColor);
+    ellipse(320, 340, 250, 50);
+    pop();
+
 
   //Bubble effect 
   push();
