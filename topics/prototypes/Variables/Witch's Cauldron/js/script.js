@@ -40,6 +40,43 @@ let bubble5 = {
   size: 12,
 };
 
+let bubble6 = {
+  x: 250,
+  y: 275,
+  size: 14
+};
+
+let bubble7 = {
+  x: 390,
+  y: 240,
+  size: 8
+};
+
+let bubble8 = { 
+  x: 270, 
+  y: 240, 
+  size: 8, 
+};
+
+let bubble9 = { 
+  x: 340, 
+  y: 220, 
+  size: 15, 
+};
+
+let bubble10 = { 
+  x: 380, 
+  y: 230, 
+  size: 9, 
+};
+
+let bubble12 = { 
+  x: 410, 
+  y: 250, 
+  size: 13, 
+};
+
+
 //Potion color
 let potionColor;
 
