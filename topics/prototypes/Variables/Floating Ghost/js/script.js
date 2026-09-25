@@ -6,8 +6,7 @@
  */
 
 "use strict";
-let ghostX =100;
-let ghostY =240; 
+
 /**
  * Canvas for Floating Ghost 
 */
@@ -22,11 +21,15 @@ function setup() {
 */
 function draw() {
 
- //Ghost Body 
- push();
- stroke("black") 
- fill("white")
- ellipse()
+    //Ghost Body 
+    push();
+    fill("#FFFFFF");
+    noStroke(); 
+    
+    ellipse(320, 240, 150, 150); 
+    rect(245, 255, 150, 60); 
+
+   
     
 
 }
