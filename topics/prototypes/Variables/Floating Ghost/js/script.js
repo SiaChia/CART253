@@ -30,9 +30,27 @@ function draw() {
     pop();
 
     //Eyes 
+    push();
     fill("#000000")
     ellipse(290, 230, 22, 30); 
     ellipse(350, 230, 22, 30);
+    pop();
+
+    //Mouth
+    push();
+    fill("#000000");
+    ellipse(320, 270, 12, 18)
+    pop(); 
+
+    //blush
+    push();
+    fill("#fec5e5")
+    noStroke(); 
+    ellipse(275, 245, 20, 10); 
+    ellipse(365, 245, 20, 10); 
+    pop();
+    
+
 
    
     
