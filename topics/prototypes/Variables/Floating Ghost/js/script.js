@@ -62,6 +62,7 @@ function draw() {
     noStroke()
     fill("#05131f")
     rect(80, 320, 25, 80); 
+    ellipse(92, 280, 100, 100,); 
 
 
 
