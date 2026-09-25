@@ -49,7 +49,13 @@ function draw() {
     ellipse(275, 245, 20, 10); 
     ellipse(365, 245, 20, 10); 
     pop();
-    
+
+    //land
+    pop();
+    noStroke()
+    fill("#05131f");
+    rect(0, 400, 640, 80); 
+
 
 
    
