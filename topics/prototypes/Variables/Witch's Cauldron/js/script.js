@@ -12,7 +12,7 @@
  * Canvas for the Cauldron 
 */
 function setup() {
-
+createCanvas(640, 480)
 }
 
 
@@ -20,5 +20,8 @@ function setup() {
  * Drawing of cauldron spewing out different colours. 
 */
 function draw() {
+
+   // Canvas Colour 
+  background("#0f1158")
 
 }
