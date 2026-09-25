@@ -7,12 +7,8 @@
 
 "use strict" 
 
-// Action to make ghost move 
-let X = 320;
-let Y = 240;
-
-let velocityX = 2;
-let velocityY = 1;
+let ghostX = 320;
+let ghostY = 240;
 
 /**
  * Canvas for Floating Ghost 
@@ -27,13 +23,7 @@ function setup() {
  * Ghost drawing
 */
 function draw() {
-
- // Ghost movement
- X = X + velocityX;
- Y = Y + velocityY;
-
-
-    //land
+   //land
     push();
     noStroke()
     fill("#05131f");
@@ -79,14 +69,14 @@ function draw() {
     push();
     fill("#FFFFFF");
     noStroke(); 
-    ellipse( X, Y, 240, 150, 150); 
-    rect( X - 75 , Y , 150, 60); 
+    ellipse( mouseX, mouseY, 150, 150); 
+    rect(mouseX - 75 , mouseY + 15 , 150, 60); 
     pop();
 
     //Eyes 
     push();
     fill("#000000")
-    ellipse(290, 230, 22, 30); 
+    ellipse(X - 30, Y - 10, 22, 30); 
     ellipse(350, 230, 22, 30);
     pop();
 
