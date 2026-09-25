@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Floating Ghost
+ * Athanasia (Sia) Iliopoulos 
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This prototype will be me exploring variables. It will be a canvas and the object will be a ghost floating in the sky. 
  */
 
 "use strict";
