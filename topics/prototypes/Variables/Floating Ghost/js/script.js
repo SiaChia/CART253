@@ -8,6 +8,9 @@
 "use strict" 
 
 // Action to make ghost move 
+let X = 320;
+let Y = 240;
+
 let velocityX = 2;
 let velocityY = 1;
 
@@ -26,8 +29,8 @@ function setup() {
 function draw() {
 
  // Ghost movement
- x = x + velocityX;
- y = y + velocityY;
+ X = X + velocityX;
+ Y = Y + velocityY;
 
 
     //land
@@ -77,7 +80,7 @@ function draw() {
     fill("#FFFFFF");
     noStroke(); 
     ellipse( X, Y, 240, 150, 150); 
-    rect(245, 255, 150, 60); 
+    rect( X - 75 , Y , 150, 60); 
     pop();
 
     //Eyes 
