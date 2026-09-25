@@ -81,6 +81,19 @@ function draw() {
   ellipse(320, 340, 270, 70);
   pop()
 
+  //Bubble effect 
+  push();
+  noStroke();
+
+  fill(random(100, 255), random(50, 200), random(150, 255));
+  ellipse(bubble.x, bubble.y, bubble.size);
+  pop();
+
+  // Bubble movement
+  bubble.x += random(-2, 2);
+  bubble.y += random(-1, -0.2);
+
+
 
 
 
