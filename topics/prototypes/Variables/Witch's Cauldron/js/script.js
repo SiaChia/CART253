@@ -12,7 +12,7 @@
  * Canvas for the Cauldron 
 */
 function setup() {
-createCanvas(640, 480)
+createCanvas(640, 480);
 }
 
 
@@ -22,6 +22,13 @@ createCanvas(640, 480)
 function draw() {
 
    // Canvas Colour 
-  background("#0f1158")
+  background("#0f1158");
 
+  //Table 
+  push();
+  stroke("#573726");
+  strokeWeight(7); 
+  fill("#3d261a"); 
+  rect(0, 370, 640, 110);
+  pop(); 
 }
