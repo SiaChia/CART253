@@ -51,10 +51,17 @@ function draw() {
     pop();
 
     //land
-    pop();
+    push();
     noStroke()
     fill("#05131f");
     rect(0, 400, 640, 80); 
+    pop();
+
+    //Tree 1 
+    push();
+    noStroke()
+    fill("#05131f")
+    rect(80, 320, 25, 80); 
 
 
 
