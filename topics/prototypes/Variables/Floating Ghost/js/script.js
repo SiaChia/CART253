@@ -52,7 +52,18 @@ function draw() {
     ellipse(532, 280, 100, 100,); 
     pop(); 
     
-    //Ghost Body 
+     //Moon outside circle part 
+    push();
+    fill("#fcefb7")
+    ellipse(520, 100, 80, 80); 
+    
+    //Moon inside circle part
+    push();
+    noStroke();
+    fill("#002147"); 
+    ellipse(505, 90, 70, 80);
+    
+   //Ghost Body 
     push();
     fill("#FFFFFF");
     noStroke(); 
