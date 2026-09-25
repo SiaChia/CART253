@@ -16,12 +16,29 @@
   size: 15,
 };
 
-let bubble2 + {
+let bubble2 = {
   x: 320,
   y: 270,
   size: 25,
 };
+  
+let bubble3 = {
+  x: 360,
+  y: 280,
+  size: 10,
+};
 
+let bubble4 = {
+  x: 300,
+  y: 250,
+  size: 18,
+};
+
+let bubble5 = {
+  x: 350,
+  y: 240,
+  size: 12,
+};
 
 
 /**
