@@ -22,7 +22,7 @@ createCanvas(640, 480);
 function draw() {
 
    // Canvas Colour 
-  background("#0f1158");
+  background("#2b2e97");
 
   //Table 
   push();
@@ -31,4 +31,11 @@ function draw() {
   fill("#3d261a"); 
   rect(0, 370, 640, 110);
   pop(); 
+
+  //top of Cauldron 
+  push();
+  stroke("#2f2944");
+  strokeWeight(10); 
+  fill("#120e1f");
+  ellipse(320, 340, 270, 70); 
 }
