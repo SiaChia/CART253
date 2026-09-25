@@ -76,7 +76,7 @@ function draw() {
     fill("#FFFFFF");
     noStroke(); 
     ellipse(ghostX, ghostY, 150, 150); 
-    rect(245, 255, 150, 60); 
+    rect(ghostX - 75, ghostY + 15, 150, 60); 
     pop();
 
     //Eyes 
