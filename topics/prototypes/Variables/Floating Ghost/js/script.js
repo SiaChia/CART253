@@ -10,6 +10,7 @@
 let ghostX = 320;
 let ghostY = 240;
 
+
 /**
  * Canvas for Floating Ghost 
 */
@@ -28,6 +29,23 @@ function draw() {
     // Ghost movement 
     ghostX = mouseX;
     ghostY = mouseY;
+
+    //stars
+    push();
+    noStroke()
+    fill("#fcefb7")
+    ellipse(100, 80, 5, 5);
+    ellipse(200, 130, 5, 5);
+    ellipse(350, 70, 5, 5);
+    ellipse(450, 160, 5, 5);
+    ellipse(580, 60, 5, 5);
+    ellipse(50, 210, 5, 5);
+    ellipse(150, 280, 5, 5);
+    ellipse(270, 190, 5, 5);
+    ellipse(400, 250, 5, 5);
+    ellipse(520, 300, 5, 5);
+    ellipse(600, 220, 5, 5);
+    ellipse(330, 320, 5, 5);
     
     //land
     push();
@@ -70,7 +88,9 @@ function draw() {
     noStroke();
     fill("#002147"); 
     ellipse(505, 90, 70, 80);
-    
+
+
+
    //Ghost Body 
     push();
     fill("#FFFFFF");
@@ -96,8 +116,8 @@ function draw() {
     push();
     fill("#fec5e5")
     noStroke(); 
-    ellipse(275, 245, 20, 10); 
-    ellipse(365, 245, 20, 10); 
+    ellipse(ghostX - 45, ghostY + 5, 20, 10); 
+    ellipse(ghostX + 45, ghostY + 5, 20, 10); 
     pop();
 
 
