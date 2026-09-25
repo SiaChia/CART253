@@ -1,15 +1,15 @@
 /**
- * Title of Project
- * Author Name
+ * The Witch's Cauldron 
+ * Athanasia (Sia) Iliopoulos 
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This is a Witch's cauldron that will be bubbling with several different colours spewing out. 
+ * 
  */
 
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Canvas for the Cauldron 
 */
 function setup() {
 
@@ -17,7 +17,7 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Drawing of cauldron spewing out different colours. 
 */
 function draw() {
 
