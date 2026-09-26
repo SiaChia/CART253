@@ -66,7 +66,7 @@ mushroomSize += 0.05;
 push();
 noStroke();
 fill("#b49569");
-rect(305, 365 - mushroomSize, 30, mushroomSize + 25);
+rect(305, 365 - mushroomSize, 30, mushroomSize + 30);
 pop(); 
 
 //Top of mushroom 
