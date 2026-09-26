@@ -70,6 +70,12 @@ let bubble10 = {
   size: 9, 
 };
 
+let bubble11 = {  
+  x: 310,  
+  y: 345, 
+  size: 13,  
+};
+
 let bubble12 = { 
   x: 410, 
   y: 345, 
@@ -206,6 +212,13 @@ function draw() {
     ellipse(bubble10.x, bubble10.y, bubble10.size);
      pop();
 
+  // Bubble 11
+  push();
+  noStroke();
+  fill(random(100, 255), random(50, 200), random(150, 255));
+  ellipse(bubble11.x, bubble11.y, bubble11.size);
+  pop();
+
    
 // Bubble movement
   
@@ -245,6 +258,10 @@ function draw() {
 
   bubble10.x += random(-2, 2);
   bubble10.y += random(-1, -0.2);
+
+  bubble11.x += random(-2, 2);
+  bubble11.y += random(-0.7, -0.1);
+ 
 
 
 
