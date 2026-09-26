@@ -46,5 +46,12 @@ rect(30, 275, 45, 120);
 rect(565, 275, 45, 120);
 pop();
 
+//leaves 
+push();
+noStroke();
+fill("#da4e2c");
+ellipse(587, 250, 180, 145);
+ellipse(52, 250, 180, 145);
+pop(); 
 
 }
