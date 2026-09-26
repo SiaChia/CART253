@@ -38,3 +38,5 @@ Using variables in these prototypes really took them to the next level. They wen
 As fun as this looks, it took a lot of effort and work. I found myself working on this assignment for hours on end and trying to understand how things worked. Math and coordinates aren’t really my strong suit, so that’s where I found myself struggling the most. One thing I will say though, is how good it felt after I figured out something or completed a prototype. It was seriously the best feeling ever!
 
 After completing this assignment, I am excited to learn more about variables and how I can incorporate them into my projects. Furthermore, I’m curious if I could potentially create interactive mini video games by using variables. This would be awesome as I personally want to try creating a video game that my friends and I can enjoy. 
+
+![The Witch's Cauldron](./images/The%20Witch's%20Cauldron.png)
