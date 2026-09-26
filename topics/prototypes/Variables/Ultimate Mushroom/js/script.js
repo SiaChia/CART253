@@ -21,13 +21,22 @@ createCanvas(640,480);
 function draw() {
 background("#e77c25")
 
-//land
+// Sun 
 push();
-stroke("#fc7e4c");
+noStroke();
+fill("#ecc884");
+ellipse(320, 380, 155, 140);
+pop(); 
+
+// land
+push();
+stroke("#fc9b4c");
 strokeWeight(8); 
 fill("#c74c1b");
-rect(0, 390, 650, 110);   
+rect(-4, 390, 800, 200);   
 pop(); 
+
+
 
 
 
