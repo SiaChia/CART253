@@ -35,5 +35,9 @@
 • [Weird Unsettling Face code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/instructions/Weird%20Unsettling%20Face) 
 
 
+### Prototyping Variables 
+
+
+
 
 
