@@ -58,7 +58,7 @@ ellipse(52, 250, 180, 145);
 pop(); 
 
 //Mushroom Growth
-mushroomSize += 0.1;
+mushroomSize += 0.05;
 
 //Mushroom
 
@@ -66,7 +66,14 @@ mushroomSize += 0.1;
 push();
 noStroke();
 fill("#b49569");
-rect(305, 390 - mushroomSize, 30, mushroomSize);
+rect(305, 365 - mushroomSize, 30, mushroomSize + 25);
 pop(); 
+
+//Top of mushroom 
+push();
+noStroke();
+fill("#751111");
+ellipse(320, 365 - mushroomSize, mushroomSize * 3, mushroomSize);
+pop();
 
 }
