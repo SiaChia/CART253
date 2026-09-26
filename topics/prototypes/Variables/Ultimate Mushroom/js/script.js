@@ -31,14 +31,20 @@ pop();
 // land
 push();
 stroke("#fc9b4c");
-strokeWeight(8); 
-fill("#c74c1b");
+strokeWeight(5); 
+fill("#da4e2c");
 rect(-4, 390, 800, 200);   
 pop(); 
 
+//trees
 
-
-
+//trunks
+push()
+noStroke(); 
+fill("#da4e2c");
+rect(30, 275, 45, 120);
+rect(565, 275, 45, 120);
+pop();
 
 
 }
