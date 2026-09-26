@@ -11,7 +11,7 @@
  * Canvas for the drawinf of mushroom growing 
 */
 function setup() {
-
+createCanvas(640,480);
 }
 
 
@@ -19,5 +19,10 @@ function setup() {
  * Drawing of mushroom growimng and fall scene.
 */
 function draw() {
+
+    
+
+
+
 
 }
