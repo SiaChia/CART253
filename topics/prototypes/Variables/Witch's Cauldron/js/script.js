@@ -12,67 +12,67 @@
 
  let bubble = {
   x: 280,
-  y: 280,
+  y: 345,
   size: 15,
 };
 
 let bubble2 = {
   x: 320,
-  y: 270,
+  y: 345,
   size: 25,
 };
   
 let bubble3 = {
   x: 360,
-  y: 280,
+  y: 345,
   size: 10,
 };
 
-let bubble4 = {
+let bubble4 = { 
   x: 300,
-  y: 250,
+  y: 345, 
   size: 18,
 };
 
 let bubble5 = {
   x: 350,
-  y: 240,
+  y: 345,
   size: 12,
 };
 
 let bubble6 = {
   x: 250,
-  y: 275,
+  y: 345,
   size: 14
 };
 
 let bubble7 = {
   x: 390,
-  y: 240,
+  y: 345,
   size: 8
 };
 
 let bubble8 = { 
   x: 270, 
-  y: 240, 
+  y: 345,
   size: 8, 
 };
 
 let bubble9 = { 
   x: 340, 
-  y: 220, 
+  y: 345,
   size: 15, 
 };
 
 let bubble10 = { 
   x: 380, 
-  y: 230, 
+  y: 345,
   size: 9, 
 };
 
 let bubble12 = { 
   x: 410, 
-  y: 250, 
+  y: 345, 
   size: 13, 
 };
 
