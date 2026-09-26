@@ -44,4 +44,9 @@
 
 • [Floating Ghost code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Variables/Floating%20Ghost) 
 
+#### The Witch's Cauldron 
+![The Witch's Cauldron](./images/The%20Witch's%20Cauldron.png)
 
+• [The Witch's Cauldron website link](https://siachia.github.io/CART253/topics/prototypes/Variables/The%20Witch's%20Cauldron/)
+
+• [The Witch's Cauldron code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Variables/The%20Witch's%20Cauldron) 
