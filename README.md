@@ -50,3 +50,10 @@
 • [The Witch's Cauldron website link](https://siachia.github.io/CART253/topics/prototypes/Variables/The%20Witch's%20Cauldron/)
 
 • [The Witch's Cauldron code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Variables/The%20Witch's%20Cauldron) 
+
+#### Ultimate Mushroom 
+![Ultimate Mushroom](./images/Ultimate%20Mushroom.png)
+
+• [Ultimate Mushroom website link](https://siachia.github.io/CART253/topics/prototypes/Variables/Ultimate%20Mushroom/)
+
+• [Ultimate Mushroom code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Variables/Ultimate%20Mushroom)
