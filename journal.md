@@ -16,7 +16,7 @@
 
 ## Tuesday, September 22nd, 2026 
 
-### Prototype: Instructions Assignment  
+### Prototyping: Instructions Assignment  
 <p> When creating three different distinct prototypes, I found myself having a lot of fun. It was overall easy and there weren’t any times that I felt frustrated. The only thing that was tricky for me, was placing the shapes the way I wanted them to be. </p>
 
 <p>Before this assignment, I never knew you could have the freedom of coding any weird shape you wanted. By coding drawings in JavaScript, I learned how to create different shapes and used coordinates to place them. I loved experimenting and creating weird shapes especially with my abstract prototype “Pink Space Portal”. I really liked that I could use hex colours to choose which colour I wanted to use for my shapes or canvas.</p>
@@ -26,3 +26,8 @@
 <p> I honestly enjoyed drawing in JavaScript as it wasn’t complicated to understand. I am proud of myself as I was able to code different drawings without struggling much. I hope that with these prototypes I created, I could maybe use them for a future big project or maybe a video game. I hope that everyone looking at this enjoys these prototypes!</p>
 
 ![PeanuttheBunny](./images/Peanut%20The%20Bunny.png) 
+
+
+## Tuesday, September 29th, 2026
+
+### Prototyping: Variables Assignment 
