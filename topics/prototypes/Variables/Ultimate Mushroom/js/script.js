@@ -7,6 +7,9 @@
 
 "use strict";
 
+//Making the action for mushroom
+let mushroomSize = 20;
+
 /**
  * Canvas for the drawinf of mushroom growing 
 */
@@ -52,6 +55,18 @@ noStroke();
 fill("#da4e2c");
 ellipse(587, 250, 180, 145);
 ellipse(52, 250, 180, 145);
+pop(); 
+
+//Mushroom Growth
+mushroomSize += 0.1;
+
+//Mushroom
+
+// Stem
+push();
+noStroke();
+fill("#b49569");
+rect(305, 390 - mushroomSize, 30, mushroomSize);
 pop(); 
 
 }
