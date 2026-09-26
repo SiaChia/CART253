@@ -36,8 +36,10 @@
 
 
 ### Prototyping Variables 
+![Floating Ghost](./images/Floating%20Ghost.png)
 
+• [Floating Ghost website link](https://siachia.github.io/CART253/topics/prototypes/Variables/Floating%20Ghost/)
 
-
+• [Floating Ghost code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Variables/Floating%20Ghost) 
 
 
