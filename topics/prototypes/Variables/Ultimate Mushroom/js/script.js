@@ -19,7 +19,7 @@ createCanvas(640,480);
  * Drawing of mushroom growimng and fall scene.
 */
 function draw() {
-
+background("#e77c25")
     
 
 
