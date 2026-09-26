@@ -20,7 +20,14 @@ createCanvas(640,480);
 */
 function draw() {
 background("#e77c25")
-    
+
+//land
+push();
+stroke("#fc7e4c");
+strokeWeight(8); 
+fill("#c74c1b");
+rect(0, 390, 650, 110);   
+pop(); 
 
 
 
