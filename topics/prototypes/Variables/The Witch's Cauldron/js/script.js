@@ -242,7 +242,6 @@ function draw() {
   bubble3.y += random(-1, 0.1); 
 
   //bubble 4
-
   bubble4.x += random(-2, 2); 
   bubble4.y += random(-1.5, 0.2); 
 
@@ -254,21 +253,27 @@ function draw() {
   bubble6.x += random(-2, 2);
   bubble6.y += random(-1, 0.5);
 
+  // bubble 7
   bubble7.x += random(-2, 2);
   bubble7.y += random(-0.1, -0.5);
 
+  // bubble 8
   bubble8.x += random(-2, 2);
   bubble8.y += random(-0.2, -0.5);
 
+  //bubble 9
   bubble9.x += random(-2, 2);
   bubble9.y += random(-0.8, 0.5);
 
+  //bubble 10
   bubble10.x += random(-2, 2);
   bubble10.y += random(-1, -0.2);
 
+  // bubble 11 
   bubble11.x += random(-2, 2);
   bubble11.y += random(-0.7, -0.1);
 
+ // bubble 12 
   bubble12.x += random(-2, 2);
   bubble12.y += random(-1, -0.2);
 
