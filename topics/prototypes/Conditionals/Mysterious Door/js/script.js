@@ -32,15 +32,6 @@ function draw() {
   // Background colour of canvas 
   background("#412131");
 
-  
-  // Title screen thing
-  push();
-  fill("#c8b8c4");
-  noStroke();
-  textAlign(CENTER, CENTER);
-  textSize(20);
-  
-
   // Floor
   push();
   stroke("#160e0f");
@@ -51,21 +42,22 @@ function draw() {
 
   // Door frame
   push();
-  stroke("#0e0a09");
+  noStroke();
   strokeWeight(2);
   fill("#331d1d");
+  rect(190, 70, 260, 330);
+  pop();
+
+ // Closed door condition
+  if(doorOpen==false){
+
+ // Closed door
+ push();
+ stroke("#241315");
+  strokeWeight(6);
+  fill("#472a2a");
   rect(210, 90, doorWidth, doorHeight);
   pop();
 
-// Door Closed
-drawDoorClosed(); {
-
-
-
-
-
-
-}
-
-
+ }
 }
