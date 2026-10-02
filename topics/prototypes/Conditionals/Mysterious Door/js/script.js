@@ -12,13 +12,14 @@
  * Sets up the canvas for Mysterious door with creepy eyes.
  */
 function setup() {
-
+createCanvas(640, 480);
+background("#350e21");
 }
 
 
 /**
  * Draws the Mysterious door and its creepy eyes.
- */
+  */
 function draw() {
 
 }
