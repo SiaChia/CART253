@@ -76,9 +76,30 @@ function draw() {
   ellipse(390, 250, 35, 35);
   pop(); 
     
-
-
-
-
+  } else {
+ 
+  // Black inside of the doorway 
+  push();
+  noStroke();
+  fill("#000000");
+  rect(210, 90, doorWidth, doorHeight);
+  pop();
+ 
+ // Eyes
+ push();
+ fill("#eee8e3");
+ noStroke();
+ ellipse(270, 220, 45, 30);
+ ellipse(370, 220, 45, 30);
+ pop(); 
  }
 }
+function mousePressed() {
+if (mouseX > 210 && mouseX < 430 &&
+mouseY > 90 && mouseY < 390) {
+doorOpen = true; 
+} 
+
+}
+
+
