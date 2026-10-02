@@ -8,6 +8,13 @@
 
 "use strict";
 
+// Variables for door and eyes 
+let doorOpen=false;
+let doorWidth=220;
+let doorHeight=300;
+let eyeSize=20;
+
+
 /**
  * Sets up the canvas for Mysterious door with creepy eyes.
  */
