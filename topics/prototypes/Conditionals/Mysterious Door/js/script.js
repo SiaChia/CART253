@@ -32,6 +32,15 @@ function draw() {
   // Background colour of canvas 
   background("#412131");
 
+  
+  // Title screen thing
+  push();
+  fill("#c8b8c4");
+  noStroke();
+  textAlign(CENTER, CENTER);
+  textSize(20);
+  
+
   // Floor
   push();
   stroke("#160e0f");
@@ -48,6 +57,15 @@ function draw() {
   rect(210, 90, doorWidth, doorHeight);
   pop();
 
+// Door Closed
+drawDoorClosed(); {
+
+
+
+
+
+
+}
 
 
 }
