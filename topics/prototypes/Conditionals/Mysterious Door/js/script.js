@@ -68,6 +68,17 @@ function draw() {
   rect(230, 235, 180, 125);
   pop();
 
+ // Door knob 
+  push();
+  fill("#d1a84c");
+  stroke("#5c451b");
+  strokeWeight(3);
+  ellipse(390, 250, 35, 35);
+  pop(); 
+    
+
+
+
 
  }
 }
