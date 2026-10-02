@@ -39,10 +39,14 @@ function draw() {
   fill("#251517");
   rect(0, 390, 640, 90);
   pop();
- 
 
-
-
+  // Door frame
+  push();
+  stroke("#0e0a09");
+  strokeWeight(2);
+  fill("#331d1d");
+  rect(210, 90, doorWidth, doorHeight);
+  pop();
 
 
 
