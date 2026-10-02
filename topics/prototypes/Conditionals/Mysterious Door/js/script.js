@@ -52,12 +52,22 @@ function draw() {
   if(doorOpen==false){
 
  // Closed door
- push();
- stroke("#241315");
+  push();
+  stroke("#241315");
   strokeWeight(6);
   fill("#472a2a");
   rect(210, 90, doorWidth, doorHeight);
   pop();
+
+  // Door panels
+  push();
+  noFill();
+  stroke("#2c181a");
+  strokeWeight(5);
+  rect(230, 115, 180, 100);
+  rect(230, 235, 180, 125);
+  pop();
+
 
  }
 }
