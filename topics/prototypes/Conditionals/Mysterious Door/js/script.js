@@ -20,7 +20,7 @@ let eyeSize=20;
  */
 function setup() {
 createCanvas(640, 480);
-background("#350e21");
+
 }
 
 
@@ -28,5 +28,22 @@ background("#350e21");
  * Draws the Mysterious door and its creepy eyes.
   */
 function draw() {
+
+  // Background colour of canvas 
+  background("#412131");
+
+  // Floor
+  push();
+  stroke("#160e0f");
+  strokeWeight(2);
+  fill("#251517");
+  rect(0, 390, 640, 90);
+  pop();
+ 
+
+
+
+
+
 
 }
