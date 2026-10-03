@@ -103,13 +103,28 @@ function draw() {
   ellipse(370, 220, 15, 20);
   pop(); 
  }
+
+ 
+ // Bottom text
+  push();
+  fill("#c9adb8");
+  noStroke();
+  textAlign(CENTER, CENTER);
+  textSize(14); 
+
+  if(doorOpen==false){
+  text("CLICK TO OPEN THE DOOR IF YOU DARE...", 320,430);
+  } else {
+  text("SOMETHING IS WATCHING YOU...", 320,430);
 }
+}
+ 
 function mousePressed() {
 if (mouseX > 210 && mouseX < 430 &&
 mouseY > 90 && mouseY < 390) {
 doorOpen = true; 
 } 
-
 }
+
 
 
