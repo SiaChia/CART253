@@ -78,20 +78,30 @@ function draw() {
     
   } else {
  
-  // Black inside of the doorway 
+ // Black inside of the doorway 
   push();
   noStroke();
   fill("#000000");
   rect(210, 90, doorWidth, doorHeight);
   pop();
  
+  
+ //Creepy eyes 
  // Eyes
- push();
- fill("#eee8e3");
- noStroke();
- ellipse(270, 220, 45, 30);
- ellipse(370, 220, 45, 30);
- pop(); 
+  push();
+  fill("#eee8e3");
+  noStroke();
+  ellipse(270, 220, 45, 30);
+  ellipse(370, 220, 45, 30);
+  pop(); 
+
+ // Pupils
+  push();
+  noStroke();
+  fill("#d80101");
+  ellipse(270, 220, 15, 20);
+  ellipse(370, 220, 15, 20);
+  pop(); 
  }
 }
 function mousePressed() {
