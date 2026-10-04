@@ -11,7 +11,7 @@
  * Canvas for loot chest
 */
 function setup() {
-
+createCanvas(500, 500);
 }
 
 
@@ -19,5 +19,5 @@ function setup() {
  * Drawing of the chest that opens up and gives loot. 
 */
 function draw() {
-
+background("#ffade6");
 }
