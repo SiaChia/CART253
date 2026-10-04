@@ -40,7 +40,22 @@ function draw() {
       text("Click on chest to reveal your loot!", 250, 100);
       pop();
     } 
-        
+
+    // Chest
+    push();
+    fill("#8b542f");
+    stroke("#4a2b1a");
+    strokeWeight(6);
+    
+    // Chest bottom
+    rect(150, 280, 200, 100);
+    
+    // Chest lid
+    if (chestOpen === false) {
+        arc(250, 280, 200, 100, PI, TWO_PI);
+        pop();
+  }
+
 
 
 
