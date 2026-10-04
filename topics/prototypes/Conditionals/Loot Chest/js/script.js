@@ -24,7 +24,30 @@ createCanvas(500, 500);
  * Drawing of the chest that opens up and gives loot. 
 */
 function draw() {
-background("#ffade6");
+
+    //Background color
+    background("#d678ba");
+
+    //Text
+    push();
+    noStroke();
+    fill("#ffffff");
+    textSize(20);
+    textAlign(CENTER, CENTER);
+    
+
+    if(chestOpen === false) {
+      text("Click on chest to reveal your loot!", 250, 100);
+      pop();
+    } 
+        
+
+
+
+
+
+
+    
 
 
 }
