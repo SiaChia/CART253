@@ -8,7 +8,7 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Canvas for loot chest
 */
 function setup() {
 
@@ -16,7 +16,7 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Drawing of the chest that opens up and gives loot. 
 */
 function draw() {
 
