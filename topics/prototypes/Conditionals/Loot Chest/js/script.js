@@ -7,6 +7,11 @@
 
 "use strict";
 
+//Variables to make lootchest work
+
+let treasure;
+let chestOpen = false;
+
 /**
  * Canvas for loot chest
 */
@@ -20,4 +25,6 @@ createCanvas(500, 500);
 */
 function draw() {
 background("#ffade6");
+
+
 }
