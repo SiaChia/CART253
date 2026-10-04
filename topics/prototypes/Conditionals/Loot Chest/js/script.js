@@ -1,9 +1,8 @@
 /**
- * Title of Project
- * Author Name
+ * Loot Chest 
+ * Athanasia (Sia) Iliopoulos 
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This will be a fun loot chest. Everytime it is opened it will either be gold or a skull. 
  */
 
 "use strict";
