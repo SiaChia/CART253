@@ -52,9 +52,18 @@ function draw() {
     
     // Chest lid
     if (chestOpen === false) {
-        arc(250, 280, 200, 100, PI, TWO_PI);
-        pop();
-  }
+         arc(250, 280, 200, 100, PI, TWO_PI);
+         pop();
+        }
+    
+   // Lock
+    push();
+    fill("#f5d76e");
+    stroke("#4a2b1a");
+    strokeWeight(4);
+    rect(235, 270, 30, 35);
+    pop();
+
 
 
 
