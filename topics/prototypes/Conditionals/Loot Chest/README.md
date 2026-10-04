@@ -1,12 +1,12 @@
-# TITLE OF PROJECT
+# Loot Chest 
 
-AUTHOR NAME
+Athanasia (Sia) Iliopoulos 
 
 [View this project online](URL_FOR_THE_RUNNING_PROJECT)
 
-## Description
+## This will be a fun loot chest. Everytime it is opened it will either be gold or a skull. 
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+
 
 ## Attribution
 
