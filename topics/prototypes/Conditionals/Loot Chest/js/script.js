@@ -97,7 +97,7 @@ function draw() {
             noStroke();
             rect(265, 210, 20, 8);
             
-        }
+         }
 
           // Skull
           if (treasure === 2) {
@@ -118,13 +118,14 @@ function draw() {
            ellipse(238, 215, 12, 15);
            ellipse(262, 215, 12, 15);
 
+           //Skull nose
+           triangle(250, 225, 245, 235, 255, 235);
+
             pop();
           }
 
-
-
-    }
-}
+       }
+     }
         
  //opening chest action when clicked
  function mousePressed() { 
