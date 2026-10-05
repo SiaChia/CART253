@@ -61,3 +61,10 @@
 
 
 ### Prototyping: Conditions 
+
+#### Mysterious Door
+![Mysterious Door](./images/Mysterious%20Door.png)
+
+• [Mysterious Door website link](https://siachia.github.io/CART253/topics/prototypes/Conditionals/Mysterious%20Door/)
+
+•  [Mysterious Door code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Conditionals/Mysterious%20Door)
