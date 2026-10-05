@@ -122,11 +122,6 @@ function draw() {
     candleBlown = true;
   }
   
-
- 
-
-
-
 }
 
 
