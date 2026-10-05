@@ -78,6 +78,16 @@ function draw() {
   line(240, 235, 250, 240);
   line(390, 250, 400, 245);
   pop();
+
+  // Candle
+  push();
+  fill("#c3f0ff");
+  noStroke();
+  strokeWeight(4);
+  rect(310, 150, 20, 75);
+  pop();
+
+
 }
 
   
