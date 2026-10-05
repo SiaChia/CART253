@@ -37,9 +37,23 @@ function draw() {
     
 
     if(chestOpen === false) {
-      text("Click on chest to reveal your loot!", 250, 100);
-      pop();
+      text("Click on the chest to reveal your loot!", 250, 100);
+      
     } 
+
+    if (chestOpen === true) {
+        if (treasure === 1) {
+            text("You found gold!", 250, 100);
+            
+        }
+
+        if (treasure === 2) {
+            text("Oh no! You found a skull!", 250, 100);
+        }
+        }
+        pop();
+
+
 
     // Chest
     push();
@@ -52,26 +66,52 @@ function draw() {
     
     // Chest lid
     if (chestOpen === false) {
-         arc(250, 280, 200, 100, PI, TWO_PI);
-         pop();
+        arc(250, 280, 200, 100, PI, TWO_PI);
         }
+        pop();
     
    // Lock
+   if (chestOpen === false) {
     push();
     fill("#f5d76e");
     stroke("#4a2b1a");
     strokeWeight(4);
     rect(235, 270, 30, 35);
     pop();
+  }
 
+   // loot
+    if (chestOpen === true) {
 
+        //Gold 
+        if (treasure === 1) {
+            push();
+            stroke("#ffffff");
+            fill("#ffcc5d");
+            rect(210, 200, 80, 30);
+            pop();
 
+            //Gold shine
+            push();
+            fill("#ffffff");
+            noStroke();
+            rect(265, 210, 20, 8);
+            pop();
+        }
 
+    }
+}
+        
+ //opening chest action when clicked
+ function mousePressed() { 
+    if (mouseX > 150 && mouseX < 350 &&
+        mouseY > 230 && mouseY < 380) {
 
+      chestOpen = true;
 
+      //Randomly choose gold or skull
+      treasure = int(random(1, 3));
 
-
-    
-
+        }
 
 }
