@@ -26,14 +26,23 @@ function draw() {
  // Background color 
   background("#f6c6d8");
 
-  // Title
+  // Text
   push();
   textSize(30);
   textAlign(CENTER);
   stroke("#ff43b0");
   strokeWeight(2);
   fill("#2e1c1c");
-  text("Make a Wish!", 320, 70);
+
+  
+  if (candleBlown === false) {
+    (text("Make a Wish!", 320, 70));
+  }
+
+  if (candleBlown === true) {
+    text("Happy Birthday!", 320, 70);
+  }
+  
   pop();
 
   // Cake 
@@ -101,11 +110,24 @@ function draw() {
     ellipse(320, 135, 10, 20);
     pop();
   }
+}
+ 
+  /**
+ * Blows out the candle when the flame is clicked.
+ */
+ function mousePressed() {
+    if (mouseX > 290 && mouseX < 350 &&
+        mouseY > 100 && mouseY < 150) {
+
+    candleBlown = true;
+  }
+  
 
  
 
 
 
 }
+
 
   
