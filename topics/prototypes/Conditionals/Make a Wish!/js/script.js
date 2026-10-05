@@ -8,7 +8,7 @@
 
 "use strict";
 // Variables for the flame
-let flamesize = 35; 
+let candleblownout = false; 
 
 /**
  * Canvas for the birthday cake. 
