@@ -7,6 +7,8 @@
  */
 
 "use strict";
+// Variables for the flame
+let flamesize = 35; 
 
 /**
  * Canvas for the birthday cake. 
@@ -23,4 +25,6 @@ function draw() {
 
  // Background color 
   background("#569279");
+
+  
 }
