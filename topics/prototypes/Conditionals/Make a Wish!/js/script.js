@@ -86,6 +86,22 @@ function draw() {
   rect(310, 150, 20, 75);
   pop();
 
+  // Flame
+  if (candleBlown === false) {
+    push();
+    noStroke();
+    
+    // Outer flame
+    fill("#ff9d2e");
+    ellipse(320, 130, 22, 40);
+    triangle(320, 98, 310, 138, 330, 138);
+    
+    // Inner flame
+    fill("#ffe98a");
+    ellipse(320, 135, 10, 20);
+    pop();
+  }
+
  
 
 
