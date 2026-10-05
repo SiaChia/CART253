@@ -72,6 +72,13 @@
 #### Loot Chest 
 ![Loot Chest](./images/Loot%20Chest.png)
 
-•[Loot Chest website link](https://siachia.github.io/CART253/topics/prototypes/Conditionals/Loot%20Chest/)
+• [Loot Chest website link](https://siachia.github.io/CART253/topics/prototypes/Conditionals/Loot%20Chest/)
 
-•[Loot Chest code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Conditionals/Loot%20Chest)
+• [Loot Chest code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Conditionals/Loot%20Chest)
+
+#### Make a Wish!
+![Make a Wish!](./images/Make%20a%20Wish!.png)
+
+• [Make a Wish! website link](https://siachia.github.io/CART253/topics/prototypes/Conditionals/Make%20a%20Wish!/)
+
+• [Male a Wish!](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Conditionals/Make%20a%20Wish!)
