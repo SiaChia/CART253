@@ -1,9 +1,9 @@
 /**
- * Title of Project
- * Author Name
+ * Make a Wish!
+ * Athanasia (Sia) Iliopoulos 
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This is a birthday cake where you can blow out a candle on your birthday and make a wish.
+ * 
  */
 
 "use strict";
