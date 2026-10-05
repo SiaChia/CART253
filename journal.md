@@ -40,3 +40,14 @@ As fun as this looks, it took a lot of effort and work. I found myself working o
 After completing this assignment, I am excited to learn more about variables and how I can incorporate them into my projects. Furthermore, I’m curious if I could potentially create interactive mini video games by using variables. This would be awesome as I personally want to try creating a video game that my friends and I can enjoy. 
 
 ![The Witch's Cauldron](./images/The%20Witch's%20Cauldron.png)
+
+## Tuesday October 6th, 2026 
+
+### Prototyping: Conditionals
+I really enjoyed this assignment because it opened so many new possibilities!  By incorporating conditionals, I was able to turn my drawings into something that could be used as an idea for a video game. Coding with conditionals got complicated at times however, I’ve started to get the hang of it. 
+
+Prototyping with conditionals was fun! I found it interesting that I could make my drawings even more interactive than before. I am especially proud of the first prototype I made that’s called “Mysterious Door”. I think that one is my favourite so far because it has potential to be a great idea for a horror game. I never expected to be using words like “if” or symbols like greater than > and less than < to make things happen. It’s extremely cool that a few lines of code can turn your drawing to a possible mini-interactive game
+
+One thing that I found difficult about conditionals was trying to understand how to make things work. I felt like I could do so much more with my drawings, but I was struggling to fix bugs and make cool things happen. I also was making mistakes on my own, like forgetting the curly bracket and then wondering why my project would disappear.
+
+This assignment showed me how I could possibly start creating video games. There’s so much I want to learn from this and explore. I think that conditionals are useful as they make my projects feel more interactive and less predictable.  
