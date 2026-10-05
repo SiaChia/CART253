@@ -107,14 +107,18 @@ function draw() {
            fill("#ffffff");
            noStroke();
            ellipse(250, 215, 70, 65);
-           pop();
+           
 
            //Skull Jaw
            noStroke();
            rect(230, 235, 40, 25);
-              
 
-        pop();
+           // Skull eyes
+           fill("#000000");
+           ellipse(238, 215, 12, 15);
+           ellipse(262, 215, 12, 15);
+
+            pop();
           }
 
 
