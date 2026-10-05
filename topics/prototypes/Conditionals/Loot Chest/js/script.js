@@ -99,6 +99,19 @@ function draw() {
             pop();
         }
 
+          // Skull
+          if (treasure === 2) {
+          push();
+
+         // Skull head
+           fill("#eeeeee");
+           noStroke();
+           ellipse(250, 215, 70, 65);
+           pop();
+          }
+
+
+
     }
 }
         
@@ -114,4 +127,4 @@ function draw() {
 
         }
 
-}
+}    
