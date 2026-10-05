@@ -42,4 +42,17 @@ function draw() {
   rect(140, 245, 360, 200);
   pop();
 
+  // Cake icing
+push();
+fill("#f8e6ee");
+noStroke();
+rect(125, 225, 390, 45, 50);
+rect(130, 325, 380, 35, 50);
+
+// Icing drips
+ellipse(170, 255, 60, 60);
+ellipse(320, 255, 60, 60);
+ellipse(470, 255, 60, 60);
+
+pop();
 }
