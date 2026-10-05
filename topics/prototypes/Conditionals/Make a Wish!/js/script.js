@@ -24,7 +24,13 @@ function setup() {
 function draw() {
 
  // Background color 
-  background("#569279");
+  background("#001b15");
 
-  
+  // Title
+  push();
+  textSize(30);
+  textAlign(CENTER);
+  fill("#b7ffe2");
+  text("Make a Wish!", 320, 70);
+  pop();
 }
