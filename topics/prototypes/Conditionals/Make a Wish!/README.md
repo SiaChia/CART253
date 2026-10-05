@@ -1,12 +1,12 @@
-# TITLE OF PROJECT
+# Make a Wish!
 
-AUTHOR NAME
+Athanasia (Sia) iliopoulos 
 
 [View this project online](URL_FOR_THE_RUNNING_PROJECT)
 
-## Description
+## This is a birthday cake where you can blow out a candle on your birthday and make a wish. 
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+
 
 ## Attribution
 
