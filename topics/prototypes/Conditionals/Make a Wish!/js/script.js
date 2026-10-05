@@ -8,7 +8,7 @@
 
 "use strict";
 // Variables for the flame
-let candleblownout = false; 
+let candleBlown = false; 
 
 /**
  * Canvas for the birthday cake. 
@@ -82,10 +82,12 @@ function draw() {
   // Candle
   push();
   fill("#c3f0ff");
-  noStroke();
-  strokeWeight(4);
+  stroke("#6694b1");
   rect(310, 150, 20, 75);
   pop();
+
+ 
+
 
 
 }
