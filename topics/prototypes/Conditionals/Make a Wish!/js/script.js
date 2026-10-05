@@ -24,13 +24,22 @@ function setup() {
 function draw() {
 
  // Background color 
-  background("#001b15");
+  background("#f6c6d8");
 
   // Title
   push();
   textSize(30);
   textAlign(CENTER);
-  fill("#b7ffe2");
+  fill("#2e1c1c");
   text("Make a Wish!", 320, 70);
   pop();
+
+  // Cake 
+  push();
+  fill("#421b1b");
+  stroke("#5c2938");
+  strokeWeight(5);
+  rect(140, 245, 360, 200);
+  pop();
+
 }
