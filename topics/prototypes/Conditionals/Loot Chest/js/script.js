@@ -96,7 +96,7 @@ function draw() {
             fill("#ffffff");
             noStroke();
             rect(265, 210, 20, 8);
-            pop();
+            
         }
 
           // Skull
@@ -104,10 +104,17 @@ function draw() {
           push();
 
          // Skull head
-           fill("#eeeeee");
+           fill("#ffffff");
            noStroke();
            ellipse(250, 215, 70, 65);
            pop();
+
+           //Skull Jaw
+           noStroke();
+           rect(230, 235, 40, 25);
+              
+
+        pop();
           }
 
 
