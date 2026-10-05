@@ -9,16 +9,18 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Canvas for the birthday cake. 
 */
 function setup() {
-
+  createCanvas(640, 400);
 }
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Drawing of cake and candle being blown out. 
 */
 function draw() {
 
+ // Background color 
+  background("#569279");
 }
