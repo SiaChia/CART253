@@ -9,16 +9,17 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * This will be the canvas for the growing pumpkin game. 
 */
 function setup() {
-
+createCanvas(640, 500);
 }
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * This will be the drawing of the pumpkin and the backrgoudn colour. 
 */
 function draw() {
+background("#00a0fd")
 
 }
