@@ -6,6 +6,9 @@
  * 
  */
 
+  // Pumpkin size
+ let pumpkinSize = 100;
+
 "use strict";
 
 /**
@@ -19,7 +22,20 @@ createCanvas(640, 500);
 /**
  * This will be the drawing of the pumpkin and the backrgoudn colour. 
 */
-function draw() {
-background("#00a0fd")
+ function draw() {
+ //Background colour
+    background("#87c9ff");
+
+    //Pumpkin
+    push();
+    noStroke()
+    fill("#eb6912");
+    ellipse(320, 280, pumpkinSize, pumpkinSize * 0.8);
+    pop(); 
+ 
+    
+ 
+
+
 
 }
