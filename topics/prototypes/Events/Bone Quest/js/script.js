@@ -12,13 +12,13 @@
  * Canvas setup for dog trying to find a bone 
 */
 function setup() {
-    createCanvas(400, 400)
+    createCanvas(500, 500)
 }
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * This will be the colour of my background and the drawing of the dog and the bone
 */
 function draw() {
-
+    background("#48ab3f")
 }
