@@ -57,10 +57,10 @@ createCanvas(640, 500);
     fill("#554c30");
     quad(320 - pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.06, 280 - pumpkinSize * 0.65, 320 - pumpkinSize * 0.03, 280 - pumpkinSize * 0.7);
     pop(); 
- }
+ 
  
   // Game rules for timer 
-if (gameStarted === true && gameOver === false) {
+ if (gameStarted === true && gameOver === false) {
   timeLeft = 5 - floor((millis() - startTime) / 1000);
  
   if (timeLeft <= 0) {
@@ -75,19 +75,71 @@ if (gameStarted === true && gameOver === false) {
     }
   }
 }
- 
- // event to start the game 
- function mousePressed() {
+ // Game instructions
+  push();
+ textAlign(CENTER);
+  noStroke();
+  fill("#263447");
+
+  if (gameStarted === false && gameOver === false) {
+    textSize(26);
+    text("GROW A PUMPKIN!", 320, 40);
+    textSize(16);
+    text("Click to start!", 320, 90);
+    text("Scroll your mouse wheel to grow the pumpkin.", 320, 65);
+  }
+
+  // Timer text
+  if (gameStarted === true && gameOver === false) {
+    textSize(24);
+    text("Time: " + timeLeft, 320, 40);
+    textSize(16);
+    text("Keep scrolling!", 320, 70);
+  }
+
+  // Win or lose message
+  if (gameOver === true) {
+    textSize(30);
+
+    if (won === true) {
+      fill("#245b2a");
+      text("YOU WIN!", 320, 90);
+     
+     } else {
+      fill("#9b2222");
+      text("You Lose!", 320, 90);
+
+    }
+
+    fill("#263447");
+    textSize(16);
+    text("Click to play again!", 320, 110);
+    pop();
+  }
+}
+
+// Event to Start or restart the game
+function mousePressed() {
   if (gameStarted === false) {
+    pumpkinSize = 100;
+    timeLeft = 5;
+    gameOver = false;
+    won = false;
     gameStarted = true;
     startTime = millis();
   }
- }
- // Event Grow pumpkin with mouse wheel 
+}
+
+ // Event to grow pumpkin with mouse wheel 
  function mouseWheel() {
-  pumpkinSize = pumpkinSize + 1;
+  if (gameStarted === true && gameOver === false) {
+    pumpkinSize = pumpkinSize + 1;
+  
   return false;
  }
+ }
+
+
  
     
  
