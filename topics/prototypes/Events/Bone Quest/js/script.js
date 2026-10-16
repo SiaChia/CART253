@@ -18,6 +18,10 @@ let dogSpeed = 10;
 let boneX = 150;
 let boneY = 250;
 
+// Game variables 
+let gameStarted = false;
+let bonefound = false;
+
 
 /**
  * Canvas setup for dog trying to find a bone 
