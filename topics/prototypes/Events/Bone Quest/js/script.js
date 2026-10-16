@@ -10,7 +10,7 @@
 
 
 // Variables for dog 
-let dogX = 500;
+let dogX = 400;
 let dogY = 80;
 let dogSpeed = 10;
 
@@ -20,7 +20,7 @@ let boneY = 250;
 
 // Game variables 
 let gameStarted = false;
-let bonefound = false;
+let boneFound = false;
 
 
 /**
@@ -59,13 +59,19 @@ function draw() {
         // Start Instructions
         textFont("monospace")
         textSize(18);
-        text("CLick to Start", 250, 150)
+        text("Click to Start", 250, 150)
+        pop();
+
+    } else {
+        push();
+        translate(dogX, dogY);
+        drawDog();
         pop();
     }
 }
 
 /** Click to start the game 
  */
-function mousepressed() {
+function mousePressed() {
     gameStarted = true;
 }
