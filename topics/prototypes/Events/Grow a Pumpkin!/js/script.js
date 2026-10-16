@@ -9,6 +9,15 @@
   // Pumpkin size
  let pumpkinSize = 100;
 
+ // Game screen variables
+ let gameStarted = false;
+ let gameOver =false;
+ let won = false;
+
+ // Timer 
+ let startTime = 0;
+ let timeLeft = 5; 
+
 "use strict";
 
 /**
@@ -49,7 +58,7 @@ createCanvas(640, 500);
     quad(320 - pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.06, 280 - pumpkinSize * 0.65, 320 - pumpkinSize * 0.03, 280 - pumpkinSize * 0.7);
     pop(); 
  }
- // Grow pumkin with mouse wheel 
+ // Grow pumpkin with mouse wheel 
  function mouseWheel() {
   pumpkinSize = pumpkinSize + 1;
   return false;
