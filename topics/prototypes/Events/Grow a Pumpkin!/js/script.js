@@ -28,9 +28,25 @@ createCanvas(640, 500);
 
     //Pumpkin
     push();
-    noStroke()
+    stroke("#963b00");
     fill("#eb6912");
     ellipse(320, 280, pumpkinSize, pumpkinSize * 0.8);
+    pop(); 
+
+  // Lines on the pumpkin
+     noFill();
+     stroke("#963b00");
+     strokeWeight(3); 
+     arc(320, 280, pumpkinSize * 0.3, pumpkinSize * 0.8, HALF_PI, PI + HALF_PI);
+     arc(320, 280, pumpkinSize * 0.6, pumpkinSize * 0.8, HALF_PI, PI + HALF_PI);
+     arc(320, 280, pumpkinSize * 0.3, pumpkinSize * 0.8, -HALF_PI, HALF_PI);
+     arc(320, 280, pumpkinSize * 0.6, pumpkinSize * 0.8, -HALF_PI, HALF_PI);
+
+    // Pumpkin stem 
+    push();
+    stroke("#38321e");
+    fill("#554c30");
+    quad(310, 245, 330, 245, 326, 215, 317, 210);-
     pop(); 
  
     
