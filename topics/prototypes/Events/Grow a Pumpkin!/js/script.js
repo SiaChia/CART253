@@ -58,6 +58,24 @@ createCanvas(640, 500);
     quad(320 - pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.06, 280 - pumpkinSize * 0.65, 320 - pumpkinSize * 0.03, 280 - pumpkinSize * 0.7);
     pop(); 
  }
+ 
+  // Game rules for timer 
+if (gameStarted === true && gameOver === false) {
+  timeLeft = 5 - floor((millis() - startTime) / 1000);
+ 
+  if (timeLeft <= 0) {
+    timeLeft = 0;
+    gameOver = true;
+    gameStarted = false;
+    
+    if (pumpkinSize >= 200) {
+      won = true;
+    } else {
+      won = false;
+    }
+  }
+}
+ 
  // event to start the game 
  function mousePressed() {
   if (gameStarted === false) {
