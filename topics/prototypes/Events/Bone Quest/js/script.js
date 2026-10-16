@@ -34,6 +34,31 @@ function setup() {
  * This will be the colour of my background and the drawing of the dog and the bone
 */
 function draw() {
-    background("#48ab3f")
+    // Background colour 
+    background("#54b44c")
+
+    //Title screen
+    if (gameStarted === false) {
+
+        //Title screen text settings
+        push();
+        textAlign(CENTER, CENTER);
+        noStroke();
+        fill("#131e15");
+
+        // Game Title
+        textFont("monoSpace")
+        textSize(40);
+        text("BONE QUEST", 250, 80);
+        pop();
+
+
+
+
+
+    }
+
+
+
 
 }
