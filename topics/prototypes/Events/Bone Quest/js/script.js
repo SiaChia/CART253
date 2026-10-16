@@ -9,10 +9,15 @@
 "use strict";
 
 
-//Variables for dog 
-let dogx = 500;
-let dogy = 80;
+// Variables for dog 
+let dogX = 500;
+let dogY = 80;
 let dogSpeed = 10;
+
+// Bone Variables
+let boneX = 150;
+let boneY = 250;
+
 
 /**
  * Canvas setup for dog trying to find a bone 
