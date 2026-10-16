@@ -58,7 +58,14 @@ createCanvas(640, 500);
     quad(320 - pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.06, 280 - pumpkinSize * 0.65, 320 - pumpkinSize * 0.03, 280 - pumpkinSize * 0.7);
     pop(); 
  }
- // Grow pumpkin with mouse wheel 
+ // event to start the game 
+ function mousePressed() {
+  if (gameStarted === false) {
+    gameStarted = true;
+    startTime = millis();
+  }
+ }
+ // Event Grow pumpkin with mouse wheel 
  function mouseWheel() {
   pumpkinSize = pumpkinSize + 1;
   return false;
