@@ -60,18 +60,12 @@ function draw() {
         textFont("monospace")
         textSize(18);
         text("CLick to Start", 250, 150)
-
-
-
         pop();
-
-
-
-
-
     }
+}
 
-
-
-
+/** Click to start the game 
+ */
+function mousepressed() {
+    gameStarted = true;
 }
