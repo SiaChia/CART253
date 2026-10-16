@@ -46,12 +46,14 @@ createCanvas(640, 500);
     push();
     stroke("#38321e");
     fill("#554c30");
-    quad(310, 245, 330, 245, 326, 215, 317, 210);-
+    quad(310, 245, 330, 245, 326, 215, 317, 210);
     pop(); 
+ }
+ // Grow pumkin with mouse wheel 
+ function mouseWheel() {
+  pumpkinSize = pumpkinSize + 5;
+  return false;
+ }
  
     
  
-
-
-
-}
