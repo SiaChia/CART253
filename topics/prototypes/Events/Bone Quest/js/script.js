@@ -8,6 +8,12 @@
 
 "use strict";
 
+
+//Variables for dog 
+let dogx = 500;
+let dogy = 80;
+let dogSpeed = 10;
+
 /**
  * Canvas setup for dog trying to find a bone 
 */
@@ -15,10 +21,10 @@ function setup() {
     createCanvas(500, 500)
 }
 
-
 /**
  * This will be the colour of my background and the drawing of the dog and the bone
 */
 function draw() {
     background("#48ab3f")
+
 }
