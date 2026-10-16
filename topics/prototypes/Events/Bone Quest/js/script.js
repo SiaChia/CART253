@@ -50,6 +50,14 @@ function draw() {
         textFont("monoSpace")
         textSize(40);
         text("BONE QUEST", 250, 80);
+
+        //Game description
+        textFont("monospace");
+        textSize(18);
+        text("Help the dog find its bone!", 250, 120);
+
+
+
         pop();
 
 
