@@ -2,7 +2,7 @@
  * Grow a Pumpkin!
  * Athanasia (Sia) Iliopoulos 
  * 
- * This is a mini game where you have to grow a pumpkin by scrolling. You will have 10 seconds to grow the pumpkin. 
+ * This is a mini game where you have to grow a pumpkin by scrolling. You will have 5 seconds to grow the pumpkin. 
  * 
  */
 
@@ -46,12 +46,12 @@ createCanvas(640, 500);
     push();
     stroke("#38321e");
     fill("#554c30");
-    quad(310, 245, 330, 245, 326, 215, 317, 210);
+    quad(320 - pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.1, 280 - pumpkinSize * 0.35, 320 + pumpkinSize * 0.06, 280 - pumpkinSize * 0.65, 320 - pumpkinSize * 0.03, 280 - pumpkinSize * 0.7);
     pop(); 
  }
  // Grow pumkin with mouse wheel 
  function mouseWheel() {
-  pumpkinSize = pumpkinSize + 5;
+  pumpkinSize = pumpkinSize + 1;
   return false;
  }
  
