@@ -6,7 +6,7 @@ Athanasia Iliopoulos
 
 ## Description
 
-This is a mini game where you have to grow a pumpkin by scrolling. You will have 10 seconds to grow the pumpkin. 
+This is a mini game where you have to grow a pumpkin by scrolling. You will have 5 seconds to grow the pumpkin. 
 
 ## Attribution
 
