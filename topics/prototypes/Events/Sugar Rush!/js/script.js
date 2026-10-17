@@ -12,7 +12,7 @@
  * Canvas for cookie game
 */
 function setup() {
-
+    createCanvas(500, 500);
 }
 
 
@@ -20,5 +20,5 @@ function setup() {
  * This will be a drawing of my cookie game and background colour
 */
 function draw() {
-
+    background("#fd9bb2");
 }
