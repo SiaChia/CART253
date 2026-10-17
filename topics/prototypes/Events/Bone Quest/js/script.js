@@ -86,6 +86,20 @@ function draw() {
             boneFound = true;
         }
 
+        // White flowers
+
+        // Flower 1
+        push()
+        noStroke();
+        fill("#fff5e6");
+        ellipse(260, 350, 20, 20);
+        fill("#f5d547");
+        ellipse(260, 350, 9, 9);
+        pop();
+
+
+
+
         // Bone drawing 
         push();
         noStroke();
@@ -110,8 +124,8 @@ function draw() {
         push();
         noStroke();
         fill("#286b32");
-        ellipse(boneX + 15, boneY, 55, 50);
-        ellipse(boneX + 35, boneY - 10, 45, 45);
+        ellipse(boneX + 20, boneY, 55, 50);
+        ellipse(boneX + 40, boneY - 10, 45, 45);
         ellipse(boneX + 50, boneY + 5, 40, 38);
         pop();
 
