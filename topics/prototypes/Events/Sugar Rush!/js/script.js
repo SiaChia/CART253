@@ -63,19 +63,32 @@ function draw() {
         textSize(20);
         text("Click to Start", 250, 290);
         pop();
-    }
-}
 
-function mousePressed() {
-    if (gameStarted === false) {
-        if (mouseX > 160 && mouseX < 340 &&
-            mouseY > 262 && mouseY < 317) {
+    } else {
 
-            gameStarted = true;
-            startTime = millis();
+        // Time Left
+        if (gameOver === false) {
+            timeLeft = 10 - (millis() - startTime) / 1000;
 
+            if (timeLeft <= 0) {
+                timeLeft = 0;
+                gameOver = true;
+            }
         }
     }
+
+    function mousePressed() {
+        if (gameStarted === false) {
+            if (mouseX > 160 && mouseX < 340 &&
+                mouseY > 262 && mouseY < 317) {
+
+                gameStarted = true;
+                startTime = millis();
+
+            }
+        }
+    }
+
 }
 
 
