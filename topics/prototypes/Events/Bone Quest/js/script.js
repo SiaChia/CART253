@@ -118,18 +118,30 @@ function drawDog() {
     ellipse(40, -7, 12, 7);
     pop();
 
-    //Ear
-    push();
-    noStroke();
-    fill("#754323")
-    ellipse(25, -15, 20, 50);
-    pop();
-
     //Tail
     push();
     stroke("#754323");
     strokeWeight(12);
     line(-40, -10, -55, -25);
+    pop();
+
+    // Legs
+    push();
+    noStroke();
+    fill("#874d29");
+
+    // Back leg
+    ellipse(-25, 22, 18, 30);
+
+    // Front leg
+    ellipse(25, 22, 18, 30);
+    pop();
+
+    //Ear
+    push();
+    noStroke();
+    fill("#754323")
+    ellipse(25, -15, 20, 50);
     pop();
 
 
