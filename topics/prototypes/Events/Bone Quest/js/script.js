@@ -10,8 +10,8 @@
 
 
 // Variables for dog 
-let dogX = 400;
-let dogY = 80;
+let dogX = 80;
+let dogY = 100;
 let dogSpeed = 10;
 
 // Bone Variables
@@ -63,11 +63,25 @@ function draw() {
         pop();
 
     } else {
+        // Draw the dog 
         push();
         translate(dogX, dogY);
         drawDog();
         pop();
     }
+}
+
+/**
+ * Dog Drawing
+ */
+function drawDog() {
+
+    //Body
+    push();
+    noStroke();
+    fill("#9b6038")
+    ellipse(0, 0, 95, 50);
+    pop();
 }
 
 /** Click to start the game 
