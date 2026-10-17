@@ -125,6 +125,14 @@ function drawDog() {
     ellipse(25, -15, 20, 50);
     pop();
 
+    //Tail
+    push();
+    stroke("#754323");
+    strokeWeight(12);
+    line(-40, -10, -55, -25);
+    pop();
+
+
 }
 
 /** Click to start the game 
