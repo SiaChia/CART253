@@ -37,6 +37,28 @@ function draw() {
     text("Sugar Rush!", 250, 100);
     pop();
 
+    // Game instructions
+    push();
+    textFont("monospace");
+    textAlign(CENTER, CENTER);
+    noStroke();
+    fill("#754323");
+    textSize(18);
+    text("Click the cookies before time runs out!", 250, 200);
+    pop();
 
+    // Click to start button
+    push();
+    rectMode(CENTER);
+    noStroke();
+    fill("#754323");
+    rect(250, 290, 180, 55, 15);
+    fill("#fd9bb2");
+    textFont("monospace");
+    textAlign(CENTER, CENTER);
+    textSize(20);
+    text("Click to Start", 250, 290);
+    pop();
 }
+
 
