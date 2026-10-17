@@ -1,9 +1,9 @@
 /**
- * Title of Project
- * Author Name
+ * Sugar Rush! 
+ * Athanasia (Sia) ILiopoulos
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * this will be a mini game to click as many cookies as possible befor ethe timer runs out. 
+ * 
  */
 
 "use strict";
