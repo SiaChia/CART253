@@ -8,6 +8,11 @@
 
 "use strict";
 
+// Variables for cookie game
+let gameStarted = false;
+let cookiesClicked = 0;
+let timeLeft = 10;
+
 /**
  * Canvas for cookie game
 */
