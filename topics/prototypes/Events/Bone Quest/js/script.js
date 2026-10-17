@@ -64,7 +64,7 @@ function draw() {
 
     } else {
 
-        // MOVE THE DOG WITH ARROW KEYS
+        // Use arrow keys to move dog 
         if (keyIsDown(LEFT_ARROW)) {
             dogX = dogX - dogSpeed;
         }
@@ -81,7 +81,12 @@ function draw() {
             dogY = dogY + dogSpeed;
         }
 
-        // DRAW THE BONE
+        // If the dog finds the bone
+        if (dist(dogX, dogY, boneX, boneY) < 40) {
+            boneFound = true;
+        }
+
+        // Bone drawing 
         push();
         noStroke();
         fill("#f5eee0");
@@ -109,6 +114,17 @@ function draw() {
         ellipse(boneX + 35, boneY - 10, 45, 45);
         ellipse(boneX + 50, boneY + 5, 40, 38);
         pop();
+
+        // If win
+        if (boneFound === true) {
+            push();
+            textAlign(CENTER, CENTER);
+            textFont("monospace");
+            textSize(20);
+            fill("#131e15");
+            text("Yay! You found a bone!", 250, 50);
+            pop();
+        }
 
     }
 }
