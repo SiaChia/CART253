@@ -86,7 +86,7 @@ function draw() {
     textFont("monospace");
     text("GROW A PUMPKIN!", 320, 40);
     textSize(16);
-    text("Click to start!", 320, 90);
+    text("Click to Start.", 320, 90);
     text("Scroll your mouse wheel to grow the pumpkin.", 320, 65);
   }
 
