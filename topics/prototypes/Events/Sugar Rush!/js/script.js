@@ -26,4 +26,17 @@ function setup() {
 */
 function draw() {
     background("#fd9bb2");
+
+    // Title Screen
+    push();
+    textAlign(CENTER, CENTER);
+    textFont("monospace");
+    noStroke();
+    fill("#673b1f");
+    textSize(48);
+    text("Sugar Rush!", 250, 100);
+    pop();
+
+
 }
+
