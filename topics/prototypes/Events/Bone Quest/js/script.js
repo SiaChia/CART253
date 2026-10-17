@@ -89,6 +89,14 @@ function drawDog() {
     fill("#aa7044")
     ellipse(42, -20, 52, 50);
     pop();
+
+    // Snout 
+    push();
+    noStroke();
+    fill("#ae7044");
+    ellipse(61, -10, 26, 18);
+    pop();
+
 }
 
 /** Click to start the game 
