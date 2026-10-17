@@ -15,6 +15,18 @@ let timeLeft = 10;
 let startTime;
 let gameOver = false;
 
+// Cookie position variables
+let cookie1 = true;
+let cookie2 = true;
+let cookie3 = true;
+let cookie4 = true;
+let cookie5 = true;
+let cookie6 = true;
+let cookie7 = true;
+let cookie8 = true;
+let cookie9 = true;
+let cookie10 = true;
+
 /**
  * Canvas for cookie game
 */
