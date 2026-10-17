@@ -118,6 +118,13 @@ function drawDog() {
     ellipse(40, -7, 12, 7);
     pop();
 
+    //Ear
+    push();
+    noStroke();
+    fill("#754323")
+    ellipse(25, -15, 20, 50);
+    pop();
+
 }
 
 /** Click to start the game 
