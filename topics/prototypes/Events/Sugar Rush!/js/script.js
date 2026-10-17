@@ -28,38 +28,55 @@ function setup() {
 function draw() {
     background("#fd9bb2");
 
-    // Title Screen
-    push();
-    textAlign(CENTER, CENTER);
-    textFont("monospace");
-    noStroke();
-    fill("#673b1f");
-    textSize(48);
-    text("Sugar Rush!", 250, 100);
-    pop();
+    if (gameStarted === false) {
 
-    // Game instructions
-    push();
-    textFont("monospace");
-    textAlign(CENTER, CENTER);
-    noStroke();
-    fill("#754323");
-    textSize(18);
-    text("Click the cookies before time runs out!", 250, 200);
-    pop();
+        // Title Screen
+        push();
+        textAlign(CENTER, CENTER);
+        textFont("monospace");
+        noStroke();
+        fill("#673b1f");
+        textSize(48);
+        text("Sugar Rush!", 250, 100);
+        pop();
 
-    // Click to start button
-    push();
-    rectMode(CENTER);
-    noStroke();
-    fill("#754323");
-    rect(250, 290, 180, 55, 15);
-    fill("#fd9bb2");
-    textFont("monospace");
-    textAlign(CENTER, CENTER);
-    textSize(20);
-    text("Click to Start", 250, 290);
-    pop();
+        // Game instructions
+        push();
+        textFont("monospace");
+        textAlign(CENTER, CENTER);
+        noStroke();
+        fill("#754323");
+        textSize(18);
+        text("Click the cookies before time runs out!", 250, 200);
+        pop();
+
+        // Click to start button
+        push();
+        rectMode(CENTER);
+        noStroke();
+        fill("#754323");
+        rect(250, 290, 180, 55, 15);
+        fill("#fd9bb2");
+        textFont("monospace");
+        textAlign(CENTER, CENTER);
+        textSize(20);
+        text("Click to Start", 250, 290);
+        pop();
+    }
 }
+
+function mousePressed() {
+    if (gameStarted === false) {
+        if (mouseX > 160 && mouseX < 340 &&
+            mouseY > 262 && mouseY < 317) {
+
+            gameStarted = true;
+            startTime = millis();
+
+        }
+    }
+}
+
+
 
 
