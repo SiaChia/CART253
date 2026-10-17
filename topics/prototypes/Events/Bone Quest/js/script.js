@@ -12,7 +12,7 @@
 // Variables for dog 
 let dogX = 80;
 let dogY = 100;
-let dogSpeed = 10;
+let dogSpeed = 5;
 
 // Bone Variables
 let boneX = 420;
@@ -63,6 +63,24 @@ function draw() {
         pop();
 
     } else {
+
+        // MOVE THE DOG WITH ARROW KEYS
+        if (keyIsDown(LEFT_ARROW)) {
+            dogX = dogX - dogSpeed;
+        }
+
+        if (keyIsDown(RIGHT_ARROW)) {
+            dogX = dogX + dogSpeed;
+        }
+
+        if (keyIsDown(UP_ARROW)) {
+            dogY = dogY - dogSpeed;
+        }
+
+        if (keyIsDown(DOWN_ARROW)) {
+            dogY = dogY + dogSpeed;
+        }
+
         // DRAW THE BONE
         push();
         noStroke();
@@ -82,10 +100,18 @@ function draw() {
         translate(dogX, dogY);
         drawDog();
         pop();
+
+        // Draw the Bush
+        push();
+        noStroke();
+        fill("#286b32");
+        ellipse(boneX + 15, boneY, 55, 50);
+        ellipse(boneX + 35, boneY - 10, 45, 45);
+        ellipse(boneX + 50, boneY + 5, 40, 38);
+        pop();
+
     }
 }
-
-
 
 /**
  * Dog Drawing
@@ -166,3 +192,4 @@ function drawDog() {
 function mousePressed() {
     gameStarted = true;
 }
+
