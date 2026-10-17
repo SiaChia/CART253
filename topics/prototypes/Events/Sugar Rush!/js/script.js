@@ -13,6 +13,7 @@ let gameStarted = false;
 let cookiesClicked = 0;
 let timeLeft = 10;
 let startTime;
+let gameOver = false;
 
 /**
  * Canvas for cookie game
