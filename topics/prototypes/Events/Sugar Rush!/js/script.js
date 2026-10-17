@@ -66,7 +66,7 @@ function draw() {
 
     } else {
 
-        // Time Left
+        // Time Left for countdown
         if (gameOver === false) {
             timeLeft = 10 - (millis() - startTime) / 1000;
 
@@ -75,20 +75,36 @@ function draw() {
                 gameOver = true;
             }
         }
+
+        // Timer
+        push();
+        textFont("monospace");
+        textAlign(CENTER, CENTER);
+        noStroke();
+        fill("#673b1f");
+        textSize(32);
+
+        if (gameOver === false) {
+            text(ceil(timeLeft), 250, 40);
+        } else {
+            text("Time's up!", 250, 40);
+        }
+        pop();
     }
+}
 
-    function mousePressed() {
-        if (gameStarted === false) {
-            if (mouseX > 160 && mouseX < 340 &&
-                mouseY > 262 && mouseY < 317) {
 
-                gameStarted = true;
-                startTime = millis();
 
-            }
+function mousePressed() {
+    if (gameStarted === false) {
+        if (mouseX > 160 && mouseX < 340 &&
+            mouseY > 262 && mouseY < 317) {
+
+            gameStarted = true;
+            startTime = millis();
+
         }
     }
-
 }
 
 
