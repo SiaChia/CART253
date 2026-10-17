@@ -115,6 +115,33 @@ function draw() {
         ellipse(100, 100, 9, 9);
         pop();
 
+        // Flower 4
+        push()
+        noStroke();
+        fill("#fff5e6");
+        ellipse(350, 150, 20, 20);
+        fill("#f5d547");
+        ellipse(350, 150, 9, 9);
+        pop();
+
+        // Flower 4
+        push()
+        noStroke();
+        fill("#fff5e6");
+        ellipse(450, 60, 20, 20);
+        fill("#f5d547");
+        ellipse(450, 60, 9, 9);
+        pop();
+
+        // Flower 5
+        push()
+        noStroke();
+        fill("#fff5e6");
+        ellipse(100, 350, 20, 20);
+        fill("#f5d547");
+        ellipse(100, 350, 9, 9);
+        pop();
+
 
         // Bone drawing 
         push();
@@ -145,7 +172,7 @@ function draw() {
         ellipse(boneX + 50, boneY + 5, 40, 38);
         pop();
 
-        // If win
+        // If player wins
         if (boneFound === true) {
             push();
             textAlign(CENTER, CENTER);
