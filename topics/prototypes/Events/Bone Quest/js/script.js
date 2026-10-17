@@ -97,7 +97,23 @@ function draw() {
         ellipse(260, 350, 9, 9);
         pop();
 
+        // Flower 2
+        push()
+        noStroke();
+        fill("#fff5e6");
+        ellipse(200, 250, 20, 20);
+        fill("#f5d547");
+        ellipse(200, 250, 9, 9);
+        pop();
 
+        // Flower 3
+        push()
+        noStroke();
+        fill("#fff5e6");
+        ellipse(100, 100, 20, 20);
+        fill("#f5d547");
+        ellipse(100, 100, 9, 9);
+        pop();
 
 
         // Bone drawing 
