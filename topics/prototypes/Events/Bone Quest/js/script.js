@@ -76,11 +76,18 @@ function draw() {
  */
 function drawDog() {
 
-    //Body
+    // Body
     push();
     noStroke();
     fill("#9b6038")
     ellipse(0, 0, 95, 50);
+    pop();
+
+    // Head 
+    push();
+    noStroke();
+    fill("#aa7044")
+    ellipse(42, -20, 52, 50);
     pop();
 }
 
