@@ -15,8 +15,8 @@ let dogY = 100;
 let dogSpeed = 10;
 
 // Bone Variables
-let boneX = 150;
-let boneY = 250;
+let boneX = 420;
+let boneY = 420;
 
 // Game variables 
 let gameStarted = false;
@@ -59,10 +59,24 @@ function draw() {
         // Start Instructions
         textFont("monospace")
         textSize(18);
-        text("Click to Start", 250, 150)
+        text("Click to Start", 250, 250)
         pop();
 
     } else {
+        // DRAW THE BONE
+        push();
+        noStroke();
+        fill("#f5eee0");
+
+        // Rectangle in the middle
+        rect(boneX - 15, boneY - 6, 30, 12);
+
+        // Circle on the left
+        ellipse(boneX - 15, boneY, 16, 16);
+
+        // Circle on the right
+        ellipse(boneX + 15, boneY, 16, 16);
+        pop();
         // Draw the dog 
         push();
         translate(dogX, dogY);
@@ -70,6 +84,8 @@ function draw() {
         pop();
     }
 }
+
+
 
 /**
  * Dog Drawing
@@ -143,8 +159,6 @@ function drawDog() {
     fill("#754323")
     ellipse(25, -15, 20, 50);
     pop();
-
-
 }
 
 /** Click to start the game 
