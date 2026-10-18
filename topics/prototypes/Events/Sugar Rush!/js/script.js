@@ -15,7 +15,7 @@ let timeLeft = 10;
 let startTime;
 let gameOver = false;
 
-// Cookie position variables
+// Cookie variables
 let cookie1 = true;
 let cookie2 = true;
 let cookie3 = true;
@@ -102,10 +102,73 @@ function draw() {
             text("Time's up!", 250, 40);
         }
         pop();
+
+        // Draw cookies while game is run
+        if (gameOver === false) {
+
+            if (cookie1 === true) {
+                drawCookie(90, 130);
+            }
+
+            if (cookie2 === true) {
+                drawCookie(250, 130);
+            }
+
+            if (cookie3 === true) {
+                drawCookie(410, 130);
+            }
+
+            if (cookie4 === true) {
+                drawCookie(130, 260);
+            }
+
+            if (cookie5 === true) {
+                drawCookie(350, 320);
+            }
+
+            if (cookie6 === true) {
+                drawCookie(250, 400);
+            }
+
+            if (cookie7 === true) {
+                drawCookie(80, 390);
+            }
+
+            if (cookie8 === true) {
+                drawCookie(420, 390);
+            }
+
+            if (cookie9 === true) {
+                drawCookie(170, 190);
+            }
+
+            if (cookie10 === true) {
+                drawCookie(330, 190);
+            }
+        }
     }
 }
+/** *
+ * Draw Cookies
+ */
+function drawCookie(x, y) {
+    push();
+    noStroke();
 
+    // Cookie base
+    fill("#c68b59");
+    circle(x, y, 70);
 
+    // Chocolate chips
+    fill("#4b2918");
+    circle(x - 20, y - 10, 15);
+    circle(x + 10, y - 18, 9);
+    circle(x + 18, y + 8, 20);
+    circle(x - 8, y + 18, 9);
+    circle(x - 22, y + 10, 8);
+
+    pop();
+}
 
 function mousePressed() {
     if (gameStarted === false) {
