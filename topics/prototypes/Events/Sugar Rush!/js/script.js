@@ -11,7 +11,7 @@
 // Variables for cookie game
 let gameStarted = false;
 let cookiesClicked = 0;
-let timeLeft = 10;
+let timeLeft = 5;
 let startTime;
 let gameOver = false;
 
@@ -80,7 +80,7 @@ function draw() {
 
         // Time Left for countdown
         if (gameOver === false) {
-            timeLeft = 10 - (millis() - startTime) / 1000;
+            timeLeft = 5 - (millis() - startTime) / 1000;
 
             if (timeLeft <= 0) {
                 timeLeft = 0;
