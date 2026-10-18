@@ -2,7 +2,7 @@
  * Sugar Rush! 
  * Athanasia (Sia) ILiopoulos
  * 
- * This will be a mini game to click as many cookies as possible before the timer runs out. 
+ * This will be a mini game to click as many cookies as you can before the timer runs out. 
  * 
  */
 
