@@ -99,5 +99,10 @@
 
 • [Bone Quest code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Events/Bone%20Quest)
 
+#### Sugar Rush!
+![Sugar Rush](./images/Sugar%20Rush!.png)
 
+• [Sugar Rush! website link](https://siachia.github.io/CART253/topics/prototypes/Events/Sugar%20Rush!/)
+
+• [Sugar Rush! code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Events/Sugar%20Rush!)
 
