@@ -171,6 +171,7 @@ function drawCookie(x, y) {
 }
 
 function mousePressed() {
+    // Start the game
     if (gameStarted === false) {
         if (mouseX > 160 && mouseX < 340 &&
             mouseY > 262 && mouseY < 317) {
@@ -178,6 +179,59 @@ function mousePressed() {
             gameStarted = true;
             startTime = millis();
 
+        }
+    }
+    // Click cookies to make them disappear
+    else if (gameOver === false) {
+
+        if (cookie1 === true &&
+            dist(mouseX, mouseY, 90, 130) < 35) {
+            cookie1 = false;
+        }
+
+        if (cookie2 === true &&
+            dist(mouseX, mouseY, 250, 130) < 35) {
+            cookie2 = false;
+        }
+
+        if (cookie3 === true &&
+            dist(mouseX, mouseY, 410, 130) < 35) {
+            cookie3 = false;
+        }
+
+        if (cookie4 === true &&
+            dist(mouseX, mouseY, 130, 260) < 35) {
+            cookie4 = false;
+        }
+
+        if (cookie5 === true &&
+            dist(mouseX, mouseY, 350, 320) < 35) {
+            cookie5 = false;
+        }
+
+        if (cookie6 === true &&
+            dist(mouseX, mouseY, 250, 400) < 35) {
+            cookie6 = false;
+        }
+
+        if (cookie7 === true &&
+            dist(mouseX, mouseY, 80, 390) < 35) {
+            cookie7 = false;
+        }
+
+        if (cookie8 === true &&
+            dist(mouseX, mouseY, 420, 390) < 35) {
+            cookie8 = false;
+        }
+
+        if (cookie9 === true &&
+            dist(mouseX, mouseY, 170, 190) < 35) {
+            cookie9 = false;
+        }
+
+        if (cookie10 === true &&
+            dist(mouseX, mouseY, 330, 190) < 35) {
+            cookie10 = false;
         }
     }
 }
