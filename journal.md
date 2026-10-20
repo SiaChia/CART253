@@ -56,10 +56,11 @@ This assignment showed me how I could possibly start creating video games. There
 
 ### Prototyping: Events 
 
-Out of all the assignments I have done so far, I think these three prototypes are my favourite. They also are my first video games that I have ever created. I would say this assignment was the most trial and error that I’ve done in a programming assignment. 
+Out of all the assignments I have done so far, I think these three prototypes are my favourite. These prototypes are my first ever video games. Through this assignment, I did a lot of expirementation and tried new things. 
 
-During the study break, I had a lot of time to think and experiment with these prototypes. I simply wanted to create three small easy games that any person can play. Something that would be quick, that wouldn’t take too much time of the player. I was really surprised that with events, I now could finally create my first games! I would say that my favorite prototype was “Sugar Rush!” just because it felt like a complete mini game. 
+During the study break, I had a lot of time to think about what type of games I wanted to create with what we learned in class. I simply wanted to create three small easy games that any person can play. Something that would be quick, that wouldn’t take too much time of the player. I also very lightly touched the subject of functions as it helped me organize my drawings. I was really surprised that with events, I now could now finally create my first games!   
 
 In order to create these games, I had to experiment a lot. I went through many blank screens, and a lot of frustration. While I was coding, I looked through the p5 reference a lot for this assignment as I was also trying different things. I learned how to also finally change the text fonts on my prototypes, as that was something I never used to do. 
 
-I am so proud of myself to have finally created my first video games! They’re really simple looking however, I think that when I develop my skills more, I could maybe turn them into something more complex. I am happy with how they turned out but, I think that maybe they could use some more details.
+I am so proud of myself to have finally created my first video games! They’re really simple looking however, I think that when I develop my skills more, I could maybe turn them into something more complex. I am very happy with how they turned out and plan on adding more details to them in the future. 
+![Sugar Rush!](./images/Sugar%20Rush!.png)
