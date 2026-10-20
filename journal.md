@@ -63,4 +63,5 @@ During the study break, I had a lot of time to think about what type of games I 
 In order to create these games, I had to experiment a lot. I went through many blank screens, and a lot of frustration. While I was coding, I looked through the p5 reference a lot for this assignment as I was also trying different things. I learned how to also finally change the text fonts on my prototypes, as that was something I never used to do. 
 
 I am so proud of myself to have finally created my first video games! They’re really simple looking however, I think that when I develop my skills more, I could maybe turn them into something more complex. I am very happy with how they turned out and plan on adding more details to them in the future. 
+
 ![Sugar Rush!](./images/Sugar%20Rush!.png)
