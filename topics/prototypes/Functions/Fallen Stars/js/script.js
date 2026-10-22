@@ -178,6 +178,27 @@ function drawMoon(x, y, size) {
 }
 
 /**
+ * Draws the basket
+*/
+function drawBasket(x, y) {
+    push();
+
+    // Basket body
+    fill("#B87942");
+    stroke("#754323");
+    strokeWeight(3);
+
+    // Draw the basket shape
+    quad(
+        x - basketWidth / 2, y,
+        x + basketWidth / 2, y,
+        x + basketWidth / 2 - 10, y + basketHeight,
+        x - basketWidth / 2 + 10, y + basketHeight
+    );
+    pop();
+}
+
+/**
  * Starts the game when the button is clicked
 */
 function mousePressed() {
