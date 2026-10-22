@@ -36,11 +36,21 @@ function draw() {
 function drawStartScreen(x, y, size) {
     // Game title
     push();
-    fill(255, 220, 130);
+    fill("#FFDC82");
     textFont("monospace");
     textStyle(BOLD);
     textAlign(CENTER);
     textSize(size);
     text("Fallen Stars", x, y);
+    pop();
+
+    // Game description
+    push();
+    fill("#FFDC82");
+    textFont("monospace");
+    textAlign(CENTER);
+    textStyle(NORMAL);
+    textSize(18);
+    text("Catch the falling stars with the basket.", x, y + 60);
     pop();
 }
