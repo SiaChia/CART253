@@ -10,6 +10,7 @@
 
 // Variables for game
 let gameStarted = false
+let gameOver = false;
 
 // Basket variables
 let basketX = 370;
@@ -84,10 +85,9 @@ function draw() {
             starX = random(20, 720);
         }
 
-        // Reset the star if it falls off the screen
+        // Check if the star was missed
         if (starY > height) {
-            starY = 0;
-            starX = random(20, 720);
+            gameOver = true;
         }
 
         // Display the score
@@ -95,10 +95,17 @@ function draw() {
         textFont("monospace");
         textAlign(LEFT);
         textSize(20);
-        text("Score: " + score, 20, 30);
+        text("Score: " + score, 20, 30)
+
     }
 
+
+
+
+
 }
+
+
 
 function drawStartScreen(x, y, size) {
     // Game title
