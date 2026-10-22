@@ -69,3 +69,17 @@ function drawStartScreen(x, y, size) {
     text("Click to Start", x, y + 207);
     pop();
 }
+
+/**
+ * Starts the game when the button is clicked
+*/
+function mousePressed() {
+    // Check if the mouse is inside the start button
+    if (mouseX > 245 && mouseX < 495 &&
+        mouseY > 270 && mouseY < 330) {
+        gameStarted = true;
+    }
+}
+
+
+
