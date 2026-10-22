@@ -8,6 +8,9 @@
 
 "use strict";
 
+// Variables for game
+let gamestarted = false
+
 /**
  * Canvas for Fallen Stars game 
 */
@@ -22,4 +25,7 @@ function setup() {
 function draw() {
     // Background colour 
     background("#241652");
+
+    // Start Screen
+
 }
