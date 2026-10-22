@@ -53,4 +53,19 @@ function drawStartScreen(x, y, size) {
     textSize(18);
     text("Catch the falling stars with the basket.", x, y + 60);
     pop();
+
+    // Start button
+    push();
+    fill("#FFDC82");
+    noStroke();
+    rect(x - 125, y + 170, 250, 60, 12);
+
+    // Button text
+    fill("#241652");
+    textFont("monospace");
+    textAlign(CENTER);
+    textStyle(BOLD);
+    textSize(20);
+    text("Click to Start", x, y + 207);
+    pop();
 }
