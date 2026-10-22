@@ -11,6 +11,21 @@
 // Variables for game
 let gameStarted = false
 
+// Basket variables
+let basketX = 370;
+let basketY = 440;
+let basketWidth = 100;
+let basketHeight = 20;
+
+// Falling star variables
+let starX = 200;
+let starY = 0;
+let starSize = 12;
+let starSpeed = 3;
+
+// Score
+let score = 0;
+
 /**
  * Canvas for Fallen Stars game 
 */
