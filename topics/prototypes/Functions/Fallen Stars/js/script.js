@@ -48,7 +48,6 @@ function draw() {
     drawStar(40, 180, 7);
     drawStar(100, 40, 10);
     drawStar(350, 40, 6);
-    drawStar(600, 100, 12);
     drawStar(700, 150, 7);
     drawStar(40, 280, 10);
     drawStar(220, 320, 6);
@@ -64,6 +63,39 @@ function draw() {
     // Start Screen conditions
     if (gameStarted == false) {
         drawStartScreen(370, 100, 40);
+    } else {
+        // Draw the falling star
+        drawStar(starX, starY, starSize);
+
+        // Move the star down
+        starY = starY + starSpeed;
+
+        // Draw the basket
+        drawBasket(mouseX, basketY);
+
+        // Check if the basket catches the star
+        if (starY + starSize >= basketY &&
+            starY - starSize <= basketY + basketHeight &&
+            starX >= mouseX - basketWidth / 2 &&
+            starX <= mouseX + basketWidth / 2) {
+
+            score = score + 1;
+            starY = 0;
+            starX = random(20, 720);
+        }
+
+        // Reset the star if it falls off the screen
+        if (starY > height) {
+            starY = 0;
+            starX = random(20, 720);
+        }
+
+        // Display the score
+        fill("#FFDC82");
+        textFont("monospace");
+        textAlign(LEFT);
+        textSize(20);
+        text("Score: " + score, 20, 30);
     }
 
 }
