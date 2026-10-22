@@ -9,7 +9,7 @@
 "use strict";
 
 // Variables for game
-let gamestarted = false
+let gameStarted = false
 
 /**
  * Canvas for Fallen Stars game 
@@ -26,6 +26,21 @@ function draw() {
     // Background colour 
     background("#241652");
 
-    // Start Screen
+    // Start Screen conditions
+    if (gameStarted == false) {
+        drawStartScreen(370, 100, 40);
+    }
 
+}
+
+function drawStartScreen(x, y, size) {
+    // Game title
+    push();
+    fill(255, 220, 130);
+    textFont("monospace");
+    textStyle(BOLD);
+    textAlign(CENTER);
+    textSize(size);
+    text("Fallen Stars", x, y);
+    pop();
 }
