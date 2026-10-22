@@ -22,7 +22,7 @@ let basketHeight = 20;
 let starX = 200;
 let starY = 0;
 let starSize = 12;
-let starSpeed = 3;
+let starSpeed = 4;
 
 // Score
 let score = 0;
@@ -64,9 +64,14 @@ function draw() {
     // Start Screen conditions
     if (gameStarted == false) {
         drawStartScreen(370, 100, 40);
+
+    } else if (gameOver == true) {
+        drawGameOver(370, 200);
+
     } else {
         // Draw the falling star
         drawStar(starX, starY, starSize);
+
 
         // Move the star down
         starY = starY + starSpeed;
@@ -98,11 +103,6 @@ function draw() {
         text("Score: " + score, 20, 30)
 
     }
-
-
-
-
-
 }
 
 
@@ -141,6 +141,31 @@ function drawStartScreen(x, y, size) {
     textStyle(BOLD);
     textSize(20);
     text("Click to Start", x, y + 207);
+    pop();
+}
+
+/**
+ * Draws the game over screen
+*/
+function drawGameOver(x, y) {
+    // Game over title
+    push();
+    fill("#FFDC82");
+    textFont("monospace");
+    textStyle(BOLD);
+    textAlign(CENTER);
+    textSize(40);
+    text("GAME OVER", x, y);
+    pop();
+
+    // Final score
+    push();
+    fill("#FFDC82");
+    textFont("monospace");
+    textStyle(NORMAL);
+    textAlign(CENTER);
+    textSize(22);
+    text("Stars caught: " + score, x, y + 55);
     pop();
 }
 
