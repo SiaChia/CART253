@@ -26,6 +26,9 @@ function draw() {
     // Background colour 
     background("#241652");
 
+    //Moon
+    drawMoon(620, 100, 45);
+
     //Stars 
     drawStar(40, 180, 7);
     drawStar(100, 40, 10);
@@ -105,6 +108,24 @@ function drawStar(x, y, size) {
     vertex(x - size, y);
     vertex(x - size * 0.25, y - size * 0.25);
     endShape(CLOSE);
+
+    pop();
+}
+
+/**
+ * Draws a crescent moon in the background
+*/
+function drawMoon(x, y, size) {
+    push();
+    noStroke();
+
+    // Draw the golden moon
+    fill("#FFDC82");
+    circle(x, y, size * 2);
+
+    // Cover part of the moon with the background colour
+    fill("#241652");
+    circle(x + size * 0.7, y - size * 0.4, size * 1.7);
 
     pop();
 }
