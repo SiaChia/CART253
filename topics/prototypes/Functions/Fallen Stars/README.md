@@ -1,12 +1,12 @@
-# TITLE OF PROJECT
+# Fallen Stars
 
-AUTHOR NAME
+Athanasia (Sia) Iliopoulos 
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://siachia.github.io/CART253/topics/prototypes/Functions/Fallen%20Stars/)
 
 ## Description
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+This will be a small mini game to catch stars in a basket. 
 
 ## Attribution
 
