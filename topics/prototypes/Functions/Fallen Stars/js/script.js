@@ -195,6 +195,14 @@ function drawBasket(x, y) {
         x + basketWidth / 2 - 10, y + basketHeight,
         x - basketWidth / 2 + 10, y + basketHeight
     );
+    // Basket rim
+    noFill();
+    stroke("#d99c67");
+    strokeWeight(5);
+    line(
+        x - basketWidth / 2 - 3, y,
+        x + basketWidth / 2 + 3, y
+    );
     pop();
 }
 
