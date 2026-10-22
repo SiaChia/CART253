@@ -12,7 +12,7 @@
  * Canvas for Fallen Stars game 
 */
 function setup() {
-
+    createCanvas(740, 500);
 }
 
 
@@ -20,5 +20,6 @@ function setup() {
  * Drawing for Fallen Stars game and background
 */
 function draw() {
-
+    // Background colour 
+    background("#241652");
 }
