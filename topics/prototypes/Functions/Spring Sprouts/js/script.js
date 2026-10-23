@@ -19,6 +19,10 @@ let rainY4 = 145;
 let rainY5 = 155;
 let rainFalling = false;
 
+// Flower Variable 
+let flowerSize = 50;
+let flowerGrew = false
+
 /**
  * Canvas for sprouting plant and scene 
 */
@@ -55,6 +59,12 @@ function draw() {
         drawRaindrop(270, rainY4, 25);
         drawRaindrop(290, rainY5, 25);
 
+        // Check if Rain Touches the Flower
+        if (rainY >= 270 && rainY <= 300 && flowerGrew == false) {
+            flowerSize = flowerSize + 10;
+            flowerGrew = true;
+        }
+
         // Make the Raindrops Fall
         rainY = rainY + 2;
         rainY2 = rainY2 + 2;
@@ -74,6 +84,9 @@ function draw() {
             rainY5 = 155;
         }
     }
+
+    // Draw the Flower
+    drawFlower(250, 270, flowerSize);
 
 }
 
@@ -156,4 +169,28 @@ function mousePressed() {
     // Start the Rain
     rainFalling = true;
     rainY = 150;
+}
+
+// Flower Function
+function drawFlower(x, y, size) {
+    push();
+
+    // Flower Stem
+    stroke("#278443");
+    strokeWeight(4);
+    line(x, y, x, y + size);
+
+    // Flower Petals
+    noStroke();
+    fill("#f6f3f3");
+    ellipse(x - size * 0.3, y, size * 0.5, size * 0.5);
+    ellipse(x + size * 0.3, y, size * 0.5, size * 0.5);
+    ellipse(x, y - size * 0.3, size * 0.5, size * 0.5);
+    ellipse(x, y + size * 0.3, size * 0.5, size * 0.5);
+
+    // Flower Center
+    fill("#f3d265");
+    ellipse(x, y, size * 0.35, size * 0.35);
+
+    pop();
 }
