@@ -21,4 +21,20 @@ function setup() {
 */
 function draw() {
     background("#8ddbf6");
+
+    // Draw the Ground
+    drawGround(0, 400, 500, 100);
+}
+
+/**
+ * Ground Function
+ */
+function drawGround(x, y, w, h) {
+    push();
+
+    // Ground Appearance
+    noStroke();
+    fill("#5a8b50");
+    rect(x, y, w, h);
+    pop();
 }
