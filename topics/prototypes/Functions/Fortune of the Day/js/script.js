@@ -12,7 +12,7 @@
  * This will be the canvas setup for my magic fortune ball
 */
 function setup() {
-
+    createCanvas(600, 600);
 }
 
 
@@ -20,5 +20,5 @@ function setup() {
  * This will be my drawing of the magic fortune ball and background
 */
 function draw() {
-
+    background("#f39cfd");
 }
