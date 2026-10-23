@@ -23,18 +23,25 @@ function draw() {
     background("#8ddbf6");
 
     // Draw the Ground
-    drawGround(0, 400, 500, 100);
+    drawGround(0, 400, 500);
+
+    // Draw the Flowerpot
+    drawPot(250, 350, 150);
 }
 
 /**
  * Ground Function
  */
-function drawGround(x, y, w, h) {
+function drawGround(x, y, size) {
+    // Ground Function
     push();
 
     // Ground Appearance
     noStroke();
-    fill("#5a8b50");
-    rect(x, y, w, h);
+    fill("#78B86A");
+    rect(x, y, size, size * 0.2);
+
     pop();
 }
+
+
