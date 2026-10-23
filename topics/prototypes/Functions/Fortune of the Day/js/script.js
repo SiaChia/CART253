@@ -1,9 +1,9 @@
 /**
- * Title of Project
- * Author Name
+ * Fortune of the Day
+ * Athanasia (Sia) Iliopoulos 
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This will be a magic fortune telling ball that well tell you your new fortune everyday. 
+ * 
  */
 
 "use strict";
