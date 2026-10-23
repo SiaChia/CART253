@@ -28,7 +28,11 @@ function draw() {
     // Draw the Flowerpot
     drawPot(250, 370, 150);
 
+    // Draw dirt in pot 
     drawDirt(250, 325, 120)
+
+    // Draw the Cloud
+    drawCloud(250, 100, 150);
 }
 
 /**
@@ -70,6 +74,25 @@ function drawDirt(x, y, size) {
     noStroke();
     fill("#65432F");
     ellipse(x, y, size * 0.85, size * 0.15);
+
+    pop();
+}
+// Cloud Function
+function drawCloud(x, y, size) {
+    push();
+
+    // Cloud Appearance
+    noStroke();
+    fill("#FFFFFF");
+
+    // Bottom par of the Cloud
+    ellipse(x, y + size * 0.1, size * 1.2, size * 0.40);
+
+    // Fluffy Cloud Bumps
+    ellipse(x - size * 0.35, y, size * 0.5, size * 0.5);
+    ellipse(x - size * 0.15, y - size * 0.15, size * 0.6, size * 0.65);
+    ellipse(x + size * 0.15, y - size * 0.2, size * 0.65, size * 0.7);
+    ellipse(x + size * 0.4, y, size * 0.5, size * 0.5);
 
     pop();
 }
