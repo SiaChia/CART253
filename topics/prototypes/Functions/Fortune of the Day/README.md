@@ -1,12 +1,12 @@
-# TITLE OF PROJECT
+# Fortune of the Day
 
-AUTHOR NAME
+Athanasia (Sia) Iliopoulos 
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://siachia.github.io/CART253/topics/prototypes/Functions/Fortune%20of%20the%20Day/)
 
 ## Description
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+This will be a magic fortune telling ball that well tell you your new fortune everyday. 
 
 ## Attribution
 
