@@ -12,7 +12,11 @@
 let plantSize = 50;
 
 // Rain Variables
-let rainY = 150;
+let rainY = 120;
+let rainY2 = 130;
+let rainY3 = 160;
+let rainY4 = 145;
+let rainY5 = 155;
 let rainFalling = false;
 
 /**
@@ -41,6 +45,35 @@ function draw() {
     // Draw the Cloud
     drawCloud(250, 100, 150);
 
+    // Make the Cloud Rain
+    if (rainFalling == true) {
+
+        // Draw the Raindrops
+        drawRaindrop(210, rainY, 25);
+        drawRaindrop(230, rainY2, 25);
+        drawRaindrop(250, rainY3, 25);
+        drawRaindrop(270, rainY4, 25);
+        drawRaindrop(290, rainY5, 25);
+
+        // Make the Raindrops Fall
+        rainY = rainY + 2;
+        rainY2 = rainY2 + 2;
+        rainY3 = rainY3 + 2;
+        rainY4 = rainY4 + 2;
+        rainY5 = rainY5 + 2;
+
+        // Check if the Raindrops Reach the Ground
+        if (rainY >= 330) {
+            rainFalling = false;
+
+            // Reset the Raindrops
+            rainY = 150;
+            rainY2 = 130;
+            rainY3 = 160;
+            rainY4 = 140;
+            rainY5 = 155;
+        }
+    }
 
 }
 
@@ -94,7 +127,7 @@ function drawCloud(x, y, size) {
     noStroke();
     fill("#FFFFFF");
 
-    // Bottom par of the Cloud
+    // Bottom part of the Cloud
     ellipse(x, y + size * 0.1, size * 1.2, size * 0.40);
 
     // Fluffy Cloud Bumps
@@ -102,6 +135,25 @@ function drawCloud(x, y, size) {
     ellipse(x - size * 0.15, y - size * 0.15, size * 0.6, size * 0.65);
     ellipse(x + size * 0.15, y - size * 0.2, size * 0.65, size * 0.7);
     ellipse(x + size * 0.4, y, size * 0.5, size * 0.5);
+    pop();
+}
+
+// Raindrop Function
+function drawRaindrop(x, y, size) {
+    push();
+
+    // Raindrop 
+    noStroke();
+    fill("#3898E8");
+    ellipse(x, y, size * 0.5, size);
 
     pop();
+}
+
+// Mouse Pressed Function
+function mousePressed() {
+
+    // Start the Rain
+    rainFalling = true;
+    rainY = 150;
 }
