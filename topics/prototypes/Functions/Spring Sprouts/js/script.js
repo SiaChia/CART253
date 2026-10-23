@@ -20,5 +20,5 @@ function setup() {
  * Background and drawing for the sprouting plant 
 */
 function draw() {
-    background("#6dd6f9");
+    background("#8ddbf6");
 }
