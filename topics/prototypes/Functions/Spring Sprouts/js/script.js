@@ -8,6 +8,13 @@
 
 "use strict";
 
+// Plant variable
+let plantSize = 50;
+
+// Rain Variables
+let rainY = 150;
+let rainFalling = false;
+
 /**
  * Canvas for sprouting plant and scene 
 */
@@ -33,6 +40,8 @@ function draw() {
 
     // Draw the Cloud
     drawCloud(250, 100, 150);
+
+
 }
 
 /**
