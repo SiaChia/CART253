@@ -1,9 +1,9 @@
 /**
- * Title of Project
- * Author Name
+ * Spring Sprouts 
+ * Athanasia (Sia) Iliopoulos
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This will be an interactive plant that you grow until it turns into a flower. 
+ * 
  */
 
 "use strict";
