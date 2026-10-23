@@ -27,6 +27,8 @@ function draw() {
 
     // Draw the Flowerpot
     drawPot(250, 370, 150);
+
+    drawDirt(250, 325, 120)
 }
 
 /**
@@ -56,6 +58,18 @@ function drawPot(x, y, size) {
     // Flowerpot Rim
     fill("#A9573B");
     ellipse(x, y - size * 0.3, size * 1, size * 0.2);
+
+    pop();
+}
+
+// Dirt Function
+function drawDirt(x, y, size) {
+    push();
+
+    // Dirt Appearance
+    noStroke();
+    fill("#65432F");
+    ellipse(x, y, size * 0.85, size * 0.15);
 
     pop();
 }
