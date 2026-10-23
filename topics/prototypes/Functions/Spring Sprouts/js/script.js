@@ -26,7 +26,7 @@ function draw() {
     drawGround(0, 400, 500);
 
     // Draw the Flowerpot
-    drawPot(250, 350, 150);
+    drawPot(250, 370, 150);
 }
 
 /**
@@ -44,4 +44,18 @@ function drawGround(x, y, size) {
     pop();
 }
 
+// Flowerpot Function
+function drawPot(x, y, size) {
+    push();
 
+    // Flowerpot Body
+    noStroke();
+    fill("#C87552");
+    ellipse(x, y, size, size * 0.8);
+
+    // Flowerpot Rim
+    fill("#A9573B");
+    ellipse(x, y - size * 0.3, size * 1, size * 0.2);
+
+    pop();
+}
