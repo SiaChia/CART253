@@ -10,8 +10,8 @@
 
 // Variables for crystal ball 
 let ballX = 300;
-let ballY = 260;
-let ballSize = 200;
+let ballY = 250;
+let ballSize = 400;
 
 
 /**
@@ -27,4 +27,28 @@ function setup() {
 */
 function draw() {
     background("#f39cfd");
+
+    // Draw the crystal ball
+
+    drawCrystalBall(ballX, ballY, ballSize);
+}
+
+/**
+ * Draw the crystal ball
+ */
+function drawCrystalBall(x, y, size) {
+    // Outer glow
+    push();
+    stroke("#ffa8f1");
+    fill("#7546A8");
+    ellipse(x, y, size + 20, size + 20);
+
+    // Main ball
+    fill("#A879E8");
+    ellipse(x, y, size, size);
+
+    // Light reflection
+    fill("#DCC5FF");
+    ellipse(x - size / 4, y - size / 4, size / 4, size / 4);
+    pop();
 }
