@@ -112,8 +112,15 @@
 #### Fallen Stars
 ![Fallen Stars](./images/Fallen%20Stars.png)
 
-•[Fallen Stars website link](https://siachia.github.io/CART253/topics/prototypes/Functions/Fallen%20Stars/)
+• [Fallen Stars website link](https://siachia.github.io/CART253/topics/prototypes/Functions/Fallen%20Stars/)
 
-•[Fallen Stars code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Functions/Fallen%20Stars)
+• [Fallen Stars code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Functions/Fallen%20Stars)
+
+#### Spring Sprouts
+![Spring Sprouts](./images/Spring%20Sprouts.png)
+
+• [Spring Sprouts website link](https://siachia.github.io/CART253/topics/prototypes/Functions/Spring%20Sprouts/)
+
+• [Spring Sprouts code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Functions/Spring%20Sprou)
 
 
