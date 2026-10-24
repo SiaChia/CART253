@@ -65,3 +65,15 @@ In order to create these games, I had to experiment a lot. I went through many b
 I am so proud of myself to have finally created my first video games! They’re really simple looking however, I think that when I develop my skills more, I could maybe turn them into something more complex. I am very happy with how they turned out and plan on adding more details to them in the future. 
 
 ![Sugar Rush!](./images/Sugar%20Rush!.png)
+
+## Tuesday, 27 October, 2026
+
+### Prototyping: Functions 
+
+I enjoyed this prototyping assignment of exploring coding with functions. This assignment wasn’t that difficult for me as for my event prototypes I somewhat explored functions briefly, so I knew what to expect. I struggled the most coming up with ideas this time more than anything. Despite having some art block, I managed to create three prototypes that I am satisfied with. 
+
+Coding with functions was a pleasant experience.  I had already slightly experimented with functions in the previous assignment so I was surprised that you could add coordinates inside the brackets of the function like (x, y, and size).  As I learn more, I’m noticing that my code is getting more organized. I think that functions are great because they organize your code in sections and work great when there is a lot of repetition. 
+
+I didn’t struggle much with the coding however, I did struggle with trying to be creative. This week, I’ve ran into an issue of art block and I’ve been lacking inspiration. I’m not exactly sure why, I’ve had no inspiration to create with any of my classes, but I hope that next week I’ll be able to come up with ideas more easily. 
+
+Overall, I’m happy with how my prototypes turned out. I think that maybe for some of them I could’ve done more or added more but I am okay with how they turned out. Regardless of the art block I pushed through and created some prototypes that I can be proud of. 
