@@ -42,7 +42,34 @@ function draw() {
 
     // Crystal ball
     drawCrystalBall(ballX, ballY, ballSize);
+
+    // Game instructions 
+    drawInstructions(300, 50, 20);
 }
+
+/**
+ * Game instructions
+ */
+function drawInstructions(x, y, size) {
+    push();
+
+    fill("#ffffff");
+    noStroke();
+    textAlign(CENTER, CENTER);
+    textFont("monospace");
+    textStyle(BOLD);
+    textSize(size);
+
+    // First line
+    text("Click and drag your mouse across the crystal ball", x, y);
+
+    // Second line
+    text("to reveal your fortune!", x, y + 30);
+
+    pop();
+}
+
+
 
 /**
  * Draw the crystal ball
@@ -63,5 +90,9 @@ function drawCrystalBall(x, y, size) {
     ellipse(x - size / 4, y - size / 4, size / 4, size / 4);
     pop();
 }
+
+
+
+
 
 
