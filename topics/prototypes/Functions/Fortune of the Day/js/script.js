@@ -78,7 +78,7 @@ function drawInstructions(x, y, size) {
     pop();
 }
 /**
- * Draw the fortune inside the crystal ball
+ * Fortune text inside the crystal ball
  */
 function drawFortune(x, y, size) {
     push();
@@ -114,6 +114,74 @@ function drawCrystalBall(x, y, size) {
     ellipse(x - size / 4, y - size / 4, size / 4, size / 4);
     pop();
 }
+
+/**
+ * Change the crystal ball colour
+ */
+function changeBallColour() {
+    let colourNumber = int(random(1, 6));
+
+    if (colourNumber == 1) {
+        ballColour = "#ff9cc9";
+    } else if (colourNumber == 2) {
+        ballColour = "#86e4f7";
+    } else if (colourNumber == 3) {
+        ballColour = "#9ef6b8";
+    } else if (colourNumber == 4) {
+        ballColour = "#FFD166";
+    } else {
+        ballColour = "#A879E8";
+    }
+}
+
+/**
+ * Choose a random fortune
+ */
+function chooseFortune() {
+    let fortuneNumber = int(random(1, 11));
+
+    if (fortuneNumber == 1) {
+        dailyFortune = fortune1;
+    } else if (fortuneNumber == 2) {
+        dailyFortune = fortune2;
+    } else if (fortuneNumber == 3) {
+        dailyFortune = fortune3;
+    } else if (fortuneNumber == 4) {
+        dailyFortune = fortune4;
+    } else if (fortuneNumber == 5) {
+        dailyFortune = fortune5;
+    } else if (fortuneNumber == 6) {
+        dailyFortune = fortune6;
+    } else if (fortuneNumber == 7) {
+        dailyFortune = fortune7;
+    } else if (fortuneNumber == 8) {
+        dailyFortune = fortune8;
+    } else if (fortuneNumber == 9) {
+        dailyFortune = fortune9;
+    } else {
+        dailyFortune = fortune10;
+    }
+}
+
+
+/**
+ * Check if the mouse is dragged over the crystal ball
+ */
+function mouseDragged() {
+    // Check if the mouse is inside the crystal ball
+    if (dist(mouseX, mouseY, ballX, ballY) < ballSize / 2) {
+
+        // Change the ball colour
+        changeBallColour();
+
+        // Choose a fortune
+        chooseFortune();
+
+        // Reveal the fortune
+        fortuneRevealed = true;
+    }
+}
+
 
 
 
