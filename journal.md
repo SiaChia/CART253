@@ -77,3 +77,4 @@ Coding with functions was a pleasant experience.  I had already slightly experim
 I didn’t struggle much with the coding however, I did struggle with trying to be creative. This week, I’ve ran into an issue of art block and I’ve been lacking inspiration. I’m not exactly sure why, I’ve had no inspiration to create with any of my classes, but I hope that next week I’ll be able to come up with ideas more easily. 
 
 Overall, I’m happy with how my prototypes turned out. I think that maybe for some of them I could’ve done more or added more but I am okay with how they turned out. Regardless of the art block I pushed through and created some prototypes that I can be proud of. 
+![Fallen Stars](./images/Fallen%20Stars.png)
