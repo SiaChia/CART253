@@ -28,7 +28,7 @@ let dailyFortune = "";
 
 // Variables for revealing the fortune
 let fortuneRevealed = false;
-let ballColour = "#797be8";
+let ballColour = "#A879E8";
 
 /**
  * This will be the canvas setup for my magic fortune ball
@@ -49,6 +49,11 @@ function draw() {
 
     // Game instructions 
     drawInstructions(300, 50, 20);
+
+    // Show the fortune inside the ball
+    if (fortuneRevealed == true) {
+        drawFortune(ballX, ballY, 18);
+    }
 }
 
 /**
@@ -72,6 +77,23 @@ function drawInstructions(x, y, size) {
 
     pop();
 }
+/**
+ * Draw the fortune inside the crystal ball
+ */
+function drawFortune(x, y, size) {
+    push();
+
+    fill("#FFFFFF");
+    noStroke();
+    textAlign(CENTER, CENTER);
+    textFont("monospace");
+    textSize(size);
+
+    // Display the fortune
+    text(dailyFortune, x - 140, y - 40, 280, 100);
+
+    pop();
+}
 
 /**
  * Draw the crystal ball
@@ -80,7 +102,7 @@ function drawCrystalBall(x, y, size) {
     // Outer glow
     push();
     stroke("#ffa8f1");
-    fill("#7546A8");
+    fill(ballColour);
     ellipse(x, y, size + 20, size + 20);
 
     // Main ball
@@ -92,6 +114,9 @@ function drawCrystalBall(x, y, size) {
     ellipse(x - size / 4, y - size / 4, size / 4, size / 4);
     pop();
 }
+
+
+
 
 
 
