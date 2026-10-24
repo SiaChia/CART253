@@ -5,8 +5,7 @@ Athanasia (Sia) Iliopoulos
 [View this project online](https://siachia.github.io/CART253/topics/prototypes/Functions/Fortune%20of%20the%20Day/)
 
 ## Description
-
-This will be a magic fortune telling ball that well tell you your new fortune everyday. 
+This will be a magic fortune telling ball that will change colour and tell you your fortune as you drag your mouse across it.
 
 ## Attribution
 

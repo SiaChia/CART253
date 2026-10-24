@@ -2,7 +2,7 @@
  * Fortune of the Day
  * Athanasia (Sia) Iliopoulos 
  * 
- * This will be a magic fortune telling ball that well tell you your new fortune everyday. 
+ * This will be a magic fortune telling ball that will change colour and tell you your fortune as you drag your mouse across it. 
  * 
  */
 
