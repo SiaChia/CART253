@@ -108,6 +108,8 @@
 
 
 ### Prototyping: Functions 
+
+#### Fallen Stars
 ![Fallen Stars](./images/Fallen%20Stars.png)
 
 •[Fallen Stars website link](https://siachia.github.io/CART253/topics/prototypes/Functions/Fallen%20Stars/)
