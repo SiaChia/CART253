@@ -123,4 +123,9 @@
 
 • [Spring Sprouts code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Functions/Spring%20Sprou)
 
+#### Fortune of the Day 
+![Fortune of the Day](./images/Fortune%20of%20the%20Day.png)
 
+• [Fortune of the Day website link](https://siachia.github.io/CART253/topics/prototypes/Functions/Fortune%20of%20the%20Day/)
+
+• [Fortune of the Day code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Functions/Fortune%20of%20the%20Day)
