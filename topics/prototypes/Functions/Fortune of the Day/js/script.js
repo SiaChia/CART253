@@ -8,7 +8,7 @@
 
 "use strict";
 
-// Variables for crystal ball 
+// Variables for crystal ball
 let ballX = 300;
 let ballY = 360;
 let ballSize = 400;
@@ -19,20 +19,21 @@ let fortune2 = "A surprise awaits you.";
 let fortune3 = "Trust your instincts today.";
 let fortune4 = "Someone knows more than what they let on.";
 let fortune5 = "Your hard work will pay off.";
-let fortune6 = "A creature will run into you and bring you wisdom."
-let fortune7 = "The universe recommends taking a break"
-let fortune8 = "An unanswered question will soon make sense."
-let fortune9 = "You will gain wealth in some way very soon."
-let fotune10 = "Someone or something is waiting to be discovered."
+let fortune6 = "A creature will run into you and bring you wisdom.";
+let fortune7 = "The universe recommends taking a break.";
+let fortune8 = "An unanswered question will soon make sense.";
+let fortune9 = "You will gain wealth in some way very soon.";
+let fortune10 = "Someone or something is waiting to be discovered.";
 let dailyFortune = "";
 
 // Variables for revealing the fortune
 let fortuneRevealed = false;
 let ballColour = "#A879E8";
 
+
 /**
  * This will be the canvas setup for my magic fortune ball
-*/
+ */
 function setup() {
     createCanvas(600, 600);
 }
@@ -40,14 +41,14 @@ function setup() {
 
 /**
  * This will be my drawing of the magic fortune ball and background
-*/
+ */
 function draw() {
     background("#f39cfd");
 
     // Crystal ball
     drawCrystalBall(ballX, ballY, ballSize);
 
-    // Game instructions 
+    // Game instructions
     drawInstructions(300, 50, 20);
 
     // Show the fortune inside the ball
@@ -55,6 +56,7 @@ function draw() {
         drawFortune(ballX, ballY, 18);
     }
 }
+
 
 /**
  * Game instructions
@@ -77,6 +79,8 @@ function drawInstructions(x, y, size) {
 
     pop();
 }
+
+
 /**
  * Fortune text inside the crystal ball
  */
@@ -95,25 +99,30 @@ function drawFortune(x, y, size) {
     pop();
 }
 
+
 /**
  * Draw the crystal ball
  */
 function drawCrystalBall(x, y, size) {
-    // Outer glow
     push();
+
+    // Outer glow
     stroke("#ffa8f1");
     fill(ballColour);
     ellipse(x, y, size + 20, size + 20);
 
     // Main ball
-    fill("#A879E8");
+    noStroke();
+    fill(ballColour);
     ellipse(x, y, size, size);
 
     // Light reflection
     fill("#DCC5FF");
     ellipse(x - size / 4, y - size / 4, size / 4, size / 4);
+
     pop();
 }
+
 
 /**
  * Change the crystal ball colour
@@ -135,10 +144,20 @@ function changeBallColour() {
 }
 
 /**
+ * Get a random fortune number
+ * This function returns the number
+ */
+function getFortuneNumber() {
+    let fortuneNumber = int(random(1, 11));
+
+    return fortuneNumber;
+}
+
+/**
  * Choose a random fortune
  */
 function chooseFortune() {
-    let fortuneNumber = int(random(1, 11));
+    let fortuneNumber = getFortuneNumber();
 
     if (fortuneNumber == 1) {
         dailyFortune = fortune1;
@@ -181,7 +200,6 @@ function mouseDragged() {
         fortuneRevealed = true;
     }
 }
-
 
 
 
