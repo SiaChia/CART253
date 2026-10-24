@@ -10,9 +10,21 @@
 
 // Variables for crystal ball 
 let ballX = 300;
-let ballY = 250;
+let ballY = 360;
 let ballSize = 400;
 
+// Variables for the fortune
+let fortune1 = "Good luck is coming your way!";
+let fortune2 = "A surprise awaits you.";
+let fortune3 = "Trust your instincts today.";
+let fortune4 = "Someone knows more than what they let on.";
+let fortune5 = "Your hard work will pay off.";
+let fortune6 = "A creature will run into you and bring you wisdom."
+let fortune7 = "The universe recommends taking a break"
+let fortune8 = "An unanswered question will soon make sense."
+let fortune9 = "You will gain wealth in some way very soon."
+let fotune10 = "Someone or something is waiting to be discovered."
+let dailyFortune = "";
 
 /**
  * This will be the canvas setup for my magic fortune ball
@@ -28,8 +40,7 @@ function setup() {
 function draw() {
     background("#f39cfd");
 
-    // Draw the crystal ball
-
+    // Crystal ball
     drawCrystalBall(ballX, ballY, ballSize);
 }
 
@@ -52,3 +63,5 @@ function drawCrystalBall(x, y, size) {
     ellipse(x - size / 4, y - size / 4, size / 4, size / 4);
     pop();
 }
+
+
