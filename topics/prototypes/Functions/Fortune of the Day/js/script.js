@@ -8,6 +8,12 @@
 
 "use strict";
 
+// Variables for crystal ball 
+let ballX = 300;
+let ballY = 260;
+let ballSize = 200;
+
+
 /**
  * This will be the canvas setup for my magic fortune ball
 */
