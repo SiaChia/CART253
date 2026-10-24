@@ -26,6 +26,10 @@ let fortune9 = "You will gain wealth in some way very soon."
 let fotune10 = "Someone or something is waiting to be discovered."
 let dailyFortune = "";
 
+// Variables for revealing the fortune
+let fortuneRevealed = false;
+let ballColour = "#797be8";
+
 /**
  * This will be the canvas setup for my magic fortune ball
 */
@@ -68,8 +72,6 @@ function drawInstructions(x, y, size) {
 
     pop();
 }
-
-
 
 /**
  * Draw the crystal ball
