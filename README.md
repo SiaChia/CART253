@@ -106,3 +106,12 @@
 
 • [Sugar Rush! code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Events/Sugar%20Rush!)
 
+
+### Prototyping: Functions 
+![Fallen Stars](./images/Fallen%20Stars.png)
+
+•[Fallen Stars website link](https://siachia.github.io/CART253/topics/prototypes/Functions/Fallen%20Stars/)
+
+•[Fallen Stars code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Functions/Fallen%20Stars)
+
+
