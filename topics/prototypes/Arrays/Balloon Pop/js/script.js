@@ -9,7 +9,6 @@
 
 "use strict";
 
-
 // Balloon variables
 let balloonX = [];
 let balloonY = [];
@@ -18,6 +17,8 @@ let balloonSpeed = [];
 let balloonColor = [];
 
 let colours = ["#fe698e", "#a37afb", "#FFE066", "#80c0ff", "#85e492"];
+
+let balloonVisible = [];
 
 
 /**
@@ -51,6 +52,7 @@ function createBalloon() {
     balloonSize.push(random(40, 70));
     balloonSpeed.push(random(1, 3));
     balloonColor.push(random(colours));
+    balloonVisible.push(true);
 }
 
 /**
@@ -60,28 +62,31 @@ function drawBalloons() {
 
     for (let balloonNumber = 0; balloonNumber < balloonX.length; balloonNumber++) {
 
-        push();
-        fill(balloonColor[balloonNumber]);
-        noStroke();
-        ellipse(
-            balloonX[balloonNumber],
-            balloonY[balloonNumber],
-            balloonSize[balloonNumber],
-            balloonSize[balloonNumber]
-        );
+        if (balloonVisible[balloonNumber] === true) {
 
-        // Draw balloon string
-        stroke("#f6f0f0");
-        strokeWeight(2);
+            push();
+            fill(balloonColor[balloonNumber]);
+            noStroke();
+            ellipse(
+                balloonX[balloonNumber],
+                balloonY[balloonNumber],
+                balloonSize[balloonNumber],
+                balloonSize[balloonNumber]
+            );
 
-        line(
-            balloonX[balloonNumber],
-            balloonY[balloonNumber] + balloonSize[balloonNumber] / 2,
-            balloonX[balloonNumber],
-            balloonY[balloonNumber] + balloonSize[balloonNumber] + 40
-        );
+            // Draw balloon string
+            stroke("#f6f0f0");
+            strokeWeight(2);
 
-        pop();
+            line(
+                balloonX[balloonNumber],
+                balloonY[balloonNumber] + balloonSize[balloonNumber] / 2,
+                balloonX[balloonNumber],
+                balloonY[balloonNumber] + balloonSize[balloonNumber] + 40
+            );
+
+            pop();
+        }
     }
 }
 
@@ -98,3 +103,24 @@ function moveBalloons() {
     }
 }
 
+/**
+* Check if a balloon is clicked
+*/
+function mousePressed() {
+
+    for (let balloonNumber = 0; balloonNumber < balloonX.length; balloonNumber++) {
+
+        // Check if mouse is touching the balloon
+        if (
+            balloonVisible[balloonNumber] === true &&
+            mouseX > balloonX[balloonNumber] - balloonSize[balloonNumber] / 2 &&
+            mouseX < balloonX[balloonNumber] + balloonSize[balloonNumber] / 2 &&
+            mouseY > balloonY[balloonNumber] - balloonSize[balloonNumber] / 2 &&
+            mouseY < balloonY[balloonNumber] + balloonSize[balloonNumber] / 2
+        ) {
+
+            // Make balloon disappear
+            balloonVisible[balloonNumber] = false;
+        }
+    }
+}
