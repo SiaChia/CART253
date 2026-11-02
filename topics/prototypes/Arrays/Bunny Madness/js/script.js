@@ -1,45 +1,24 @@
 /**
- * Bunny Madness
- * Athanasia (Sia)
+ * Title of Project
+ * Author Name
  * 
- * This will be an interactive drawing where you click the bunny and more bunnies appear.
- * 
+ * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
+ * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
  */
 
 "use strict";
 
-// Bunny Image
-let bunnyImage;
-
-// Bunny Array
-let bunnies = [];
-
 /**
- * Sets up the canvas 
- */
+ * OH LOOK I DIDN'T DESCRIBE SETUP!!
+*/
 function setup() {
-    createCanvas(800, 600);
 
-    // Create the first bunny
-    let firstBunny = {
-        x: 250,
-        y: 200,
-        size: 100
-    };
-    bunnies.push(firstBunny);
 }
 
 
 /**
- * Bunny drawing and background drawing
+ * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
 */
 function draw() {
-    background("#ffb5e1");
-}
 
-/**
- * Load bunny image
- */
-function preload() {
-    bunnyImage = loadImage("./assets/images/bunny loaf.png");
 }
