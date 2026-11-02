@@ -1,15 +1,16 @@
 /**
- * Title of Project
- * Author Name
+ * Baloon Pop
+ * Athanasia (Sia) Iliopoulos
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This will be a game where you catch as many balloons as you pop as many balloons as you can before the time runs out. 
+ * 
+ * 
  */
 
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Canvas setup for balloon pop game
 */
 function setup() {
 
@@ -17,7 +18,7 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Drawing for balloon pop game and background
 */
 function draw() {
 
