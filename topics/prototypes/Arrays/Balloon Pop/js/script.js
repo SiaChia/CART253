@@ -69,6 +69,18 @@ function drawBalloons() {
             balloonSize[balloonNumber],
             balloonSize[balloonNumber]
         );
+
+        // Draw balloon string
+        stroke("#f6f0f0");
+        strokeWeight(2);
+
+        line(
+            balloonX[balloonNumber],
+            balloonY[balloonNumber] + balloonSize[balloonNumber] / 2,
+            balloonX[balloonNumber],
+            balloonY[balloonNumber] + balloonSize[balloonNumber] + 40
+        );
+
         pop();
     }
 }
