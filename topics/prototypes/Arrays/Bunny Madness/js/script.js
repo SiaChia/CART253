@@ -18,7 +18,7 @@ let bunnies = [];
  * Sets up the canvas 
  */
 function setup() {
-
+    createCanvas(800, 600);
 }
 
 
@@ -26,5 +26,5 @@ function setup() {
  * Bunny drawing and background drawing
 */
 function draw() {
-
+    background("#ffb5e1");
 }

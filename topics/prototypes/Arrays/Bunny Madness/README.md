@@ -2,7 +2,7 @@
 
 Athanasia (Sia) Iliopoulos
 
-[View this project online](https://siachia.github.io/CART253/topics/prototypes/Arrays/Bunny%20Explosion/)
+[View this project online](https://siachia.github.io/CART253/topics/prototypes/Arrays/Bunny%20Madness/)
 
 ## Description
 
