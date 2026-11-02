@@ -23,7 +23,7 @@ let score = 0;
  *  * Canvas setup for balloon pop game
 */
 function setup() {
-
+    createCanvas(600, 500);
 }
 
 
@@ -31,5 +31,5 @@ function setup() {
  * Drawing for balloon pop game and background
 */
 function draw() {
-
+    background("#8ecaff");
 }
