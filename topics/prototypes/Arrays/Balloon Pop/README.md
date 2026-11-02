@@ -6,8 +6,7 @@ Athanasia (Sia) Iliopoulos
 
 ## Description
 
-This will be a game where you catch as many balloons as you pop as many balloons as you can before the time runs out. 
-
+This will be a drawing where you can pop ballloons before they dissapear.  
 
 
 ## Attribution
