@@ -1,4 +1,4 @@
-# Bunny Explosion 
+# Bunny Madness 
 
 Athanasia (Sia) Iliopoulos
 
@@ -6,7 +6,7 @@ Athanasia (Sia) Iliopoulos
 
 ## Description
 
-This will be an interactive drawing where you click the canvas and a bunny loaf will appear
+This will be an interactive drawing where you click the bunny and more bunnies appear. 
 
 ## Attribution
 
