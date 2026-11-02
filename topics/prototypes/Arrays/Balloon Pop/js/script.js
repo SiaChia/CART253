@@ -14,10 +14,13 @@ let balloonY = [];
 let balloonSize = [];
 let balloonSpeed = [];
 let balloonColor = [];
+let colours = ["#fe698e", "#a37afb", "#FFE066", "#80c0ff", "#85e492"];
 
+// Score
+let score = 0;
 
 /**
- * Canvas setup for balloon pop game
+ *  * Canvas setup for balloon pop game
 */
 function setup() {
 
