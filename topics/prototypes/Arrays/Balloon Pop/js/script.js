@@ -16,8 +16,10 @@ let balloonSize = [];
 let balloonSpeed = [];
 let balloonColor = [];
 
+// Colours for balloon (randomly selected)
 let colours = ["#fe698e", "#a37afb", "#FFE066", "#80c0ff", "#85e492"];
 
+// This is to make balloon dissapear when clicked
 let balloonVisible = [];
 
 
