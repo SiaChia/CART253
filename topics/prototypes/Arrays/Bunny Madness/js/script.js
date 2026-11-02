@@ -19,6 +19,14 @@ let bunnies = [];
  */
 function setup() {
     createCanvas(800, 600);
+
+    // Create the first bunny
+    let firstBunny = {
+        x: 250,
+        y: 200,
+        size: 100
+    };
+    bunnies.push(firstBunny);
 }
 
 
@@ -27,4 +35,11 @@ function setup() {
 */
 function draw() {
     background("#ffb5e1");
+}
+
+/**
+ * Load bunny image
+ */
+function preload() {
+    bunnyImage = loadImage("./assets/images/bunny loaf.png");
 }
