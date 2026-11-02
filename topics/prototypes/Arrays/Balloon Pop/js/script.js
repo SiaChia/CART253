@@ -33,3 +33,12 @@ function setup() {
 function draw() {
     background("#8ecaff");
 }
+
+function createBalloon() {
+    balloonX.push(random(50, 550)); // Random x position for the balloon
+    balloonY.push(550); // Start the balloon at the bottom of the canvas
+    balloonSize.push(random(40, 70)); // Random size for the balloon
+    balloonSpeed.push(random(1, 3)); // random speed for the balloon
+    balloonColour.push(random(colours)); // Random colours from the colours I chose earlier
+
+}
