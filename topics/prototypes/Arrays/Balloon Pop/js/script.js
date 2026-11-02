@@ -29,7 +29,7 @@ function setup() {
     createCanvas(600, 500);
 
     // Create 5 balloons
-    for (let balloonNumber = 0; balloonNumber < 5; balloonNumber++) {
+    for (let balloonNumber = 0; balloonNumber < 10; balloonNumber++) {
         createBalloon();
     }
 }
@@ -38,7 +38,7 @@ function setup() {
  * Drawing background and balloons
  */
 function draw() {
-    background("#8ecaff");
+    background("#000000");
 
     moveBalloons();
     drawBalloons();
@@ -72,6 +72,19 @@ function drawBalloons() {
             balloonSize[balloonNumber]
         );
         pop();
+    }
+}
+
+/**
+ * Move balloons upwards
+ */
+function moveBalloons() {
+
+    for (let balloonNumber = 0; balloonNumber < balloonX.length; balloonNumber++) {
+
+        // Move balloon upwards
+        balloonY[balloonNumber] = balloonY[balloonNumber] - balloonSpeed[balloonNumber];
+
     }
 }
 
