@@ -1,12 +1,14 @@
-# TITLE OF PROJECT
+# Balloon Pop
 
-AUTHOR NAME
+Athanasia (Sia) Iliopoulos
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://siachia.github.io/CART253/topics/prototypes/Arrays/Balloon%20Pop/)
 
 ## Description
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+This will be a game where you catch as many balloons as you pop as many balloons as you can before the time runs out. 
+
+
 
 ## Attribution
 
