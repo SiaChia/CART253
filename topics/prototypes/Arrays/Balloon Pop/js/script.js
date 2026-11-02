@@ -8,6 +8,13 @@
  */
 
 "use strict";
+// Balloon variables
+let balloonX = [];
+let balloonY = [];
+let balloonSize = [];
+let balloonSpeed = [];
+let balloonColor = [];
+
 
 /**
  * Canvas setup for balloon pop game
