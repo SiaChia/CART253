@@ -1,23 +1,23 @@
 /**
- * Title of Project
- * Author Name
+ * Bunny Madness
+ * Athanasia (Sia)
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This will be an interactive drawing where you click the bunny and more bunnies appear.
+ * 
  */
 
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
+ * Sets up the canvas 
+ */
 function setup() {
 
 }
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Bunny drawing and background drawing
 */
 function draw() {
 
