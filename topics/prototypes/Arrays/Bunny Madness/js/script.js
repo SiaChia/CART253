@@ -8,6 +8,12 @@
 
 "use strict";
 
+// Bunny Image
+let bunnyImage;
+
+// Bunny Array
+let bunnies = [];
+
 /**
  * Sets up the canvas 
  */
