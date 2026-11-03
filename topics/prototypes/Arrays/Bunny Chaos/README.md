@@ -1,12 +1,11 @@
-# TITLE OF PROJECT
+# Bunny Chaos
 
-AUTHOR NAME
+Athanasia (Sia) Iliopoulos
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://siachia.github.io/CART253/topics/prototypes/Arrays/Bunny%20Chaos/)
 
 ## Description
-
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+Everytime you click the bunny more bunnies will appear on the screen.
 
 ## Attribution
 
@@ -15,6 +14,7 @@ This bit should attribute any code, assets or other elements used taken from oth
 > - This project uses [p5.js](https://p5js.org).
 > - The clown image is a capture of the clown from the Apple emoji character set.
 > - The barking sound effect is "single dog bark 1" by crazymonke9 from freesound.org: https://freesound.org/people/crazymonke9/sounds/418107/
+> - Bunny image is an image I took myself of my own pet rabbit.
 
 ## License
 

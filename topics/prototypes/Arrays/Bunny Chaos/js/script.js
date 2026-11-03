@@ -2,8 +2,8 @@
  * Bunny Chaos
  * Athanasia (Sia) Iliopoulos
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!=
+ * Everytime you click the bunny more bunnies will appear on the screen.
+ * 
  */
 
 "use strict";
@@ -15,16 +15,11 @@ let bunnies = [];
 /**
  * Sets up the canvas 
  */
-function setup() {
+async function setup() {
     createCanvas(800, 600);
-
-    // Create the first bunny
-    let firstBunny = {
-        x: 250,
-        y: 200,
-        size: 100
-    };
-    bunnies.push(firstBunny);
+    bunnyImage = await
+        loadImage("js/assets/images/Peanut the bunny.png");
+    bunnyImage.resize(500, 500);
 }
 
 
@@ -33,7 +28,7 @@ function setup() {
  */
 function draw() {
     background("#ffb5e1");
-    image(bunnyImage, 250, 200, 100, 100);
+    image(bunnyImage, 250, 200, 500, 500);
 }
 
 
@@ -41,5 +36,5 @@ function draw() {
  * Load bunny image
  */
 function preload() {
-    bunnyImage = loadImage("assets/images/bunny.png");
+    bunnyImage = loadImage("js/assets/images/bunny.png");
 }
