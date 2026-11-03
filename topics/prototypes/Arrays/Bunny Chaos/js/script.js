@@ -7,6 +7,7 @@
  */
 
 "use strict";
+
 // Bunny Image
 let bunnyImage;
 
@@ -17,8 +18,9 @@ let bunnies = [];
 let firstBunny = {
     x: 250,
     y: 100,
-    size: 100
+    size: 300
 };
+
 /**
  * Sets up the canvas 
  */
@@ -29,9 +31,9 @@ async function setup() {
     // Load bunny image
     bunnyImage = await
         loadImage("js/assets/images/Peanut the bunny.png");
-    bunnyImage.resize(500, 500);
 
-
+    // Add first bunny to the array
+    bunnies.push(firstBunny);
 }
 
 
@@ -42,21 +44,16 @@ function draw() {
     // Background
     background("#ffb5e1");
 
-    // Draw the first bunny
-    drawBunny(250, 200, 500);
+    // Draw all the bunnies
+    for (let i = 0; i < bunnies.length; i++) {
+        drawBunny(bunnies[i].x, bunnies[i].y, bunnies[i].size);
+    }
 }
+
 
 /**
  * Draws a bunny
  */
 function drawBunny(x, y, size) {
     image(bunnyImage, x, y, size, size);
-}
-
-
-/**
- * Load bunny image
- */
-function preload() {
-    bunnyImage = loadImage("js/assets/images/bunny.png");
 }
