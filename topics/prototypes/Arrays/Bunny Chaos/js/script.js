@@ -39,8 +39,18 @@ async function setup() {
  * Bunny drawing and background drawing
  */
 function draw() {
+    // Background
     background("#ffb5e1");
-    image(bunnyImage, 250, 200, 500, 500);
+
+    // Draw the first bunny
+    drawBunny(250, 200, 500);
+}
+
+/**
+ * Draws a bunny
+ */
+function drawBunny(x, y, size) {
+    image(bunnyImage, x, y, size, size);
 }
 
 
