@@ -12,14 +12,26 @@ let bunnyImage;
 
 // Bunny Array
 let bunnies = [];
+
+// First bunny
+let firstBunny = {
+    x: 250,
+    y: 100,
+    size: 100
+};
 /**
  * Sets up the canvas 
  */
 async function setup() {
+    // Canvas size
     createCanvas(800, 600);
+
+    // Load bunny image
     bunnyImage = await
         loadImage("js/assets/images/Peanut the bunny.png");
     bunnyImage.resize(500, 500);
+
+
 }
 
 
