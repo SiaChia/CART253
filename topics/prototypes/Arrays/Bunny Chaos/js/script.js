@@ -57,3 +57,35 @@ function draw() {
 function drawBunny(x, y, size) {
     image(bunnyImage, x, y, size, size);
 }
+
+/**
+ * Checks if a bunny was clicked
+ */
+function mousePressed() {
+
+    // Check every bunny
+    for (let i = 0; i < bunnies.length; i++) {
+
+        // Get the current bunny
+        let bunny = bunnies[i];
+
+        // Check if the mouse clicked the bunny
+        if (mouseX > bunny.x &&
+            mouseX < bunny.x + bunny.size &&
+            mouseY > bunny.y &&
+            mouseY < bunny.y + bunny.size) {
+
+            // Create a new bunny
+            let newBunny = {
+                x: random(0, 700),
+                y: random(0, 500),
+                size: bunny.size
+            };
+
+            // Add new bunny to the array
+            bunnies.push(newBunny);
+
+            break;
+        }
+    }
+}
