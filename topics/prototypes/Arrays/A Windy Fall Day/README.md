@@ -1,4 +1,4 @@
-# A Windy Fall DAy 
+# A Windy Fall Day 
 
 Athanasia (Sia) Iliopoulos
 
