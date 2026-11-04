@@ -48,6 +48,22 @@ function draw() {
     for (let i = 0; i < bunnies.length; i++) {
         drawBunny(bunnies[i].x, bunnies[i].y, bunnies[i].size);
     }
+
+    // Text
+    push();
+    textSize(30);
+    textFont("monospace");
+    textAlign(CENTER);
+    fill("#21150c");
+
+    // Change text depending on number of bunnies
+    if (bunnies.length < 5) {
+        text("Oh look, a fluffy bunny!", 400, 50);
+    }
+    else {
+        text("OH NO! TOO MANY BUNNIES!", 400, 50);
+    }
+    pop();
 }
 
 
