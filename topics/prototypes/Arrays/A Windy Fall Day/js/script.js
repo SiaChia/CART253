@@ -34,6 +34,13 @@ function setup() {
 function draw() {
     // Background 
     background("#ef8860");
+
+    // Forest trees
+    drawTree(0, 100, 120);
+    drawTree(250, 80, 140);
+    drawTree(520, 100, 120);
+
+
 }
 /**
  * Creates a leaf
@@ -49,3 +56,23 @@ function createLeaf() {
 
     leaves.push(leaf);
 }
+
+/**
+ * Draws large forest trees
+ */
+function drawTree(x, y, size) {
+    push();
+
+    // Tree trunk
+    fill("#4b1d00");
+    noStroke();
+    rect(x, y, size, 480);
+
+    // Tree top
+    fill("#a0330f");
+    noStroke();
+    circle(x + size / 2, y, size * 3);
+
+    pop();
+}
+
