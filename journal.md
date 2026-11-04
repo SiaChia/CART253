@@ -78,3 +78,18 @@ I didn’t struggle much with the coding however, I did struggle with trying to 
 
 Overall, I’m happy with how my prototypes turned out. I think that maybe for some of them I could’ve done more or added more but I am okay with how they turned out. Regardless of the art block I pushed through and created some prototypes that I can be proud of. 
 ![Fallen Stars](./images/Fallen%20Stars.png)
+
+## Tuesday, November 3rd, 2026
+
+### Prototyping: Arrays
+
+This assignment was slightly rocky for me but nonetheless, my prototypes turned out nice. 
+I decided that for this assignment I wanted to create prototypes that were more unserious and fun. The only issues I had with these prototypes were adding an image. 
+
+I wanted to go out of my comfort zone by trying new things while also keeping them simple. I really like that arrays are almost like a container that helps organize and make cool things with loops. Additionally, I added loops to some of these prototypes just because we went over it in class and I just wanted to try experimenting more.  I wanted to do something different and add an image instead of a drawing like I normally do. I also had enjoyed experimenting with the bark sound that was provided to us. 
+
+The only thing that I personally struggled with was trying to add an image to my project. It took me so long to figure out what I was doing wrong and realized that I wasn’t preloading my image properly. I also messed with some files to try to make it work which caused me to have to restart my project. I honestly have no idea why I thought that would fix something or be a good idea, but I got really desperate. I probably should’ve just asked for help… 
+
+Regardless of my struggles, my prototypes turned out the way I wanted them to, and I am proud of myself for not giving up! 
+![Bunny](./images/bunny2.png)
+
