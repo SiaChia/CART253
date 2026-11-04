@@ -1,15 +1,15 @@
 /**
- * Title of Project
- * Author Name
+ * A Windy Fall Day
+ * Athanasia (Sia) Iliopoulos
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This will be an interactive fall scene where you drag your mouse to change the direction of fall leaves in the wind
+ * 
  */
 
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * Canvas setup for scene
 */
 function setup() {
 
@@ -17,7 +17,7 @@ function setup() {
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
+ * Drawing of fall scene
 */
 function draw() {
 
