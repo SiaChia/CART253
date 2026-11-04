@@ -12,7 +12,8 @@
  * Canvas setup for scene
 */
 function setup() {
-
+    // Canvas
+    createCanvas(640, 480);
 }
 
 
@@ -20,5 +21,6 @@ function setup() {
  * Drawing of fall scene
 */
 function draw() {
-
+    // Background 
+    background("#ef8860");
 }
