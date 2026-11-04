@@ -11,6 +11,9 @@
 // Leaf variables
 let leaves = [];
 
+// Wind direction
+let wind = 1;
+
 /**
  * Canvas setup for scene
 */
