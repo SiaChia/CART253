@@ -15,6 +15,7 @@ let balloonY = [];
 let balloonSize = [];
 let balloonSpeed = [];
 let balloonColor = [];
+let popSound;
 
 // Colours for balloon (randomly selected)
 let colours = ["#fe698e", "#a37afb", "#FFE066", "#80c0ff", "#85e492"];
@@ -93,6 +94,12 @@ function drawBalloons() {
 }
 
 /**
+ * Load balloon pop sound
+ */
+function preload() {
+    popSound = loadSound("assets/sounds/bark.wav");
+}
+/**
  * Move balloons upwards
  */
 function moveBalloons() {
@@ -123,6 +130,9 @@ function mousePressed() {
 
             // Make balloon disappear
             balloonVisible[balloonNumber] = false;
+
+            // Play pop sound
+            popSound.play();
         }
     }
 }
