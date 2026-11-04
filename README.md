@@ -140,4 +140,13 @@
 
 • [Balloon Pop code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Arrays/Balloon%20Pop)
 
+#### Bunny Chaos
+![Bunny Chaos](./images/Bunny%20Chaos.png)
+
+• [Bunny Chaos website link](https://siachia.github.io/CART253/topics/prototypes/Arrays/Bunny%20Chaos/)
+
+• [Bunny Chaos code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Arrays/Bunny%20Chaos)
+
+
+
 
