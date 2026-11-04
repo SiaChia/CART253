@@ -1,12 +1,12 @@
-# TITLE OF PROJECT
+# A Windy Fall DAy 
 
-AUTHOR NAME
+Athanasia (Sia) Iliopoulos
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://siachia.github.io/CART253/topics/prototypes/Arrays/A%20Windy%20Fall%20Day/)
 
 ## Description
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+This will be an interactive fall scene where you drag your mouse to change the direction of fall leaves in the wind. 
 
 ## Attribution
 
