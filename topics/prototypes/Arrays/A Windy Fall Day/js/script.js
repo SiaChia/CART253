@@ -8,6 +8,9 @@
 
 "use strict";
 
+// Leaf variables
+let leaves = [];
+
 /**
  * Canvas setup for scene
 */
