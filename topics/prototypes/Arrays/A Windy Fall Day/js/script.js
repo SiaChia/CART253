@@ -17,6 +17,11 @@ let leaves = [];
 function setup() {
     // Canvas
     createCanvas(640, 480);
+
+    // Create leaves
+    for (let i = 0; i < 100; i++) {
+        createLeaf();
+    }
 }
 
 
@@ -26,4 +31,18 @@ function setup() {
 function draw() {
     // Background 
     background("#ef8860");
+}
+/**
+ * Creates a leaf
+ */
+
+function createLeaf() {
+    let leaf = {
+        x: random(0, 800),
+        y: random(0, 400),
+        size: random(10, 25),
+        speed: random(1, 3)
+    };
+
+    leaves.push(leaf);
 }
