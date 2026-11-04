@@ -13,6 +13,7 @@ let leaves = [];
 
 // Wind direction
 let wind = 1;
+let previousMouseX = 0;
 
 /**
  * Canvas setup for scene
@@ -113,4 +114,22 @@ function moveLeaves() {
             leaf.x = 640;
         }
     }
+}
+
+/**
+ * Changes wind direction with mouse movement
+ */
+function mouseMoved() {
+
+    if (mouseX > previousMouseX) {
+        wind = 1;
+    }
+
+    if (mouseX < previousMouseX) {
+        wind = -1;
+    }
+
+    previousMouseX = mouseX;
+
+
 }
