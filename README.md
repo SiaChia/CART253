@@ -147,6 +147,13 @@
 
 • [Bunny Chaos code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Arrays/Bunny%20Chaos)
 
+#### A Windy Fall Day
+![A Windy Fall Day](./images/A%20Windy%20Fall%20Day%20.png)
+
+• [A Windy Fall Day website link](https://siachia.github.io/CART253/topics/prototypes/Arrays/A%20Windy%20Fall%20Day/)
+
+• [A Windy Fall Day code link](https://github.com/SiaChia/CART253/tree/main/topics/prototypes/Arrays/A%20Windy%20Fall%20Day)
+
 
 
 
