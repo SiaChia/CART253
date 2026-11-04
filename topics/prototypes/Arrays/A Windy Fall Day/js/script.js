@@ -43,6 +43,7 @@ function draw() {
 
     // Leaves
     drawLeaves();
+    moveLeaves();
 }
 /**
  * Creates a leaf
@@ -94,4 +95,22 @@ function drawLeaves() {
         pop();
     }
 }
+/**
+ * Moves all the leaves
+ */
+function moveLeaves() {
+    for (let i = 0; i < leaves.length; i++) {
+        let leaf = leaves[i];
 
+        leaf.x = leaf.x + wind * leaf.speed;
+
+        // Reset leaves when they leave the screen
+        if (leaf.x > 640) {
+            leaf.x = 0;
+        }
+
+        if (leaf.x < 0) {
+            leaf.x = 640;
+        }
+    }
+}
