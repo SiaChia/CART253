@@ -41,6 +41,8 @@ function draw() {
     drawTree(520, 100, 120);
 
 
+    // Leaves
+    drawLeaves();
 }
 /**
  * Creates a leaf
@@ -74,5 +76,22 @@ function drawTree(x, y, size) {
     circle(x + size / 2, y, size * 3);
 
     pop();
+}
+
+/**
+ * Draws all the leaves
+ */
+function drawLeaves() {
+    for (let i = 0; i < leaves.length; i++) {
+        let leaf = leaves[i];
+
+        push();
+
+        noStroke();
+        fill("#d44e1d");
+        circle(leaf.x, leaf.y, leaf.size);
+
+        pop();
+    }
 }
 
