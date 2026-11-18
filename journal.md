@@ -93,3 +93,20 @@ The only thing that I personally struggled with was trying to add an image to my
 Regardless of my struggles, my prototypes turned out the way I wanted them to, and I am proud of myself for not giving up! 
 ![Bunny](./images/bunny2.png)
 
+## Tuesday, November 17, 2026
+
+### Final Project: Week 1
+
+Throughout the week, I will be planning out what I would like to do for my final prototype and starting to code. I’ve recently been really inspired by many different horror games. I would like this final prototype to be something weird, creepy, and fun all at the same time. Instead of creating three prototypes, I want to create one big prototype. I would rather focus on developing one idea rather than coming up with multiple ideas as I find that I personally create better end results that way. 
+
+My final prototype will be a memory game with 3 different levels if possible (depending on the time I have, how detailed I want it to be and how I feel about it). The player will have about 10 seconds to memorize what is in a room. After that, the screen will go black, and reappear with a room that is the same but also has changed. I want the game to have a creepy and scary theme. 
+
+One idea I have been thinking about possibly doing is creating digital drawings for the level designs and adding the images to my code instead of creating everything through programming. I like this idea, but I also feel like this would be a lot of hard work that might take really long. This would give me more freedom to experiment with different styles and would look great but could also cause me to do too much and be burned out depending on the level of detail.
+
+I was also thinking that, if everything goes smoothly, I would like to try making music for my game. I don't have any experience creating music, but I think it would be fun idea to try out something new. I feel like music could help create the creepy atmosphere I want for the game. I would only add this at the end if I feel like the project needs it or I have time. Nonetheless, adding music would be a bonus thing I could add that would elevate the whole prototype. 
+
+I became interested in this concept because I love games that challenge people's brains and force them to think. I like the idea of having an environment that changes more and more as the game progresses. Most of my other prototypes focused mainly on straightforward interactions, but I want to take what I have learned and challenge myself to create something more complex. I still want the game to be relatively easy to understand and play, but I want it to have more detail.
+
+For this week, I plan on designing, sketching and finishing at least the title screen of the game. I think having a creative title screen will make the game more engaging. This week will involve a lot of trial and error, with plenty of experimentation as I figure out what I can realistically accomplish. My ideas might change as I work and discover new ideas, but my main goal is to create an interactive memory game where objects change and the player has to figure out what is different.
+
+
