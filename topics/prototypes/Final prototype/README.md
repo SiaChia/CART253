@@ -1,12 +1,12 @@
 # Out of Place 
 
-AUTHOR NAME
+Athanasia (Sia) Iliopoulos 
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[Out of Place](https://siachia.github.io/CART253/topics/prototypes/Final%20prototype/)
 
 ## Description
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+"Out of Place" is a interactive game where you are stuck in a creepy unsettling room that changes as levels increase. When the room changes, you as a player will need to remember what has changed. Once yoy recognized what has changed or missing, click on that area. There will be three interactive levels to this game. 
 
 ## Attribution
 
