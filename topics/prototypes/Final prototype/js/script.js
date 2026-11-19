@@ -8,17 +8,28 @@
 
 "use strict";
 
+// Background image
+let roomBackground;
+
 /**
- * Canvas set up for the game
-*/
-function setup() {
-    createCanvas(900, 600);
+ * Canvas setup for the game 
+ */
+async function setup() {
+    // Canvas size
+    createCanvas(640, 600);
+
+    // Load background image
+    roomBackground = await
+        loadImage("assets/images/calaveras.jpg");
 }
 
 
 /**
- * Drawing images and background images
-*/
+ * Drawing background images and furniture images
+ */
 function draw() {
-    background("#000000");
+    // Background image
+    image(roomBackground, 0, 0, 640, 600);
 }
+
+
