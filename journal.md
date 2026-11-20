@@ -110,3 +110,5 @@ I became interested in this concept because I love games that challenge people's
 For this week, I plan on designing, sketching and finishing at least the title screen of the game. I think having a creative title screen will make the game more engaging. This week will involve a lot of trial and error, with plenty of experimentation as I figure out what I can realistically accomplish. My ideas might change as I work and discover new ideas, but my main goal is to create an interactive memory game where objects change and the player has to figure out what is different.
 ![creepyroom](./images/creepyroom.png)
 
+![bloodyroom](./images/bloodyroom.png)
+

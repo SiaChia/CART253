@@ -20,7 +20,7 @@ async function setup() {
 
     // Load background image
     roomBackground = await
-        loadImage("assets/images/calaveras.jpg");
+        loadImage("assets/images/bloodyroom.png");
 }
 
 
