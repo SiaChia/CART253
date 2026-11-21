@@ -50,6 +50,26 @@ function drawTitle() {
 }
 
 /**
+ * Displays the play button
+ */
+function drawPlayButton() {
+    push();
+    rectMode(CENTER);
+    strokeWeight(2);
+    stroke("#ffc8e3");
+    fill("#650000");
+    rect(320, 340, 140, 55);
+
+    textAlign(CENTER, CENTER);
+    textFont("Chiller");
+    textSize(40);
+    noStroke();
+    fill("#ffc8e3");
+    text("PLAY", 320, 345);
+    pop();
+}
+
+/**
  * Drawing background images and furniture images
  */
 function draw() {
@@ -58,6 +78,13 @@ function draw() {
 
     // title sceen
     drawTitle();
+
+    // Play button
+    drawPlayButton();
 }
+
+
+
+
 
 
