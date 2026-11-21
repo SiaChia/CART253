@@ -8,8 +8,13 @@
 
 "use strict";
 
-// Background image
+// Background images
+
 let roomBackground;
+let instructionsBackground;
+
+// Current screen
+let currentScreen = "title";
 
 /**
  * Canvas setup for the game 
@@ -21,6 +26,10 @@ async function setup() {
     // Load background image
     roomBackground = await
         loadImage("assets/images/bloodyroom.png");
+
+    // Load instructions background
+    instructionsBackground = await
+        loadImage("assets/images/instructionsscreen.png");
 }
 
 /**
@@ -93,24 +102,97 @@ function drawInstructionsButton() {
 }
 
 /**
+ * Displays the instructions screen
+ */
+function drawInstructionsScreen() {
+
+    push();
+
+    textAlign(CENTER, CENTER);
+    textFont("Chiller");
+    textSize(70);
+
+    // Red shadow
+    fill("#650000");
+    text("HOW TO PLAY", 323, 150);
+
+    // Main title
+    fill("#ffc8e3");
+    text("HOW TO PLAY", 320, 147);
+
+    // Instructions
+    textFont("impact");
+    textSize(22);
+    fill("#ffc8e3");
+
+    text("Look carefully at the room.", 320, 250);
+    text("Remember where everything is.", 320, 290);
+    text("When something changes or disappears,", 320, 330);
+    text("click on the area that is different.", 320, 365);
+
+    // Back button
+    textFont("Chiller");
+    textSize(40);
+
+    // Red shadow
+    fill("#650000");
+    text("BACK", 323, 503);
+
+    // Main text
+    fill("#ffc8e3");
+    text("BACK", 320, 500);
+
+    pop();
+}
+
+/**
  * Drawing background images and furniture images
  */
 function draw() {
-    // Background image
-    image(roomBackground, 0, 0, 640, 600);
 
-    // title sceen
-    drawTitle();
+    // Title screen
+    if (currentScreen === "title") {
 
-    // Play button
-    drawPlayButton();
+        // Background image
+        image(roomBackground, 0, 0, 640, 600);
 
-    // Instructions button
-    drawInstructionsButton();
+        // title sceen
+        drawTitle();
+
+        // Play button
+        drawPlayButton();
+
+        // Instructions button
+        drawInstructionsButton();
+    }
+
+    // Instructions screen
+    else if (currentScreen === "instructions") {
+
+        image(instructionsBackground, 0, 0, 640, 600);
+
+        drawInstructionsScreen();
+    }
 }
 
+/**
+ * Checks if the mouse is pressed
+ */
+function mousePressed() {
 
+    // Instructions button
+    if (currentScreen === "title" &&
+        mouseX > 225 && mouseX < 415 &&
+        mouseY > 225 && mouseY < 275) {
 
+        currentScreen = "instructions";
+    }
 
+    // Back button
+    else if (currentScreen === "instructions" &&
+        mouseX > 260 && mouseX < 380 &&
+        mouseY > 470 && mouseY < 530) {
 
-
+        currentScreen = "title";
+    }
+}
