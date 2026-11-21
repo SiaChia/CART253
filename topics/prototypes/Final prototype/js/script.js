@@ -57,7 +57,7 @@ function drawPlayButton() {
     rectMode(CENTER);
     strokeWeight(2);
     stroke("#ffc8e3");
-    fill("#650000");
+    fill("#3f0101");
     rect(320, 340, 140, 55);
 
     textAlign(CENTER, CENTER);
@@ -66,6 +66,29 @@ function drawPlayButton() {
     noStroke();
     fill("#ffc8e3");
     text("PLAY", 320, 345);
+    pop();
+}
+
+/**
+ * Displays the instructions button
+ */
+function drawInstructionsButton() {
+    push();
+
+    // Button text alignment
+    textAlign(CENTER, CENTER);
+    textFont("Chiller");
+    textSize(50);
+
+    // Red shadow
+
+    fill("#650000");
+    text("INSTRUCTIONS", 323, 253);
+
+    // Main text
+    fill("#ffc8e3");
+    text("INSTRUCTIONS", 320, 250);
+
     pop();
 }
 
@@ -81,6 +104,9 @@ function draw() {
 
     // Play button
     drawPlayButton();
+
+    // Instructions button
+    drawInstructionsButton();
 }
 
 

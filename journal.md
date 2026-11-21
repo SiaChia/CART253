@@ -112,3 +112,5 @@ For this week, I plan on designing, sketching and finishing at least the title s
 
 ![bloodyroom](./images/bloodyroom.png)
 
+![titescreen](./images/titlescreen.png)
+
