@@ -23,6 +23,31 @@ async function setup() {
         loadImage("assets/images/bloodyroom.png");
 }
 
+/**
+ * Displays the game title
+ */
+function drawTitle() {
+
+    push();
+
+    // Title font
+    textFont("Chiller");
+
+    // Title alignment
+    textAlign(CENTER, CENTER);
+    textSize(80);
+
+    // Red shadow
+    fill("#650000");
+    text("OUT OF PLACE", 323, 100);
+
+    // Main title
+    fill("#ffc8e3");
+    text("OUT OF PLACE", 320, 100);
+
+
+    pop();
+}
 
 /**
  * Drawing background images and furniture images
@@ -30,6 +55,9 @@ async function setup() {
 function draw() {
     // Background image
     image(roomBackground, 0, 0, 640, 600);
+
+    // title sceen
+    drawTitle();
 }
 
 
