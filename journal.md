@@ -114,3 +114,19 @@ For this week, I plan on designing, sketching and finishing at least the title s
 
 ![titescreen](./images/titlescreen.png)
 
+## Tuesday, November 24th, 2026
+
+### Final Project: Week 2
+
+During this week, my goal is to finish drawing all the items in the room and finish one playable level for the demo of the game. I also have completed the instructions for the game however; I might change them because I am thinking about adding health to this game. I think that adding health would make it more challenging and give the player something to worry about. 
+
+The main reason why I’ve made the decision to draw everything by hand is because I feel like it will make the overall game more intriguing and engaging to play.  The only downside I am noticing is that it is taking me way longer than I expected it to, but I am so proud of the results. So far, it looks like an actual indie game that you would buy on steam. I want to keep the designs of the objects and rendering simple to save on time.  So far, I am thinking of drawing a rocking chair, a bear, light, drawers and possibly a bookshelf. I am honestly drawing everything as I go and seeing what would be cool to add, but not too complicated to draw. 
+
+I’ve also been experimenting a lot with different kinds of typography. I wanted the font to have a horror aesthetic to it, so I chose the font “Chiller” for the titles. For the instruction screen I made the “How to play” and “back” button with that font.  For the actual instructions I used the font “Impact” to make the writing bold and overall, so it goes with the style of the game.  
+
+I haven’t fully grasped what ideas I want for all the levels, but I know that I want the first level to be very simple and only have two things that change. I want a teddy bear to disappear, and I want a lamp that I am going to add to turn off so the room gets very dark. This will hopefully add a more unsettling feel to the game. Furthermore, this level will be relatively easy as it will sort of teach the player how the game works. 
+
+This project is heavily inspired by the game series “Resident Evil” when creating this game as well as memory games I used to play as a kid. I essentially wanted to take a familiar memory game you would play as a kid and turn it into a creepier horror game. I think combining some nostalgia and horror is what makes this concept interesting to me and I want that feeling to come across when I am done with the game. 
+
+Overall, this week has helped me better understand the concept I want to do and theme I want to accomplish. I’ve realized how much work and effort really goes on to making a detailed game when you are responsible for the art aspect and coding aspect of the game. Moving forward throughout the week, I’ll be adding more process images to this journal entry. I will be focusing on finishing my objects and implementing them into the game. I am excited to see how it will turn out and looking forward to my classmate’s playtesting it.  
+![instructions](./images/instructions.png)
