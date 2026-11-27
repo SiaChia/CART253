@@ -251,6 +251,8 @@ function drawLevel1Screen() {
     // Dresser
     image(dresserImage, 170, 120, 400, 400);
 
+    // Mirror
+    image(mirrorImage, 400, 50, 370, 500);
 }
 
 /**
