@@ -152,8 +152,25 @@ function drawInstructionsScreen() {
  */
 function drawLevelSelectionScreen() {
 
-    // back button for level selection screen
     push();
+
+    // Level selection title
+
+    textFont("Chiller");
+
+    // Title alignment
+    textAlign(CENTER, CENTER);
+    textSize(70);
+
+    // Red shadow
+    fill("#650000");
+    text("LEVEL SELECTION", 323, 120);
+
+    // Main title
+    fill("#ffc8e3");
+    text("LEVEL SELECTION", 320, 117);
+
+    // back button for level selection screen
 
     textFont("Chiller");
     textSize(30);
