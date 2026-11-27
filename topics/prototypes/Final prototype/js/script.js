@@ -267,6 +267,26 @@ function drawLevel1Screen() {
 
     // Stuffed bunny
     image(bunnyImage, 300, 350, 210, 240);
+
+
+    // Timer display
+
+    push();
+
+    textFont("Chiller");
+    textSize(50);
+    textAlign(CENTER, CENTER);
+    noStroke();
+
+    // Red shadow
+    fill("#650000");
+    text(timer, 583, 43);
+
+    // Pink timer
+    fill("#ffc8e3");
+    text(timer, 580, 40);
+
+    pop();
 }
 
 /**
