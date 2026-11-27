@@ -50,6 +50,7 @@ let memorizing = true;
 // Loading screen timer
 let loadingStartTime;
 let loadingDuration = 3;
+let showingLoadingScreen = false;
 
 // Player health
 let health = [true, true, true];
