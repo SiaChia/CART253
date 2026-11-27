@@ -78,6 +78,18 @@ The game is controlled using your mouse.
 
 ![Heart](./assets/images/heart.png)
 
+## Inspirations
+
+"Out of Place" takes insperation from survival horror games as well as psychological horror games that create fear through the use of environment. I was heavily inspired by video games like "Sally Face", "Fran Bow" and the "Resident Evil" game series. 
+
+When I was a child, I also played a lot of memory games. This made me want explore taking a familliar nostolgic game and turning into a weird, creepy game. In general, I have always loved creating horror type art, I love having fun and making everything dark and gritty. Making "perfect art" stresses me out, I'd rather have fun with it. 
+
+For this project, I wanted to create a more polished prototype so it feels like a finished game. I used my own visuals to make it more personal to me. Everything I have learned in the course CART 253 is included in my code.
+
+I worked very hard on this and I am extremely proud to share it with all of you! 
+
+
+
 ## Attribution
 
 > - All images/illustrations were created by Athanasia (Sia) Iliopoulos
@@ -87,4 +99,6 @@ The game is controlled using your mouse.
 
 ## License
 
-> This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
+>- The source code for Out of Place is licensed under the MIT License. You are free to use, copy, modify, and distribute the code, provided that the original copyright and license notice are included.
+
+>- Original artwork, illustrations, backgrounds, and visual assets are excluded from this license and may not be reused without permission.
