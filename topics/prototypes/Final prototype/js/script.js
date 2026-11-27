@@ -459,6 +459,7 @@ function mousePressed() {
         // If the player clicks outside the bunny
         else {
 
+            // Remove one heart
             for (let i = 0; i < health.length; i++) {
 
                 if (health[i] === true) {
@@ -466,7 +467,22 @@ function mousePressed() {
                     break;
                 }
             }
-        }
-    }
 
+            // Count remaining hearts
+            let heartsLeft = 0;
+
+            for (let i = 0; i < health.length; i++) {
+
+                if (health[i] === true) {
+                    heartsLeft++;
+                }
+            }
+
+            // Game over when all hearts are gone
+            if (heartsLeft === 0) {
+                gameOver = true;
+            }
+        }
+
+    }
 }
