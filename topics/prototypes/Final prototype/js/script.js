@@ -460,7 +460,11 @@ function draw() {
         drawLevel1Screen();
     }
 }
-
+/**
+ * Displays a black loading screen
+ */
+function drawLoadingScreen() {
+}
 /**
  * Checks if the mouse is pressed
  */
