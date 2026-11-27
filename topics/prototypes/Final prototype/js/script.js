@@ -35,7 +35,9 @@ let bunnyImage;
 let bunnyVisible = true;
 let rockingChairImage;
 let entityImage;
-
+// Entity movement
+let entityX = -180;
+let entitySpeed = 3;
 // Health heart image
 let heartImage;
 
