@@ -406,4 +406,13 @@ function mousePressed() {
         memorizing = true;
 
     }
+
+    // Find the missing bunny
+    else if (currentScreen === "level1" &&
+        memorizing === false &&
+        mouseX > 300 && mouseX < 510 &&
+        mouseY > 350 && mouseY < 590) {
+
+        bunnyVisible = true;
+    }
 }
