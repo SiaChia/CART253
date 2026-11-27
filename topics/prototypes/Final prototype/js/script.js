@@ -257,6 +257,7 @@ function drawLevel1Screen() {
         if (timer <= 0) {
             timer = 0;
             memorizing = false;
+            bunnyVisible = false;
         }
     }
 
@@ -279,7 +280,9 @@ function drawLevel1Screen() {
     image(rockingChairImage, -70, 180, 400, 450);
 
     // Stuffed bunny
-    image(bunnyImage, 300, 350, 210, 240);
+    if (bunnyVisible === true) {
+        image(bunnyImage, 300, 350, 210, 240);
+    }
 
 
     // Timer display
