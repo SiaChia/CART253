@@ -230,11 +230,23 @@ function mousePressed() {
         currentScreen = "levels";
     }
 
-    // Back button
+    // Back buttons
+
+    // Instruction screen 
     else if (currentScreen === "instructions" &&
         mouseX > 65 && mouseX < 135 &&
         mouseY > 480 && mouseY < 520) {
 
         currentScreen = "title";
     }
+
+    // Back button on level selection
+    else if (currentScreen === "levels" &&
+        mouseX > 65 && mouseX < 135 &&
+        mouseY > 480 && mouseY < 520) {
+
+        currentScreen = "title";
+    }
+
+
 }
