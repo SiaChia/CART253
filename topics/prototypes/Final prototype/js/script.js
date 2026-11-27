@@ -131,7 +131,8 @@ function drawInstructionsScreen() {
     text("Click on the area that is different.", 320, 365);
     text("Remember wrong, you lose a heart.", 320, 395);
 
-    // Back button
+    // Back button for instructions screen
+
     textFont("Chiller");
     textSize(30);
 
@@ -150,6 +151,22 @@ function drawInstructionsScreen() {
  * Displays the level selection screen
  */
 function drawLevelSelectionScreen() {
+
+    // back button for level selection screen
+    push();
+
+    textFont("Chiller");
+    textSize(30);
+
+    // Red shadow
+    fill("#650000");
+    text("BACK", 102, 503);
+
+    // Main text
+    fill("#ffc8e3");
+    text("BACK", 100, 500);
+
+    pop();
 
 }
 
