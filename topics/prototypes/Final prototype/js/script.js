@@ -246,6 +246,11 @@ function drawLevel1Screen() {
     // Room background
     image(roomBackground, 0, 0, 640, 600);
 
+    // Objects
+
+    // Dresser
+    image(dresserImage, 170, 120, 400, 400);
+
 }
 
 /**
