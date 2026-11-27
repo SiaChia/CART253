@@ -28,6 +28,8 @@ let dresserImage;
 let lampImage;
 let mirrorImage;
 let bunnyImage;
+// Bunny visibility
+let bunnyVisible = true;
 let rockingChairImage;
 let entityImage;
 
