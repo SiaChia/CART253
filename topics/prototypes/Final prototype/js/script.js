@@ -330,6 +330,14 @@ function drawHealth() {
 }
 
 /**
+ * Displays the game over screen
+ */
+function drawGameOverScreen() {
+
+
+}
+
+/**
  * Drawing background images and furniture images
  */
 function draw() {
@@ -442,6 +450,7 @@ function mousePressed() {
 
             bunnyVisible = true;
         }
+
         // If the player clicks outside the bunny
         else {
 
