@@ -334,6 +334,8 @@ function drawHealth() {
  */
 function drawGameOverScreen() {
 
+    // Background image
+    image(instructionsBackground, 0, 0, 640, 600);
 
 }
 
@@ -378,10 +380,13 @@ function draw() {
     // Level 1 screen
     else if (currentScreen === "level1") {
 
-        drawLevel1Screen();
+        if (gameOver === true) {
+            drawGameOverScreen();
+        }
+        else {
+            drawLevel1Screen();
+        }
     }
-
-
 }
 
 /**
