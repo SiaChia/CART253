@@ -205,6 +205,14 @@ function mousePressed() {
         currentScreen = "instructions";
     }
 
+    // Play button
+    else if (currentScreen === "title" &&
+        mouseX > 250 && mouseX < 390 &&
+        mouseY > 310 && mouseY < 370) {
+
+        currentScreen = "levels";
+    }
+
     // Back button
     else if (currentScreen === "instructions" &&
         mouseX > 65 && mouseX < 135 &&
