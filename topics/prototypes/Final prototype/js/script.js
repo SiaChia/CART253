@@ -16,6 +16,13 @@ let instructionsBackground;
 // Current screen
 let currentScreen = "title";
 
+// Level button positions
+let level1X = 150;
+let level2X = 320;
+let level3X = 490;
+let levelY = 320;
+let levelSize = 120;
+
 /**
  * Canvas setup for the game 
  */
@@ -169,6 +176,16 @@ function drawLevelSelectionScreen() {
     // Main title
     fill("#ffc8e3");
     text("LEVEL SELECTION", 320, 117);
+
+    // Level selection circles
+    stroke("#ffc8e3");
+    strokeWeight(3);
+    fill("#3f0101");
+
+    ellipse(level1X, levelY, levelSize, levelSize);
+    ellipse(level2X, levelY, levelSize, levelSize);
+    ellipse(level3X, levelY, levelSize, levelSize);
+
 
     // back button for level selection screen
 
