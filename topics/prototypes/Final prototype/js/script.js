@@ -434,9 +434,25 @@ function mousePressed() {
     // Find the missing bunny
     else if (currentScreen === "level1" &&
         memorizing === false &&
-        mouseX > 300 && mouseX < 510 &&
-        mouseY > 350 && mouseY < 590) {
+        bunnyVisible === false) {
 
-        bunnyVisible = true;
+        // Correct click: clicked where the bunny disappeared
+        if (mouseX > 300 && mouseX < 510 &&
+            mouseY > 350 && mouseY < 590) {
+
+            bunnyVisible = true;
+        }
+        // If the player clicks outside the bunny
+        else {
+
+            for (let i = 0; i < health.length; i++) {
+
+                if (health[i] === true) {
+                    health[i] = false;
+                    break;
+                }
+            }
+        }
     }
+
 }
