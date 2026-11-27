@@ -16,6 +16,9 @@ let instructionsBackground;
 // Current screen
 let currentScreen = "title";
 
+// Game state
+let gameOver = false;
+
 // Level button positions
 let level1X = 150;
 let level2X = 320;
