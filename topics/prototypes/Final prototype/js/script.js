@@ -147,6 +147,13 @@ function drawInstructionsScreen() {
 }
 
 /**
+ * Displays the level selection screen
+ */
+function drawLevelSelectionScreen() {
+
+}
+
+/**
  * Drawing background images and furniture images
  */
 function draw() {
@@ -173,6 +180,15 @@ function draw() {
         image(instructionsBackground, 0, 0, 640, 600);
 
         drawInstructionsScreen();
+    }
+
+    // Level selection screen
+    else if (currentScreen === "levels") {
+
+        // Background image
+        image(instructionsBackground, 0, 0, 640, 600);
+
+        drawLevelSelectionScreen();
     }
 }
 
