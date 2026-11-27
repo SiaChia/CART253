@@ -337,7 +337,46 @@ function drawGameOverScreen() {
     // Background image
     image(instructionsBackground, 0, 0, 640, 600);
 
+    // YOU DIED title
+    push();
+
+    textFont("Chiller");
+    textSize(100);
+    textAlign(CENTER, CENTER);
+    noStroke();
+
+    // Dark red shadow
+    fill("#650000");
+    text("YOU DIED", 323, 183);
+
+    // Main pink title
+    fill("#ffc8e3");
+    text("YOU DIED", 320, 180);
+
+    pop();
+
+    // Retry button
+    push();
+
+    rectMode(CENTER);
+    strokeWeight(2);
+    stroke("#ffc8e3");
+    fill("#3f0101");
+
+    // Button background
+    rect(320, 360, 140, 55);
+
+    // Retry text
+    textAlign(CENTER, CENTER);
+    textFont("Chiller");
+    textSize(40);
+    noStroke();
+    fill("#ffc8e3");
+    text("RETRY", 320, 365);
+
+    pop();
 }
+
 
 /**
  * Drawing background images and furniture images
