@@ -29,6 +29,7 @@ let lampImage;
 let mirrorImage;
 let bunnyImage;
 let rockingChairImage;
+let entityImage;
 
 // Health heart image
 let heartImage;
@@ -49,7 +50,13 @@ async function setup() {
         loadImage("assets/images/instructionsscreen.png");
 
     // Load Level 1 objects
-
+    dresserImage = await loadImage("assets/images/dresser.png");
+    lampImage = await loadImage("assets/images/lamp.png");
+    mirrorImage = await loadImage("assets/images/mirror.png");
+    bunnyImage = await loadImage("assets/images/stuffedbunny.png");
+    heartImage = await loadImage("assets/images/heart.png");
+    entityImage = await loadImage("assets/images/entity.png");
+    rockingChairImage = await loadImage("assets/images/Chair.png");
 }
 
 /**
