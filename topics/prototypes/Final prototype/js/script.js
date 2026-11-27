@@ -321,7 +321,7 @@ function drawLevel1Screen() {
         entityX = entityX + entitySpeed;
 
         // Display entity
-        image(entityImage, entityX, 170, 180, 350);
+        image(entityImage, entityX, -50, 500, 700);
 
         // Stop moving once entity leaves the screen
         if (entityX > 640) {
