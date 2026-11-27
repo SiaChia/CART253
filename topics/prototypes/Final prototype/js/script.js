@@ -219,6 +219,16 @@ function drawLevelSelectionScreen() {
 }
 
 /**
+ * Displays Level 1
+ */
+function drawLevel1Screen() {
+
+    // Room background
+    image(roomBackground, 0, 0, 640, 600);
+
+}
+
+/**
  * Drawing background images and furniture images
  */
 function draw() {
@@ -254,6 +264,12 @@ function draw() {
         image(instructionsBackground, 0, 0, 640, 600);
 
         drawLevelSelectionScreen();
+    }
+
+    // Level 1 screen
+    else if (currentScreen === "level1") {
+
+        drawLevel1Screen();
     }
 }
 
