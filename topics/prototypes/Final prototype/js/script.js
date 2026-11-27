@@ -377,6 +377,26 @@ function drawGameOverScreen() {
     pop();
 }
 
+/**
+ * Restarts the current level
+ */
+function retryGame() {
+
+    // Reset game over state
+    gameOver = false;
+
+    // Restore player health
+    health = [true, true, true];
+
+    // Reset the bunny
+    bunnyVisible = true;
+
+    // Restart timer
+    timer = 10;
+    startTime = millis();
+    memorizing = true;
+}
+
 
 /**
  * Drawing background images and furniture images
@@ -481,6 +501,15 @@ function mousePressed() {
         startTime = millis();
         memorizing = true;
 
+    }
+
+    // Retry button on game over screen
+    else if (currentScreen === "level1" &&
+        gameOver === true &&
+        mouseX > 250 && mouseX < 390 &&
+        mouseY > 332 && mouseY < 388) {
+
+        retryGame();
     }
 
     // Find the missing bunny
