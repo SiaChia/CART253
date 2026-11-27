@@ -259,6 +259,9 @@ function drawLevel1Screen() {
 
     // Rocking chair
     image(rockingChairImage, -70, 180, 400, 450);
+
+    // Stuffed bunny
+    image(bunnyImage, 300, 350, 210, 240);
 }
 
 /**
