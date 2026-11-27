@@ -312,5 +312,13 @@ function mousePressed() {
         currentScreen = "title";
     }
 
+    // Level 1 button
+    else if (currentScreen === "levels" &&
+        mouseX > level1X - levelSize / 2 &&
+        mouseX < level1X + levelSize / 2 &&
+        mouseY > levelY - levelSize / 2 &&
+        mouseY < levelY + levelSize / 2) {
 
+        currentScreen = "level1";
+    }
 }
