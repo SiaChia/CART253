@@ -36,7 +36,7 @@ let heartImage;
 
 // Level timer
 let timer = 10;
-let timerFrames = 0;
+let startTime;
 let memorizing = true;
 
 /**
@@ -248,6 +248,17 @@ function drawLevelSelectionScreen() {
  */
 function drawLevel1Screen() {
 
+    // Timer countdown
+    if (memorizing === true) {
+        timer = 10 - (millis() - startTime) / 1000;
+
+        if (timer <= 0) {
+            timer = 0;
+            memorizing = false;
+        }
+    }
+
+
     // Room background
     image(roomBackground, 0, 0, 640, 600);
 
@@ -280,11 +291,11 @@ function drawLevel1Screen() {
 
     // Red shadow
     fill("#650000");
-    text(timer, 583, 43);
+    text(ceil(timer), 583, 43);
 
     // Pink timer
     fill("#ffc8e3");
-    text(timer, 580, 40);
+    text(ceil(timer), 580, 40);
 
     pop();
 }
@@ -332,6 +343,8 @@ function draw() {
 
         drawLevel1Screen();
     }
+
+
 }
 
 /**
@@ -381,5 +394,11 @@ function mousePressed() {
         mouseY < levelY + levelSize / 2) {
 
         currentScreen = "level1";
+
+
+        timer = 10;
+        startTime = millis();
+        memorizing = true;
+
     }
 }
