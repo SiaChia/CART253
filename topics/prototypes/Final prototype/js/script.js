@@ -31,7 +31,7 @@ let bunnyImage;
 let rockingChairImage;
 
 // Health heart image
-let heartImage
+let heartImage;
 
 /**
  * Canvas setup for the game 
