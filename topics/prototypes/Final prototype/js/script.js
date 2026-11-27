@@ -41,6 +41,9 @@ let timer = 10;
 let startTime;
 let memorizing = true;
 
+// Player health
+let health = [true, true, true];
+
 /**
  * Canvas setup for the game 
  */
@@ -303,6 +306,24 @@ function drawLevel1Screen() {
     text(ceil(timer), 580, 40);
 
     pop();
+
+    // Display health
+    drawHealth();
+}
+
+/**
+ * Displays the player's health
+ */
+function drawHealth() {
+
+    // Draw each remaining heart
+    for (let i = 0; i < health.length; i++) {
+
+        if (health[i] === true) {
+            image(heartImage, 20 + i * 90, 20, 80, 80);
+        }
+
+    }
 }
 
 /**
