@@ -177,6 +177,8 @@ function drawLevelSelectionScreen() {
     fill("#ffc8e3");
     text("LEVEL SELECTION", 320, 117);
 
+    // Level buttons
+
     // Level selection circles
     stroke("#ffc8e3");
     strokeWeight(3);
@@ -186,9 +188,21 @@ function drawLevelSelectionScreen() {
     ellipse(level2X, levelY, levelSize, levelSize);
     ellipse(level3X, levelY, levelSize, levelSize);
 
+    // Level numbers
+
+    textFont("Chiller");
+    textAlign(CENTER, CENTER);
+    textSize(70);
+    fill("#ffc8e3");
+
+    strokeWeight(1.5);
+    text("1", level1X, levelY);
+    text("2", level2X, levelY);
+    text("3", level3X, levelY);
 
     // back button for level selection screen
 
+    noStroke();
     textFont("Chiller");
     textSize(30);
 
