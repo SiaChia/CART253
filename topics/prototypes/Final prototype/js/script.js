@@ -133,15 +133,15 @@ function drawInstructionsScreen() {
 
     // Back button
     textFont("Chiller");
-    textSize(40);
+    textSize(30);
 
     // Red shadow
     fill("#650000");
-    text("BACK", 323, 503);
+    text("BACK", 102, 503);
 
     // Main text
     fill("#ffc8e3");
-    text("BACK", 320, 500);
+    text("BACK", 100, 500);
 
     pop();
 }
@@ -191,8 +191,8 @@ function mousePressed() {
 
     // Back button
     else if (currentScreen === "instructions" &&
-        mouseX > 260 && mouseX < 380 &&
-        mouseY > 470 && mouseY < 530) {
+        mouseX > 65 && mouseX < 135 &&
+        mouseY > 480 && mouseY < 520) {
 
         currentScreen = "title";
     }
