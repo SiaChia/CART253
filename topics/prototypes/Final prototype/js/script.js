@@ -23,6 +23,13 @@ let level3X = 490;
 let levelY = 320;
 let levelSize = 120;
 
+// Level 1 object images
+let dresserImage;
+let lampImage;
+let mirrorImage;
+let bunnyImage;
+let heartImage;
+
 /**
  * Canvas setup for the game 
  */
