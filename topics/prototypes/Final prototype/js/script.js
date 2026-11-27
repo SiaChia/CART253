@@ -28,7 +28,10 @@ let dresserImage;
 let lampImage;
 let mirrorImage;
 let bunnyImage;
-let heartImage;
+let rockingChairImage;
+
+// Health heart image
+let heartImage
 
 /**
  * Canvas setup for the game 
@@ -44,6 +47,9 @@ async function setup() {
     // Load instructions background
     instructionsBackground = await
         loadImage("assets/images/instructionsscreen.png");
+
+    // Load Level 1 objects
+
 }
 
 /**
