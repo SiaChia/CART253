@@ -256,6 +256,9 @@ function drawLevel1Screen() {
 
     // Mirror
     image(mirrorImage, 400, 50, 370, 500);
+
+    // Rocking chair
+    image(rockingChairImage, -70, 180, 400, 450);
 }
 
 /**
