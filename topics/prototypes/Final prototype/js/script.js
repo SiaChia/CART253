@@ -34,6 +34,11 @@ let entityImage;
 // Health heart image
 let heartImage;
 
+// Level timer
+let timer = 10;
+let timerFrames = 0;
+let memorizing = true;
+
 /**
  * Canvas setup for the game 
  */
