@@ -37,7 +37,8 @@ let rockingChairImage;
 let entityImage;
 // Entity movement
 let entityX = -180;
-let entitySpeed = 3;
+let entitySpeed = 7;
+let entityMoving = false;
 // Health heart image
 let heartImage;
 
@@ -292,6 +293,26 @@ function drawLevel1Screen() {
         image(bunnyImage, 300, 350, 210, 240);
     }
 
+    // Moving entity
+    if (memorizing === false && bunnyVisible === false) {
+
+        // Start entity movement
+        entityMoving = true;
+    }
+
+    // Move entity across the room
+    if (entityMoving === true) {
+
+        entityX = entityX + entitySpeed;
+
+        // Display entity
+        image(entityImage, entityX, 170, 180, 350);
+
+        // Stop moving once entity leaves the screen
+        if (entityX > 640) {
+            entityMoving = false;
+        }
+    }
 
     // Timer display
 
@@ -397,6 +418,10 @@ function retryGame() {
     timer = 10;
     startTime = millis();
     memorizing = true;
+
+    // reset entity 
+    entityX = -180;
+    entityMoving = false;
 }
 
 
