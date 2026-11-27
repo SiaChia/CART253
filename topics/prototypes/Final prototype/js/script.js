@@ -248,6 +248,9 @@ function drawLevel1Screen() {
 
     // Objects
 
+    // Lamp
+    image(lampImage, 210, 90, 200, 250);
+
     // Dresser
     image(dresserImage, 170, 120, 400, 400);
 
