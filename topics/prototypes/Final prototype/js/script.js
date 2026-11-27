@@ -158,10 +158,10 @@ function drawInstructionsScreen() {
     fill("#ffc8e3");
 
     text("Look carefully at the room.", 320, 250);
-    text("Remember where everything is.", 320, 290);
+    text("You have 10 seconds to remember where everything is.", 320, 290);
     text("When something changes or disappears,", 320, 330);
     text("Click on the area that is different.", 320, 365);
-    text("Remember wrong, you lose a heart.", 320, 395);
+    text("Remember wrong, you lose a heart.", 320, 400);
 
     // Back button for instructions screen
 
