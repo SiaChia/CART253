@@ -34,9 +34,7 @@ let bunnyImage;
 // Bunny visibility
 let bunnyVisible = true;
 let rockingChairImage;
-// Entity movement
-let entityX = -180;
-let entitySpeed = 3;
+let entityImage;
 
 // Health heart image
 let heartImage;
@@ -405,48 +403,34 @@ function retryGame() {
  */
 function draw() {
 
+    // Game over screen
+    if (currentScreen === "level1" && gameOver === true) {
+        drawGameOverScreen();
+    }
+
     // Title screen
-    if (currentScreen === "title") {
-
-        // Background image
+    else if (currentScreen === "title") {
         image(roomBackground, 0, 0, 640, 600);
-
-        // title sceen
         drawTitle();
-
-        // Play button
         drawPlayButton();
-
-        // Instructions button
         drawInstructionsButton();
     }
 
     // Instructions screen
     else if (currentScreen === "instructions") {
-
         image(instructionsBackground, 0, 0, 640, 600);
-
         drawInstructionsScreen();
     }
 
     // Level selection screen
     else if (currentScreen === "levels") {
-
-        // Background image
         image(instructionsBackground, 0, 0, 640, 600);
-
         drawLevelSelectionScreen();
     }
 
     // Level 1 screen
     else if (currentScreen === "level1") {
-
-        if (gameOver === true) {
-            drawGameOverScreen();
-        }
-        else {
-            drawLevel1Screen();
-        }
+        drawLevel1Screen();
     }
 }
 
