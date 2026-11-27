@@ -128,7 +128,8 @@ function drawInstructionsScreen() {
     text("Look carefully at the room.", 320, 250);
     text("Remember where everything is.", 320, 290);
     text("When something changes or disappears,", 320, 330);
-    text("click on the area that is different.", 320, 365);
+    text("Click on the area that is different.", 320, 365);
+    text("Remember wrong, you lose a heart.", 320, 395);
 
     // Back button
     textFont("Chiller");
