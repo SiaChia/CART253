@@ -272,9 +272,25 @@ function drawLevel1Screen() {
             timer = 0;
             memorizing = false;
             bunnyVisible = false;
+
+            // Loading screen
+            showingLoadingScreen = true;
+            loadingStartTime = millis();
+
         }
     }
 
+    // Show black screen for 3 seconds
+    if (showingLoadingScreen === true) {
+        drawLoadingScreen();
+
+        if (millis() - loadingStartTime >= loadingDuration * 1000) {
+            showingLoadingScreen = false;
+            entityMoving = true;
+        }
+
+        return;
+    }
 
     // Room background
     image(roomBackground, 0, 0, 640, 600);
@@ -298,12 +314,6 @@ function drawLevel1Screen() {
         image(bunnyImage, 300, 350, 210, 240);
     }
 
-    // Moving entity
-    if (memorizing === false && bunnyVisible === false) {
-
-        // Start entity movement
-        entityMoving = true;
-    }
 
     // Move entity across the room
     if (entityMoving === true) {
@@ -427,6 +437,12 @@ function retryGame() {
     // reset entity 
     entityX = -180;
     entityMoving = false;
+
+    // Loading screen
+    showingLoadingScreen = false;
+    loadingStartTime = 0;
+
+
 }
 
 
